@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8332e1c7405b001fd9768bc044ead99e, type: 3}
+  m_Name: Modifier_2
+  m_EditorClassIdentifier:
+  ModifierIconSprite: {fileID: 21300000, guid: 4215aa6ba7fb2c342bf368ea89e884f4, type: 2}
+  ModifierIcon: {fileID: 1752659185777878, guid: 1b7a4b608095f8d4283af56dabec2332, type: 2}
+  Modifier: 1
+  HasTimer: 1
+  HealthMultiplier: 3
+  Probability: 0.5
+  ColorTint: {r: 1, g: 0.5062055, b: 0.39215684, a: 1}
+  Scale: 1.5

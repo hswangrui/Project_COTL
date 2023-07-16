@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GoopBomb_Impact_Blob_Charm
+  m_Shader: {fileID: 4800000, guid: 515de244885d8f540a6ccd5a1a2b4b4e, type: 3}
+  m_ShaderKeywords: DISPLACE ETC1_EXTERNAL_ALPHA _ALPHAPREMULTIPLY_ON _DATA_CUSTOM _ISMIRRORED _OPNOISEA_NONE _OPNOISEB_NONE
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceMap:
+        m_Texture: {fileID: 2800000, guid: e56e035246f83a048af8a48880852da3, type: 3}
+        m_Scale: {x: 0.42, y: 0.38}
+        m_Offset: {x: 0.45, y: 0.1}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 2f2652e9954187b44bbd0eb3ba1be38c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 54a2bef2fbd7ee24db63b0f25ff4555e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: 34c13c8e2107b824c99645e3de89d567, type: 3}
+        m_Scale: {x: 0.12, y: -0.01}
+        m_Offset: {x: -0.1, y: 0.01}
+    - _NoiseB:
+        m_Texture: {fileID: 2800000, guid: ea3ad67cddd8f344c9a6d654cc501896, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.2, y: 0.01}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 3
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadeDistance: 5
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _ColorMode: 0
+    - _Cull: 0
+    - _CutOff: 0.287
+    - _Cutoff: 0.63
+    - _CutoffSmooth: 1
+    - _DATA: 1
+    - _DepthSmoothness: 0.2
+    - _DepthThreshold: 0.3
+    - _DetailNormalMapScale: 1
+    - _Displace: 1
+    - _DisplaceAmount: 0.141
+    - _DistortionBlend: 1
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 10.45
+    - _DistortionStrengthScaled: 1.045
+    - _DstBlend: 10
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GlowRange: 0.129
+    - _GradOffset: 0.025
+    - _GradSpread: 1.691
+    - _InnerGlow: 0
+    - _InvFade: 5
+    - _LightingEnabled: 0
+    - _Metallic: 0
+    - _Mode: 3
+    - _NoiseAInf: 1
+    - _NoiseBInf: 1
+    - _NoiseInfluence: 0.543
+    - _OPNOISEA: 0
+    - _OPNOISEB: 0
+    - _OcclusionStrength: 1
+    - _OuterSmoothness: 0.05
+    - _OuterThreshold: 0.3
+    - _POLAR_A: 0
+    - _POLAR_B: 0
+    - _POLAR_DISP: 0
+    - _Parallax: 0.02
+    - _Power: 1
+    - _RadialDistanceOffset: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilOp: 1
+    - _StencilRef: 1
+    - _StencilRefA: 1
+    - _StencilZFail: 0
+    - _USEOCCLUSION: 0
+    - _UVSec: 0
+    - _UnscaledTime: 0
+    - _WorldZClip: 0
+    - _ZWrite: 1
+    - _dummy: 0
+    - _isAdditive: 0
+    - _isMirrored: 1
+    - _isMultiplicative: 0
+    - _isSoftParticle: 0
+    m_Colors:
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Color: {r: 2.3673046, g: 2.0326595, b: 1.1898494, a: 1}
+    - _ColorAddSubDiff: {r: 1, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 1}
+    - _InnerColor: {r: 1, g: 0, b: 0, a: 1}
+    - _NoiseScroll: {r: 0.05, g: 0.1, b: 0, a: 0}
+    - _PolarTransfrom: {r: 0.5, g: 0.5, b: 1, a: 1}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+    - _VelocityOffset: {r: 1, g: 2.02, b: 0, a: 0}

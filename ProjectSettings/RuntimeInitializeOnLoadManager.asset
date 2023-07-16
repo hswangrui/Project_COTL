@@ -1,0 +1,394 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!300 &1
+RuntimeInitializeOnLoadManager:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_AssemblyNames:
+  - Assembly-CSharp
+  - Unity.InputSystem
+  - Elringus.BlendModes.Runtime
+  - Unity.MemoryProfiler
+  - Coffee.UIParticle
+  - Sirenix.Utilities
+  - Sirenix.Serialization
+  m_NamespaceNames:
+  - 
+  - Lamb.UI
+  - src.Utilities
+  - src.UINavigator
+  - src.Managers
+  - I2.Loc
+  - DOGames.Scripts
+  - UnityEngine.InputSystem
+  - BlendModes
+  - Unity.MemoryProfiler
+  - Coffee.UIExtensions
+  - Sirenix.Utilities
+  - Sirenix.Serialization
+  - Sirenix.Serialization.Utilities
+  m_ClassInfos:
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: InitUnifyGlobal
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 0
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: SteamManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 1
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: SettingsManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 2
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: SettingsManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 3
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: TwitchManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 4
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 0
+    m_ClassName: ControlMappings
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 5
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 1
+    m_ClassName: UIManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 6
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 2
+    m_ClassName: MMLogger
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 7
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 3
+    m_ClassName: UINavigatorNew
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 8
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 4
+    m_ClassName: PersistenceManager
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 9
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_TextMeshPro_Label
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 10
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_TextMeshPro_UGUI
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 11
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_AudioSource
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 12
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_Child
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 13
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_MeshRenderer
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 14
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_Prefab
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 15
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_SpriteRenderer
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 16
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_TextMesh
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 17
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityStandard_VideoPlayer
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 18
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityUI_Image
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 19
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityUI_RawImage
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 20
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 5
+    m_ClassName: LocalizeTarget_UnityUI_Text
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 21
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 0
+    m_NamespaceIndex: 6
+    m_ClassName: Bootstrap
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 22
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 1
+    m_NamespaceIndex: 7
+    m_ClassName: InputSystem
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 23
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 2
+    m_NamespaceIndex: 8
+    m_ClassName: BlendModeEffect
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 24
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 2
+    m_NamespaceIndex: 8
+    m_ClassName: ComponentExtension
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 25
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 2
+    m_NamespaceIndex: 8
+    m_ClassName: ShaderResources
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 26
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 3
+    m_NamespaceIndex: 9
+    m_ClassName: MetadataInjector
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 27
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 4
+    m_NamespaceIndex: 10
+    m_ClassName: UIParticleUpdater
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 28
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 5
+    m_NamespaceIndex: 11
+    m_ClassName: UnityVersion
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 29
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 6
+    m_NamespaceIndex: 12
+    m_ClassName: UnitySerializationInitializer
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 30
+    m_IsUnityClass: 0
+  - m_AssemblyNameIndex: 6
+    m_NamespaceIndex: 13
+    m_ClassName: UnityVersion
+    m_NamespaceName:
+    m_NumOfMethods: 1
+    m_MethodIndex: 31
+    m_IsUnityClass: 0
+  m_ClassMethodInfos:
+  - m_ClassIndex: 0
+    m_MethodName: Startup
+    m_OrderNumber: 0
+  - m_ClassIndex: 1
+    m_MethodName: InitOnPlayMode
+    m_OrderNumber: 0
+  - m_ClassIndex: 2
+    m_MethodName: LoadSettingsManager
+    m_OrderNumber: 0
+  - m_ClassIndex: 3
+    m_MethodName: LoadFonts
+    m_OrderNumber: 0
+  - m_ClassIndex: 4
+    m_MethodName: InitializeTwitchManager
+    m_OrderNumber: 0
+  - m_ClassIndex: 5
+    m_MethodName: LoadPlatformFonts
+    m_OrderNumber: 0
+  - m_ClassIndex: 6
+    m_MethodName: LoadUIManager
+    m_OrderNumber: 0
+  - m_ClassIndex: 7
+    m_MethodName: Initialize
+    m_OrderNumber: 0
+  - m_ClassIndex: 8
+    m_MethodName: InitializeUINavigator
+    m_OrderNumber: 0
+  - m_ClassIndex: 9
+    m_MethodName: LoadUIManager
+    m_OrderNumber: 0
+  - m_ClassIndex: 10
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 11
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 12
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 13
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 14
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 15
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 16
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 17
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 18
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 19
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 20
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 21
+    m_MethodName: AutoRegister
+    m_OrderNumber: 0
+  - m_ClassIndex: 22
+    m_MethodName: Startup
+    m_OrderNumber: 0
+  - m_ClassIndex: 23
+    m_MethodName: RunInitializeInPlayer
+    m_OrderNumber: 0
+  - m_ClassIndex: 24
+    m_MethodName: PreloadShaderResources
+    m_OrderNumber: 0
+  - m_ClassIndex: 25
+    m_MethodName: PreloadExtensionMap
+    m_OrderNumber: 0
+  - m_ClassIndex: 26
+    m_MethodName: PreloadResources
+    m_OrderNumber: 0
+  - m_ClassIndex: 27
+    m_MethodName: PlayerInitMetadata
+    m_OrderNumber: 0
+  - m_ClassIndex: 28
+    m_MethodName: InitializeOnLoad
+    m_OrderNumber: 0
+  - m_ClassIndex: 29
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  - m_ClassIndex: 30
+    m_MethodName: InitializeRuntime
+    m_OrderNumber: 0
+  - m_ClassIndex: 31
+    m_MethodName: EnsureLoaded
+    m_OrderNumber: 0
+  m_BeforeUnityMethodExecutionOrders:
+  - 23
+  m_AfterUnityMethodExecutionOrders: []
+  m_BeforeMethodExecutionOrders:
+  - 0
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  - 15
+  - 16
+  - 17
+  - 18
+  - 19
+  - 20
+  - 21
+  - 22
+  - 24
+  - 25
+  - 26
+  - 29
+  - 30
+  - 31
+  m_AfterMethodExecutionOrders:
+  - 3
+  - 28
+  m_AfterAssembliesLoadedUnityMethodExecutionOrders: []
+  m_AfterAssembliesLoadedMethodExecutionOrders: []
+  m_BeforeSplashScreenUnityMethodExecutionOrders:
+  - 27
+  m_BeforeSplashScreenMethodExecutionOrders:
+  - 2
+  - 9
+  m_SubsystemRegistrationUnityMethodExecutionOrders: []
+  m_SubsystemRegistrationMethodExecutionOrders:
+  - 1
+  m_FullClassNames: []

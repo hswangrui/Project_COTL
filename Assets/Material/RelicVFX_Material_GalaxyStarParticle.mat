@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: RelicVFX_Material_GalaxyStarParticle
+  m_Shader: {fileID: 4800000, guid: d49f11f12bd52144c86e2c291b228476, type: 3}
+  m_ShaderKeywords: _STENCILLEDBYGROUND_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: caf2bc58698109d40a03dd9639cc8f1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _StarTexture:
+        m_Texture: {fileID: 2800000, guid: b0d8b3baa4355c64c970be53887da1bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DoodleUV_UseUnscaledTime: 0
+    - _DriftX: 0
+    - _DriftY: -0.05
+    - _Flipbook: 0
+    - _FlipbookColumns: 1
+    - _FlipbookEnabled: 0
+    - _FlipbookRows: 1
+    - _GalaxyScale: 2.3
+    - _ScreenScale: 2
+    - _Size1: 1
+    - _Speed1: 5
+    - _StarScaleVariation: 4
+    - _StencilledByGround: 1
+    m_Colors:
+    - _MainColor: {r: 3.6381338, g: 6.832593, b: 16.94838, a: 1}

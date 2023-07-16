@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26165418fe52dc205582a537a3d729b, type: 3}
+  m_Name: RerollCurse_Relic
+  m_EditorClassIdentifier:
+  RelicType: 33
+  InteractionType: 1
+  RelicSubType: 0
+  DamageRequiredToCharge: 70
+  UISprite: {fileID: 21300000, guid: 044605e70373e874183dedd7414ed7ee, type: 2}
+  UISpriteOutline: {fileID: 21300000, guid: cd4fcf63f8759bf4ba13563043cb1277, type: 2}
+  WorldSprite: {fileID: 21300000, guid: 044605e70373e874183dedd7414ed7ee, type: 2}
+  Weight: 1
+  RequiresCult: 0
+  ShowAnimationAbovePlayer: 0
+  UpgradeType: 250
+  VFXData: {fileID: 11400000, guid: 93c00df8eb97b174fb3e5ea1d9069cd0, type: 2}
+  Material: {fileID: 0}

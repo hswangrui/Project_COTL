@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass_Berries
+  m_Shader: {fileID: 4800000, guid: 975b3420b3ad8bf4fb86c9eaba9166aa, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ANIMATEVERTEX_ON _CLIPBELOWGROUND _VERTEX_OFFSET_X_ON _VERTEX_OFFSET_Y_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindTexture:
+        m_Texture: {fileID: 2800000, guid: ea3ad67cddd8f344c9a6d654cc501896, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _ADDXOFFSET: 0
+    - _ADDYOFFSET: 1
+    - _AddShadowOverlay: 1
+    - _AlphaThreshold: 0
+    - _AmountToSubtract: -11.24
+    - _AnimateVertex: 1
+    - _BlackWhite: 0
+    - _BlendIntensity: 0.574
+    - _BlendIntensity1: 0.574
+    - _CameraOffset: 66
+    - _ClipAlpha: 0
+    - _ClipAlphaThreshold: 0.381
+    - _ClipBelowGround: 1
+    - _ClipThreshold: 0.85
+    - _CloudDensity_0: 0
+    - _CloudOverlayIntensity: 0
+    - _Cutoff: 0.5
+    - _DISTANCE_FADE_ON: 0
+    - _DarknessOffset: 1
+    - _DarknessOverlay: 1
+    - _DepthFade: 0
+    - _DistanceEnd: 1
+    - _DistanceStart: 0
+    - _DstBlend: 10
+    - _FLIP_VERTEX_MASK: 0
+    - _FadeIntoFog: 0
+    - _FadeIntoWoods: 0
+    - _Falloff: 16
+    - _FillAlpha: 0
+    - _FirstAmount: 1
+    - _Float0: 32.2
+    - _Float9: 1
+    - _GrassShadowLerpAmount: 1
+    - _GroundClipRange: 0.1
+    - _Hue: 0
+    - _IgnoreSpriteFacing: 0
+    - _InWoods: 0
+    - _IsFlag: 1
+    - _IsGrass: 1
+    - _LerpAmount: 0
+    - _MaxEmission: 1.5
+    - _MultiplyShadow: 32.2
+    - _NoiseScale: 4.06
+    - _Offset: 0
+    - _OverlayDarkness: 0
+    - _OverlayDarkness1: 1
+    - _Saturation: 0
+    - _Shad: 0
+    - _ShadowIntensity: 0.28
+    - _ShadowIntensity1: 32.2
+    - _ShadowLerpAmount: 0.165
+    - _ShadowOn: 1
+    - _ShadowOverlay: 0
+    - _SpritesDefault: 0
+    - _SrcBlend: 5
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilRef: 1
+    - _StencilZFail: 0
+    - _ToggleSwitch0: 0
+    - _TransitionFade: 8
+    - _USEEMISSION: 0
+    - _USEEMISSION1: 0
+    - _USEHSV: 0
+    - _UseDistanceTint: 0
+    - _UseEmission: 0
+    - _Value: 0
+    - _Vertex_Flip_Mask: 0
+    - _Vertex_Offset_X: 1
+    - _Vertex_Offset_Y: 1
+    - _WindDensity: 0.51
+    - _WindIntensity: 1
+    - _WindMovement: 1.51
+    - _WindScale: 0.015
+    - _WindSpeed: -3
+    - _WindStrength: 0
+    - __dirty: 0
+    - _dummy: 0
+    - _gradientSpread: 1
+    - _isFire: 0
+    - _xOffset: 1
+    - _yOffset: 0
+    - _zOffset: 0.15
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color1: {r: 0, g: 0, b: 0, a: 0.5450981}
+    - _EmissionColor: {r: 1, g: 0, b: 0, a: 0}
+    - _FillColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor1: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowOffset: {r: 0, g: -0.03, b: 0, a: 0}
+    - _ShadowOffset1: {r: 0, g: -0.03, b: 0, a: 0}
+    - _Vector0: {r: 1, g: 0, b: 0, a: 0}
+    - _WindDirection: {r: 0.5, g: 0, b: 0, a: 0}

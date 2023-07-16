@@ -1,0 +1,363 @@
+
+EnemySpawnGoop.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/SpawnGoop0/SpawnGoop0_0001
+  rotate: false
+  xy: 233, 6
+  size: 56, 33
+  orig: 401, 673
+  offset: 230, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0002
+  rotate: false
+  xy: 291, 7
+  size: 113, 32
+  orig: 401, 673
+  offset: 192, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0003
+  rotate: false
+  xy: 354, 697
+  size: 131, 26
+  orig: 401, 673
+  offset: 184, 2
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0004
+  rotate: false
+  xy: 2, 8
+  size: 229, 16
+  orig: 401, 673
+  offset: 101, 2
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0005
+  rotate: false
+  xy: 676, 13
+  size: 233, 41
+  orig: 401, 673
+  offset: 97, 2
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0006
+  rotate: false
+  xy: 1036, 1440
+  size: 211, 61
+  orig: 401, 673
+  offset: 93, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0007
+  rotate: false
+  xy: 1462, 760
+  size: 203, 86
+  orig: 401, 673
+  offset: 93, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0008
+  rotate: false
+  xy: 1522, 154
+  size: 224, 90
+  orig: 401, 673
+  offset: 92, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0009
+  rotate: false
+  xy: 1118, 732
+  size: 239, 112
+  orig: 401, 673
+  offset: 78, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0010
+  rotate: false
+  xy: 1787, 33
+  size: 284, 214
+  orig: 401, 673
+  offset: 50, 1
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0011
+  rotate: false
+  xy: 1837, 337
+  size: 212, 447
+  orig: 401, 673
+  offset: 81, 3
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0012
+  rotate: false
+  xy: 1609, 305
+  size: 226, 453
+  orig: 401, 673
+  offset: 63, 2
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0013
+  rotate: false
+  xy: 1026, 846
+  size: 221, 581
+  orig: 401, 673
+  offset: 53, 4
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0014
+  rotate: false
+  xy: 989, 149
+  size: 237, 567
+  orig: 401, 673
+  offset: 39, 1
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0015
+  rotate: false
+  xy: 453, 1414
+  size: 262, 631
+  orig: 401, 673
+  offset: 31, 0
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0016
+  rotate: false
+  xy: 214, 41
+  size: 240, 654
+  orig: 401, 673
+  offset: 80, 4
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0017
+  rotate: false
+  xy: 1390, 246
+  size: 217, 492
+  orig: 401, 673
+  offset: 67, 4
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0018
+  rotate: false
+  xy: 717, 1429
+  size: 317, 616
+  orig: 401, 673
+  offset: 53, 1
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0019
+  rotate: false
+  xy: 2, 697
+  size: 350, 671
+  orig: 401, 673
+  offset: 21, 2
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0020
+  rotate: false
+  xy: 1228, 1504
+  size: 399, 541
+  orig: 401, 673
+  offset: 1, 123
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0021
+  rotate: false
+  xy: 1249, 990
+  size: 397, 512
+  orig: 401, 673
+  offset: 0, 143
+  index: -1
+images/SpawnGoop0/SpawnGoop0_0022
+  rotate: true
+  xy: 1840, 1136
+  size: 395, 380
+  orig: 401, 673
+  offset: 6, 190
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0001
+  rotate: false
+  xy: 406, 10
+  size: 100, 29
+  orig: 290, 694
+  offset: 41, 4
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0002
+  rotate: false
+  xy: 508, 7
+  size: 166, 47
+  orig: 290, 694
+  offset: 37, 3
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0003
+  rotate: false
+  xy: 1667, 786
+  size: 203, 60
+  orig: 290, 694
+  offset: 20, 4
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0004
+  rotate: false
+  xy: 646, 717
+  size: 250, 65
+  orig: 290, 694
+  offset: 13, 4
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0005
+  rotate: false
+  xy: 898, 718
+  size: 218, 116
+  orig: 290, 694
+  offset: 14, 4
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0006
+  rotate: false
+  xy: 1568, 8
+  size: 217, 144
+  orig: 290, 694
+  offset: 13, 4
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0007
+  rotate: false
+  xy: 1648, 1019
+  size: 190, 512
+  orig: 290, 694
+  offset: 31, 1
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0008
+  rotate: false
+  xy: 1228, 185
+  size: 160, 545
+  orig: 290, 694
+  offset: 45, 6
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0009
+  rotate: false
+  xy: 1629, 1533
+  size: 210, 512
+  orig: 290, 694
+  offset: 39, 2
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0010
+  rotate: false
+  xy: 728, 125
+  size: 259, 590
+  orig: 290, 694
+  offset: 31, 5
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0011
+  rotate: false
+  xy: 456, 56
+  size: 270, 639
+  orig: 290, 694
+  offset: 4, 1
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0012
+  rotate: false
+  xy: 773, 836
+  size: 251, 591
+  orig: 290, 694
+  offset: 0, 2
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0013
+  rotate: false
+  xy: 2, 26
+  size: 210, 669
+  orig: 290, 694
+  offset: 28, 1
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0014
+  rotate: false
+  xy: 1036, 1503
+  size: 190, 542
+  orig: 290, 694
+  offset: 36, 1
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0015
+  rotate: false
+  xy: 578, 784
+  size: 193, 628
+  orig: 290, 694
+  offset: 37, 0
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0016
+  rotate: false
+  xy: 354, 725
+  size: 222, 648
+  orig: 290, 694
+  offset: 23, 2
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0017
+  rotate: false
+  xy: 2, 1370
+  size: 218, 675
+  orig: 290, 694
+  offset: 16, 1
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0018
+  rotate: false
+  xy: 222, 1375
+  size: 229, 670
+  orig: 290, 694
+  offset: 14, 24
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0019
+  rotate: true
+  xy: 1609, 249
+  size: 54, 383
+  orig: 290, 694
+  offset: 62, 305
+  index: -1
+images/SpawnGoop1/SpawnGoop1_0020
+  rotate: true
+  xy: 453, 1385
+  size: 27, 90
+  orig: 290, 694
+  offset: 81, 495
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0001
+  rotate: true
+  xy: 1359, 740
+  size: 106, 101
+  orig: 152, 540
+  offset: 36, 3
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0002
+  rotate: false
+  xy: 1973, 1712
+  size: 134, 333
+  orig: 152, 540
+  offset: 9, 3
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0003
+  rotate: true
+  xy: 1688, 878
+  size: 139, 433
+  orig: 152, 540
+  offset: 6, 3
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0004
+  rotate: true
+  xy: 1099, 2
+  size: 145, 467
+  orig: 152, 540
+  offset: 7, 3
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0005
+  rotate: true
+  xy: 1249, 848
+  size: 140, 437
+  orig: 152, 540
+  offset: 7, 0
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0006
+  rotate: false
+  xy: 1841, 1651
+  size: 130, 394
+  orig: 152, 540
+  offset: 0, 116
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0007
+  rotate: true
+  xy: 911, 5
+  size: 118, 186
+  orig: 152, 540
+  offset: 6, 303
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0008
+  rotate: true
+  xy: 1390, 149
+  size: 95, 130
+  orig: 152, 540
+  offset: 18, 409
+  index: -1
+images/SpawnGoopFinal/SpawnGoopFinal_0009
+  rotate: true
+  xy: 578, 706
+  size: 76, 66
+  orig: 152, 540
+  offset: 24, 474
+  index: -1

@@ -1,0 +1,17 @@
+{
+    "name": "Elringus.BlendModes.Editor",
+    "references": [
+        "GUID:1a9e74e42ceb2fb47af7cd53f553c423"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PathTileSet_Water_A
+  m_Shader: {fileID: 4800000, guid: ed23599100e08e74792035a9521a1f6e, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _EdgeNoise:
+        m_Texture: {fileID: 2800000, guid: 3b3297352aec53441ac36a42c3fce88a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: 8540be80f6f1c134188c286f9a9c2c68, type: 3}
+        m_Scale: {x: 0, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AlphaAmount: 0
+    - _AlphaMaxClamp: 0
+    - _BlendAmount: 0.721
+    - _CloudDensityMax: 1
+    - _CloudDensityMin: 0
+    - _CloudOverlayIntensity: 3.11
+    - _CloudScale: 0.5
+    - _CloudScale_0: 2
+    - _Cutoff: 0.348
+    - _EdgeNoiseInfluence: 0.15601543
+    - _EdgeSmooth: 0.035
+    - _EdgeThreshold: 1.455
+    - _GlossyReflections: 1
+    - _OverlayTexture: 0
+    - _RimMax: 1
+    - _RimMin: 0.5
+    - _RippleAmt: 8
+    - _RippleSmooth: 0.046
+    - _RippleSpeed: 0.205
+    - _RippleSpeed1: 0.023529416
+    - _RippleThreshold: 0.13823529
+    - _Smoothness: 0
+    - _SpecularHighlights: 1
+    - _Speed: 0.1
+    - _UVSCALE: -0.4
+    - _UVSCALE2: -8.99
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeCol: {r: 0.6426664, g: 0.7817979, b: 0.8207547, a: 1}
+    - _EdgeFoamNoiseScale: {r: 12, g: 12, b: 0, a: 0}
+    - _EdgeNoiseScale: {r: 1, g: 1, b: 0, a: 0}
+    - _EdgeNoiseScaleOffset: {r: 0.5, g: 0.5, b: 0.05, a: 0.1}
+    - _GradColHigh: {r: 0.21181916, g: 0.5741163, b: 0.6603774, a: 0}
+    - _GradColLow: {r: 0.08899965, g: 0.21290386, b: 0.23584908, a: 0}
+    - _HighlightColor: {r: 0.5249661, g: 0.7921569, b: 0.14117648, a: 0}
+    - _NoiseAScaleOffset: {r: 1, g: 1, b: 0.06, a: 0.21}
+    - _NoiseScale: {r: 12, g: 12, b: 0, a: 0}
+    - _NoiseScaleOffset: {r: 1, g: 1, b: 0.06, a: 0.21}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 1}
+    - _RippleCol: {r: 0.48024207, g: 0.6291894, b: 0.6698113, a: 1}
+    - _RippleNoiseScale: {r: 0.5, g: 0.5, b: 0, a: 0}
+    - _RippleNoiseScaleOffset: {r: 1, g: 0.79, b: 0.06, a: 0.01}
+    - _Scale: {r: 4, g: 4, b: 0, a: 0}
+    - _ShadowOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling: {r: 0, g: 0, b: 0, a: 0}
+    - _TintColor: {r: 1, g: 1, b: 1, a: 1}

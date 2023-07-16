@@ -1,0 +1,3051 @@
+{
+    "achievements": [
+      {
+        "status": "ACTIVE",
+        "id": 0,
+        "label": "platinum",
+        "title": "Godhood",
+        "description": "No longer a servant, no less than a God.",
+        "hidden": false,
+        "steamId": "platinum",
+        "steamGroupID": 2,
+        "SteamNumberID": 9,
+        "xboxOneBaseGame": true,
+        "xboxOneId": 37,
+        "xboxOneScore": 70,
+        "xboxOneIconId": "78d029e7-5b80-48e9-bc19-14d73a95d56a",
+        "ps4Id": "000",
+        "ps4Type": "P",
+        "Ps4Score": 0,
+        "ps4Group": "Base Game Group",
+        "localizations": [
+          {
+            "languageCode": "en-US",
+            "title": "Godhood",
+            "description": "No longer a servant, no less than a God."
+          },
+          {
+            "languageCode": "fr-FR",
+            "title": "Divinité",
+            "description": "Au service de soi-même."
+          },
+          {
+            "languageCode": "de-DE",
+            "title": "Gottheit",
+            "description": "Nicht länger ein Diener, kein Geringerer als ein Gott."
+          },
+          {
+            "languageCode": "pt-BR",
+            "title": "Divindade",
+            "description": "Não mais um servo, nada menos que um Deus."
+          },
+          {
+            "languageCode": "es-ES",
+            "title": "Deidad",
+            "description": "Ya no eres ningún sirviente, sino un mismísimo Dios."
+          },
+          {
+            "languageCode": "ru-RU",
+            "title": "Божественность",
+            "description": "Настало время слуге стать божеством."
+          },
+          {
+            "languageCode": "zh-CN",
+            "title": "神化",
+            "description": "不再是仆人，不低于神。"
+          },
+          {
+            "languageCode": "ja-JP",
+            "title": "神性化",
+            "description": "その身はもはや下僕ではなく、神に等しい"
+          },
+          {
+            "languageCode": "zh-TW",
+            "title": "神化",
+            "description": "不再是僕人，不低於神。"
+          },
+          {
+            "languageCode": "ko-KR",
+            "title": "신격",
+            "description": "더 이상 하인이 아니요, 신의 아래가 아닙니다."
+          }
+        ]
+      },
+        {
+            "status": "ACTIVE",
+            "id": 1,
+            "label": "FIRST_FOLLOWER",
+            "title": "First Follower",
+            "description": "The first devotee to the Cult of the Lamb.",
+            "hidden": false,
+            "steamId": "FIRST_FOLLOWER",
+            "steamGroupID": 1,
+            "SteamNumberID": 0,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "1",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "f545ace4-17b6-488c-b09d-5d1d2f21a185",
+            "ps4Id": "001",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "First Follower",
+                    "description": "The first devotee to the Cult of the Lamb."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Premier adepte",
+                    "description": "Le premier membre du Culte de l'Agneau !"
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Der erste Anhänger",
+                    "description": "Der erste Verehrer des Kults des Lamms."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Primeiro Seguidor",
+                    "description": "O primeiro devoto do Culto do Cordeiro."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Primer adepto",
+                    "description": "El primer devoto de la Secta del Cordero."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Первый последователь",
+                    "description": "Найти первого служителя культа ягнёнка."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "第一位教徒",
+                    "description": "圣羊教团纳入第一位虔诚教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "初めての信者",
+                    "description": "子羊の教団、その記念すべき1人目の信者"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "第一位教徒",
+                    "description": "聖羊教納入第一位虔誠教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "첫 번째 추종자",
+                    "description": "어린 양의 교단에서 첫 번째 신자를 영입합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 2,
+            "label": "DEAL_WITH_THE_DEVIL",
+            "title": "Deal with the Devil",
+            "description": "A deal that cannot be undone.",
+            "hidden": false,
+            "steamId": "DEAL_WITH_THE_DEVIL",
+            "steamGroupID": 1,
+            "SteamNumberID": 1,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "2",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "e4ed1bd7-6e80-408b-8087-e3b6254c2c31",
+            "ps4Id": "002",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Deal with the Devil",
+                    "description": "A deal that cannot be undone."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Un pacte avec le diable",
+                    "description": "Ce pacte ne peut être défait."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Teufelspakt",
+                    "description": "Eine Vereinbarung, die nicht rückgängig zu machen ist."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Pacto com o Diabo",
+                    "description": "Um pacto não pode ser quebrado."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Pacto con el demonio",
+                    "description": "Ya no hay marcha atrás."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Сделка с дьяволом",
+                    "description": "Заключить договор, который невозможно расторгнуть."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "与恶魔的约定",
+                    "description": "无法反悔的约定。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪魔との契約",
+                    "description": "契約は結ばれた。後戻りはできない"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "與惡魔的約定",
+                    "description": "無法反悔的約定。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악마와의 거래",
+                    "description": "취소할 수 없는 거래입니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 3,
+            "label": "DELIVER_FIRST_SERMON",
+            "title": "Preacher of Truth",
+            "description": "Let the Word be known.",
+            "hidden": false,
+            "steamId": "DELIVER_FIRST_SERMON",
+            "steamGroupID": 1,
+            "SteamNumberID": 2,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "3",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "0bd8b79e-14eb-440f-8026-61c7dc53a305",
+            "ps4Id": "003",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Preacher of Truth",
+                    "description": "Let the Word be known."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Parole d'évangile",
+                    "description": "Le monde doit savoir."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Prediger der Wahrheit",
+                    "description": "Verbreite das Wort."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Pregador da Verdade",
+                    "description": "Que conheçam a Palavra."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Predicador de la verdad",
+                    "description": "Que todos oigan la Palabra."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Глас истины",
+                    "description": "Рассказать, что есть ложно и что есть истинно."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "真理传教士",
+                    "description": "将真理之言传出去。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "真実の伝道者",
+                    "description": "真実を語る言葉を広く知らしめよ"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "真理傳教士",
+                    "description": "將真理之言傳出去。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "진실의 전도사",
+                    "description": "말씀이 퍼지게 하십시오."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 4,
+            "label": "FIRST_DEATH",
+            "title": "The First Death",
+            "description": "Salvation awaits the fallen soul.",
+            "hidden": false,
+            "steamId": "FIRST_DEATH",
+            "steamGroupID": 1,
+            "SteamNumberID": 3,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "4",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "6112ab4b-7f75-43e3-9131-f698693fb43d",
+            "ps4Id": "004",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "The First Death",
+                    "description": "Salvation awaits the fallen soul."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Première mort",
+                    "description": "Le salut attend cette âme déchue."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Der erste Tod",
+                    "description": "Auf die gefallene Seele wartet Erlösung."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "A Primeira Morte",
+                    "description": "A salvação espera pelas almas caídas."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "La primera muerte",
+                    "description": "El alma caída obtendrá la salvación."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Первая смерть",
+                    "description": "Спастись после падения."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "第一次死亡",
+                    "description": "救赎正等待着殒落之魂。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "初めての死",
+                    "description": "死した魂には救済が待つ"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "第一次死亡",
+                    "description": "救贖正等待著殞落之魂。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "첫 번재 죽음",
+                    "description": "스러져간 이에게 구원이 있나니."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 5,
+            "label": "KILL_FIRST_BOSS",
+            "title": "Death to Non-Believers",
+            "description": "Defeat the first mini-boss.",
+            "hidden": false,
+            "steamId": "KILL_FIRST_BOSS",
+            "steamGroupID": 1,
+            "SteamNumberID": 4,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "5",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "32c5be90-33c6-40a9-b65a-fb0292ec9245",
+            "ps4Id": "005",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Death to Non-Believers",
+                    "description": "Defeat the first mini-boss."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Mort aux hérétiques",
+                    "description": "Vaincre le premier mini-boss."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Tod den Ungläubigen",
+                    "description": "Besiege den ersten Mini-Boss."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Morte aos Descrentes",
+                    "description": "Derrote o primeiro minichefe."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Muerte a los infieles",
+                    "description": "Derrota al primer minijefe."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Истребление неверующих",
+                    "description": "Победить первого мини-босса."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "不信者必将亡",
+                    "description": "击败第一个小头目。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "異端者には死を",
+                    "description": "ミニボスを初めて倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "不信者必將亡",
+                    "description": "擊敗第一個迷你頭目。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "불신자에게 죽음을",
+                    "description": "첫 번째 미니보스를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 6,
+            "label": "GAIN_FIVE_FOLLOWERS",
+            "title": "The Flock Grows",
+            "description": "Gain 5 Followers.",
+            "hidden": false,
+            "steamId": "GAIN_FIVE_FOLLOWERS",
+            "steamGroupID": 1,
+            "SteamNumberID": 5,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "6",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "b2cb5b43-2b48-43f4-af9a-7ac1e4286d79",
+            "ps4Id": "006",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "The Flock Grows",
+                    "description": "Gain 5 Followers."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Formation du troupeau",
+                    "description": "Avoir 5 adeptes."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Die Herde wächst",
+                    "description": "Gewinne 5 Anhänger."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "O Rebanho Cresce",
+                    "description": "Ganhe 5 Seguidores."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "El rebaño crece",
+                    "description": "Gana 5 adeptos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Маленькая община",
+                    "description": "Найти 5 последователей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教众壮大",
+                    "description": "获得 5 位教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "群れは大きくなりて",
+                    "description": "信者を5人集める"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "徒眾壯大",
+                    "description": "獲得 5 位教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "무리가 커진다",
+                    "description": "추종자 5명을 얻습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 7,
+            "label": "TEN_FOLLOWERS",
+            "title": "Flock of Many",
+            "description": "Gain 10 Followers.",
+            "hidden": false,
+            "steamId": "TEN_FOLLOWERS",
+            "steamGroupID": 1,
+            "SteamNumberID": 6,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "7",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "a7dba4fd-1898-4a19-b726-042aec307c59",
+            "ps4Id": "007",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Flock of Many",
+                    "description": "Gain 10 Followers."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Petit troupeau",
+                    "description": "Avoir 10 adeptes."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Herde der Vielen",
+                    "description": "Gewinne 10 Anhänger."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Rebanho de Muitos",
+                    "description": "Ganhe 10 Seguidores."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Rebaño de muchos",
+                    "description": "Gana 10 adeptos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Растущая община",
+                    "description": "Найти 10 последователей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教众繁多",
+                    "description": "获得 10 位教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "巨大な群れ",
+                    "description": "信者を10人集める"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "徒眾繁多",
+                    "description": "獲得 10 位教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "다수의 무리",
+                    "description": "추종자 10명을 얻습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 8,
+            "label": "TWENTY_FOLLOWERS",
+            "title": "Flock of All",
+            "description": "Gain 20 Followers.",
+            "hidden": false,
+            "steamId": "TWENTY_FOLLOWERS",
+            "steamGroupID": 1,
+            "SteamNumberID": 7,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "8",
+            "xboxOneScore": 50,
+            "xboxOneIconId": "6c6d0b4a-ce39-4808-a4f0-6c4d9f392945",
+            "ps4Id": "008",
+            "ps4Type": "G",
+            "Ps4Score": 90,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Flock of All",
+                    "description": "Gain 20 Followers."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Grand troupeau",
+                    "description": "Avoir 20 adeptes."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Herde aller",
+                    "description": "Gewinne 20 Anhänger."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Rebanho de Todos",
+                    "description": "Ganhe 20 Seguidores."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Rebaño de todos",
+                    "description": "Gana 20 adeptos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Большая община",
+                    "description": "Найти 20 последователей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教众天下",
+                    "description": "获得 20 位教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "万人を迎え入れる群れ",
+                    "description": "信者を20人集める"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "徒眾浩繁",
+                    "description": "獲得 20 位教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "모두의 무리",
+                    "description": "추종자 20명을 얻습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 9,
+            "label": "KILL_BOSS_1",
+            "title": "See No Evil",
+            "description": "Defeat Leshy.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_1",
+            "steamGroupID": 1,
+            "SteamNumberID": 8,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "9",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "a391c595-16e7-47ad-8d93-c1a7e8ae8719",
+            "ps4Id": "009",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "See No Evil",
+                    "description": "Defeat Leshy."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ne pas voir le Mal",
+                    "description": "Vaincre Leshy."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Nichts Böses sehen",
+                    "description": "Besiege Leshy."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Não Veja Mal Algum",
+                    "description": "Derrote Leshy."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "No ver el Mal",
+                    "description": "Derrota a Leshy."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Не вижу зла",
+                    "description": "Победить Лешего."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "毋见恶",
+                    "description": "击败莱蟋。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪を見ず",
+                    "description": "レーシィを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "毋見惡",
+                    "description": "擊敗萊蟋。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악을 보지 말지어다",
+                    "description": "레쉬를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 10,
+            "label": "KILL_BOSS_2",
+            "title": "Speak No Evil",
+            "description": "Defeat Heket.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_2",
+            "steamGroupID": 1,
+            "SteamNumberID": 9,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "10",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "0af01e80-8c9d-4575-ac42-e0b666644479",
+            "ps4Id": "010",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Speak No Evil",
+                    "description": "Defeat Heket."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ne pas dire le Mal",
+                    "description": "Vaincre Heket."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Nichts Böses sagen",
+                    "description": "Besiege Heket."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Não Fale Mal Algum",
+                    "description": "Derrote Heket."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "No decir el Mal",
+                    "description": "Derrota a Heket."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Не говорю о зле",
+                    "description": "Победить Хекат."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "毋言恶",
+                    "description": "击败赫凯特。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪を語らず",
+                    "description": "ヘケトを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "毋言惡",
+                    "description": "擊敗赫凱特。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악을 말하지 말지어다",
+                    "description": "헤켓을 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 11,
+            "label": "KILL_BOSS_3",
+            "title": "Hear No Evil",
+            "description": "Defeat Kallamar.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_3",
+            "steamGroupID": 1,
+            "SteamNumberID": 10,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "11",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "8bd048f0-65e0-4b78-a397-1af8f20dd787",
+            "ps4Id": "011",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Hear No Evil",
+                    "description": "Defeat Kallamar."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ne pas entendre le Mal",
+                    "description": "Vaincre Kallamar."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Nichts Böses hören",
+                    "description": "Besiege Kallamar."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Não Ouça Mal Algum",
+                    "description": "Derrote Kallamar."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "No escuchar el Mal",
+                    "description": "Derrota a Kallamar."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Не слышу зла",
+                    "description": "Победить Калламара."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "毋闻恶",
+                    "description": "击败凯拉鰢。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪を聞かず",
+                    "description": "カラマールを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "毋聞惡",
+                    "description": "擊敗凱拉鰢。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악을 듣지 말지어다",
+                    "description": "칼라마르를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 12,
+            "label": "KILL_BOSS_4",
+            "title": "Think No Evil",
+            "description": "Defeat Shamura.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_4",
+            "steamGroupID": 1,
+            "SteamNumberID": 11,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "12",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "def31427-abee-4f0b-9dfd-dffcdc656272",
+            "ps4Id": "012",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Think No Evil",
+                    "description": "Defeat Shamura."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ne pas penser le Mal",
+                    "description": "Vaincre Shamura."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Nichts Böses denken",
+                    "description": "Besiege Shamura."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Não Pense em Mal Algum",
+                    "description": "Derrote Shamura."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "No pensar el Mal",
+                    "description": "Derrota a Shamura."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Не думаю о зле",
+                    "description": "Победить Шамуру."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "毋思恶",
+                    "description": "击败沙穆拉。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪を考えず",
+                    "description": "シャムラを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "毋思惡",
+                    "description": "擊敗夏慕拉。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악을 생각하지 말지어다",
+                    "description": "샤무라를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 13,
+            "label": "KILL_BOSS_5",
+            "title": "Do No Evil",
+            "description": "Defeat the One Who Waits.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_5",
+            "steamGroupID": 1,
+            "SteamNumberID": 12,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "13",
+            "xboxOneScore": 50,
+            "xboxOneIconId": "873049b4-2773-469b-bffb-83e434e8f71a",
+            "ps4Id": "013",
+            "ps4Type": "G",
+            "Ps4Score": 90,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Do No Evil",
+                    "description": "Defeat the One Who Waits."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ne pas faire le Mal",
+                    "description": "Vaincre Celui qui attend."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Nichts Böses tun",
+                    "description": "Besiege Jenen, der wartet."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Não Faça Mal Algum",
+                    "description": "Derrote Aquele Que Espera."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "No hacer el Mal",
+                    "description": "Derrota a Aquel Que Espera."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Не творю зла",
+                    "description": "Победить Того-кто-ждёт."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "毋行恶",
+                    "description": "击败待终冠主。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "悪を行わず",
+                    "description": "待ち受けし者を倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "毋行惡",
+                    "description": "擊敗待終冠主。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "악을 행하지 말지어다",
+                    "description": "기다리는 자를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 14,
+            "label": "KILL_BOSS_1_NODAMAGE",
+            "title": "Order",
+            "description": "Beat Leshy without taking damage.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_1_NODAMAGE",
+            "steamGroupID": 1,
+            "SteamNumberID": 13,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "14",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "6badf30c-5af3-4551-9f18-dfb12c2a9b9c",
+            "ps4Id": "014",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Order",
+                    "description": "Beat Leshy without taking damage."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Ordre",
+                    "description": "Vaincre Leshy sans subir de dégâts."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Ordnung",
+                    "description": "Besiege Leshy, ohne Schaden zu erleiden."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Ordem",
+                    "description": "Derrote Leshy sem sofrer dano."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Ordenar",
+                    "description": "Derrota a Leshy sin recibir daño."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Порядок",
+                    "description": "Победить Лешего, не получив урона."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "秩序",
+                    "description": "不受伤害并击败莱蟋。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "調和",
+                    "description": "ダメージを受けずにレーシィを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "秩序",
+                    "description": "不受傷害並擊敗萊蟋。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "질서",
+                    "description": "피해를 입지 않고 레쉬를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 15,
+            "label": "KILL_BOSS_2_NODAMAGE",
+            "title": "Sate",
+            "description": "Beat Heket without taking damage.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_2_NODAMAGE",
+            "steamGroupID": 1,
+            "SteamNumberID": 14,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "15",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "d66a58dc-f0db-4933-b498-ff4c5102e0d7",
+            "ps4Id": "015",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Sate",
+                    "description": "Beat Heket without taking damage."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Satisfaction",
+                    "description": "Vaincre Heket sans subir de dégâts."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Sättigung",
+                    "description": "Besiege Heket, ohne Schaden zu erleiden."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Saciação",
+                    "description": "Derrote Heket sem sofrer dano."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Saciar",
+                    "description": "Derrota a Heket sin recibir daño."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Насыщение",
+                    "description": "Победить Хекат, не получив урона."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "满足",
+                    "description": "不受伤害并击败赫凯特。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "豊穣",
+                    "description": "ダメージを受けずにヘケトを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "滿足",
+                    "description": "不受傷害並擊敗赫凱特。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "충족",
+                    "description": "피해를 입지 않고 헤켓을 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 16,
+            "label": "KILL_BOSS_3_NODAMAGE",
+            "title": "Cure",
+            "description": "Beat Kallamar without taking damage.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_3_NODAMAGE",
+            "steamGroupID": 1,
+            "SteamNumberID": 15,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "16",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "5f533e44-9de8-43f7-aeb2-0b89ea254486",
+            "ps4Id": "016",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Cure",
+                    "description": "Beat Kallamar without taking damage."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Remède",
+                    "description": "Vaincre Kallamar sans subir de dégâts."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Heilung",
+                    "description": "Besiege Kallamar, ohne Schaden zu erleiden."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Cura",
+                    "description": "Derrote Kallamar sem sofrer dano."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Curar",
+                    "description": "Derrota a Kallamar sin recibir daño."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Исцеление",
+                    "description": "Победить Калламара, не получив урона."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "治愈",
+                    "description": "不受伤害并击败凯拉鰢。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "健康",
+                    "description": "ダメージを受けずにカラマールを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "治癒",
+                    "description": "不受傷害並擊敗凱拉鰢。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "치유",
+                    "description": "피해를 입지 않고 칼라마르를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 17,
+            "label": "KILL_BOSS_4_NODAMAGE",
+            "title": "Peace",
+            "description": "Beat Shamura without taking damage.",
+            "hidden": true,
+            "steamId": "KILL_BOSS_4_NODAMAGE",
+            "steamGroupID": 1,
+            "SteamNumberID": 16,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "17",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "49ca3eff-fcc1-43a4-99e7-7b2d711d0d94",
+            "ps4Id": "017",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Peace",
+                    "description": "Beat Shamura without taking damage."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Paix",
+                    "description": "Vaincre Shamura sans subir de dégâts."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Frieden",
+                    "description": "Besiege Shamura, ohne Schaden zu erleiden."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Paz",
+                    "description": "Derrote Shamura sem sofrer dano."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Paz",
+                    "description": "Derrota a Shamura sin recibir daño."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Мир",
+                    "description": "Победить Шамуру, не получив урона."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "和平",
+                    "description": "不受伤害并击败沙穆拉。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "平和",
+                    "description": "ダメージを受けずにシャムラを倒す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "和平",
+                    "description": "不受傷害並擊敗夏慕拉。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "평화",
+                    "description": "피해를 입지 않고 샤무라를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 18,
+            "label": "TAKE_CONFESSION",
+            "title": "Keeper of Secrets",
+            "description": "Take confession.",
+            "hidden": false,
+            "steamId": "TAKE_CONFESSION",
+            "steamGroupID": 1,
+            "SteamNumberID": 17,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "18",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "fef6b16b-fe3b-4a3b-ae31-6cad55f6e53c",
+            "ps4Id": "018",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Keeper of Secrets",
+                    "description": "Take confession."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Confidences",
+                    "description": "Écouter une confession."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Hüter der Geheimnisse",
+                    "description": "Nimm eine Beichte ab."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Guardião dos Segredos",
+                    "description": "Ouça uma confissão."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Guardián de secretos",
+                    "description": "Escucha una confesión."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Таинство покаяния",
+                    "description": "Выслушать исповедь."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "守密者",
+                    "description": "听取告解。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "秘密の守り人",
+                    "description": "告解を受ける"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "守密者",
+                    "description": "聽取告解。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "비밀의 수호자",
+                    "description": "고해성사를 받습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 19,
+            "label": "FIND_ALL_LOCATIONS",
+            "title": "Leader of the Crusade",
+            "description": "Find all 5 locations.",
+            "hidden": false,
+            "steamId": "FIND_ALL_LOCATIONS",
+            "steamGroupID": 1,
+            "SteamNumberID": 18,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "19",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "ec9daadf-14af-4f76-a943-c9dfb207a462",
+            "ps4Id": "019",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Leader of the Crusade",
+                    "description": "Find all 5 locations."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Croisades spirituelles",
+                    "description": "Découvrir les cinq zones."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Anführer des Kreuzzugs",
+                    "description": "Finde alle 5 Orte."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Líder da Cruzada",
+                    "description": "Encontre os 5 locais."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Líder de la cruzada",
+                    "description": "Descubre las 5 ubicaciones."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Священный поход",
+                    "description": "Открыть все 5 точки на карте."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "圣战领袖",
+                    "description": "找出全部 5 个地点。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "聖戦の先導者",
+                    "description": "訪れることができる5つの場所すべてを見つける"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "聖戰領袖",
+                    "description": "找出全部 5 個地點。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "성전의 지도자",
+                    "description": "모든 5 지역을 찾아냅니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 20,
+            "label": "FIX_LIGHTHOUSE",
+            "title": "Bringer of Light",
+            "description": "Reignite the lighthouse.",
+            "hidden": false,
+            "steamId": "FIX_LIGHTHOUSE",
+            "steamGroupID": 1,
+            "SteamNumberID": 19,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "20",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "0451006f-70ec-49db-98fe-23fabfdf32d0",
+            "ps4Id": "020",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Bringer of Light",
+                    "description": "Reignite the lighthouse."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Porte-lumière",
+                    "description": "Rallumer le Phare."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Bringer des Lichts",
+                    "description": "Entfache den Leuchtturm erneut."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Portador da Luz",
+                    "description": "Reacenda o farol."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Hacedor de luz",
+                    "description": "Ilumina el faro."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Светоч",
+                    "description": "Зажечь огонь на маяке."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "带来光明者",
+                    "description": "重新点燃灯塔。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "光をもたらす者",
+                    "description": "灯台に再び光を灯す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "帶來光明者",
+                    "description": "重新點燃燈塔。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "빛을 가져오는 자",
+                    "description": "등대를 다시 밝힙니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 21,
+            "label": "ALL_SKINS_UNLOCKED",
+            "title": "Full Flock",
+            "description": "Unlock all Follower Skins.",
+            "hidden": false,
+            "steamId": "ALL_SKINS_UNLOCKED",
+            "steamGroupID": 1,
+            "SteamNumberID": 20,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "21",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "4f70e7d2-782e-4278-b794-cf29748a0aec",
+            "ps4Id": "021",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Full Flock",
+                    "description": "Unlock all Follower Skins."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Troupeau au complet",
+                    "description": "Débloquer toutes les apparences d'adepte."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Vollständige Herde",
+                    "description": "Schalte alle Anhänger-Skins frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Rebanho Completo",
+                    "description": "Desbloqueie todos os visuais de Seguidores."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Rebaño al completo",
+                    "description": "Desbloquea todos los atuendos de los adeptos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Многоликая община",
+                    "description": "Открыть все облики последователей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教众完满",
+                    "description": "解锁所有教徒皮肤。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "完全なる群れ",
+                    "description": "すべての信者スキンをアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "徒眾完滿",
+                    "description": "解鎖所有教徒外觀。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "무리 완성",
+                    "description": "모든 추종자 스킨을 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 22,
+            "label": "ALL_TAROTS_UNLOCKED",
+            "title": "Full Deck",
+            "description": "Unlock all tarot cards.",
+            "hidden": false,
+            "steamId": "ALL_TAROTS_UNLOCKED",
+            "steamGroupID": 1,
+            "SteamNumberID": 21,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "22",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "6fe727bf-d5d5-4e11-9503-ce9fb5ff2ca4",
+            "ps4Id": "022",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Full Deck",
+                    "description": "Unlock all tarot cards."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Collection complète",
+                    "description": "Débloquer toutes les cartes de tarot."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Vollständiger Kartenstapel",
+                    "description": "Schalte alle Tarotkarten frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Baralho Completo",
+                    "description": "Desbloqueie todas as cartas de tarô."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Baraja al completo",
+                    "description": "Desbloquea todas las cartas del tarot."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Полная колода",
+                    "description": "Открыть все карты Таро."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "牌好无缺",
+                    "description": "解锁所有塔罗牌。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "フルデッキ",
+                    "description": "すべてのタロットカードをアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "牌好無缺",
+                    "description": "解鎖所有塔羅牌。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "덱 완성",
+                    "description": "모든 타로 카드를 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 23,
+            "label": "FISH_ALL_TYPES",
+            "title": "Teach a Lamb to Fish",
+            "description": "Catch 1 of every fish.",
+            "hidden": false,
+            "steamId": "FISH_ALL_TYPES",
+            "steamGroupID": 1,
+            "SteamNumberID": 22,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "23",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "3700b29f-923c-4249-8f4c-7b9aea27e263",
+            "ps4Id": "023",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Teach a Lamb to Fish",
+                    "description": "Catch 1 of every fish."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Un Agneau sachant pêcher",
+                    "description": "Pêcher chaque poisson une fois."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Lehre ein Lamm zu fischen",
+                    "description": "Fange 1 Exemplar jeder Fischart."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Ensine um Cordeiro a Pescar",
+                    "description": "Pesque um peixe de cada tipo."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Enseña a un Cordero a pescar",
+                    "description": "Pesca un pez de cada tipo."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Рыбное ассорти",
+                    "description": "Поймать по одной рыбе каждого вида."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教羊钓鱼",
+                    "description": "每种鱼各捕获 1 条。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "釣りバカ子羊",
+                    "description": "全種類の魚を1匹以上釣り上げる"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "教羊釣魚",
+                    "description": "每種魚各捕獲 1 條。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "물고기를 잡는 법",
+                    "description": "모든 물고기를 1 종류씩 잡습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 24,
+            "label": "FIRST_RITUAL",
+            "title": "Crosser of Thresholds",
+            "description": "A new world awaits.",
+            "hidden": false,
+            "steamId": "FIRST_RITUAL",
+            "steamGroupID": 1,
+            "SteamNumberID": 23,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "24",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "2a8627ac-d389-4852-bd9f-1b176fac9091",
+            "ps4Id": "024",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Crosser of Thresholds",
+                    "description": "A new world awaits."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Rites ancestraux",
+                    "description": "Un nouveau monde vous attend."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Überschreiter von Schwellen",
+                    "description": "Eine neue Welt erwartet dich."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Cruzador de Linhas",
+                    "description": "Um novo mundo está à espera."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "A través del umbral",
+                    "description": "Un nuevo mundo te espera."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Преодоление порога",
+                    "description": "Сделать шаг в новый мир."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "跨越门坎者",
+                    "description": "新世界正等着你。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "一線を超えし者",
+                    "description": "その先に待つは新たな世界"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "跨越門檻者",
+                    "description": "新世界正等著你。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "경계를 넘는 자",
+                    "description": "새로운 세계가 기다립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 25,
+            "label": "FIRST_SACRIFICE",
+            "title": "Sacrificial Beast",
+            "description": "Sacrifice a Follower.",
+            "hidden": false,
+            "steamId": "FIRST_SACRIFICE",
+            "steamGroupID": 1,
+            "SteamNumberID": 24,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "25",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "623cd159-1e52-43e1-b04f-628c9aa5913c",
+            "ps4Id": "025",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Sacrificial Beast",
+                    "description": "Sacrifice a Follower."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Bête sacrificielle",
+                    "description": "Sacrifier un adepte."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Opferlamm",
+                    "description": "Opfere einen Anhänger."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Animal de Sacrifício",
+                    "description": "Sacrifique um Seguidor"
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Ofrenda bestial",
+                    "description": "Sacrifica a un adepto."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Заклание",
+                    "description": "Принести последователя в жертву."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "献祭狂兽",
+                    "description": "献祭一位教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "贄なる獣",
+                    "description": "信者を生贄にする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "獻祭狂獸",
+                    "description": "獻祭一位教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "제물로 바쳐진 짐승",
+                    "description": "추종자 하나를 번제합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 26,
+            "label": "SACRIFICE_FOLLOWERS",
+            "title": "Weigher of Souls",
+            "description": "Sacrifice 10 Followers.",
+            "hidden": false,
+            "steamId": "SACRIFICE_FOLLOWERS",
+            "steamGroupID": 1,
+            "SteamNumberID": 25,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "26",
+            "xboxOneScore": 50,
+            "xboxOneIconId": "39a6262c-e546-4a2a-82c1-9c1fdf2cc830",
+            "ps4Id": "026",
+            "ps4Type": "G",
+            "Ps4Score": 90,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Weigher of Souls",
+                    "description": "Sacrifice 10 Followers."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Pillage d'âmes",
+                    "description": "Sacrifier 10 adeptes."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Seelenwieger",
+                    "description": "Opfere 10 Anhänger."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Julgador de Almas",
+                    "description": "Sacrifique 10 Seguidores."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Envío de almas",
+                    "description": "Sacrifica a 10 adeptos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Взвешивание душ",
+                    "description": "Принести в жертву 10 последователей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "灵魂权衡者",
+                    "description": "献祭 10 位教徒。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "魂を計る者",
+                    "description": "信者を10人生贄にする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "靈魂權衡者",
+                    "description": "獻祭 10 位教徒。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "영혼의 무게를 재는 자",
+                    "description": "추종자 10명을 번제합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 27,
+            "label": "666_GOLD",
+            "title": "Hoarder of Wealth",
+            "description": "Have 666 gold coins.",
+            "hidden": false,
+            "steamId": "666_GOLD",
+            "steamGroupID": 1,
+            "SteamNumberID": 26,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "27",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "9231033a-137e-4176-b63e-a844ac5edcc9",
+            "ps4Id": "027",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Hoarder of Wealth",
+                    "description": "Have 666 gold coins."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Richesse démoniaque",
+                    "description": "Avoir 666 pièces d'or."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Horter des Reichtums",
+                    "description": "Erhalte 666 Goldmünzen."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Acumulador de Riqueza",
+                    "description": "Obtenha 666 moedas de ouro."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Avaricia",
+                    "description": "Consigue 666 monedas de oro."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Накопление богатств",
+                    "description": "Собрать 666 монет."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "财富囤积者",
+                    "description": "拥有 666 枚金币。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "富を蓄えし者",
+                    "description": "金貨を666個所有する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "財富囤積者",
+                    "description": "擁有 666 枚金幣。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "부를 모으는 자",
+                    "description": "666 금화를 모읍니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 28,
+            "label": "ALL_WEAPONS_UNLOCKED",
+            "title": "Weapons of Plenty",
+            "description": "Unlock all weapons.",
+            "hidden": false,
+            "steamId": "ALL_WEAPONS_UNLOCKED",
+            "steamGroupID": 1,
+            "SteamNumberID": 27,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "28",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "aef3cbb9-0ae3-42a3-88ca-60040de571dd",
+            "ps4Id": "028",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Weapons of Plenty",
+                    "description": "Unlock all weapons."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Armes du troupeau",
+                    "description": "Débloquer toutes les armes."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Fülle an Waffen",
+                    "description": "Schalte alle Waffen frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Abundância de Armas",
+                    "description": "Desbloqueie todas as armas."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Armas a tutiplén",
+                    "description": "Desbloquea todas las armas."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Изобилие оружия",
+                    "description": "Открыть все виды оружия."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "武器完备",
+                    "description": "解锁所有武器。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "武器の収集者",
+                    "description": "すべての武器をアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "武器完備",
+                    "description": "解鎖所有武器。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "무기 다양화",
+                    "description": "모든 무기를 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 29,
+            "label": "ALL_CURSES_UNLOCKED",
+            "title": "Curses of Plenty",
+            "description": "Unlock all curses.",
+            "hidden": false,
+            "steamId": "ALL_CURSES_UNLOCKED",
+            "steamGroupID": 1,
+            "SteamNumberID": 28,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "29",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "c253e3f0-3288-4453-ba76-50d649710e2e",
+            "ps4Id": "029",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Curses of Plenty",
+                    "description": "Unlock all curses."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Maléfices du troupeau",
+                    "description": "Débloquer tous les maléfices."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Fülle an Flüchen",
+                    "description": "Schalte alle Flüche frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Abundância de Maldições",
+                    "description": "Desbloqueie todas as maldições."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Maldiciones a tutiplén",
+                    "description": "Desbloquea todas las maldiciones."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Изобилие проклятий",
+                    "description": "Открыть все проклятия."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "咒术完备",
+                    "description": "解锁所有咒术。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "呪いの収集者",
+                    "description": "すべての呪いをアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "咒術完備",
+                    "description": "解鎖所有咒術。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "저주 다양화",
+                    "description": "모든 저주를 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 30,
+            "label": "FULLY_UPGRADED_SHRINE",
+            "title": "Devotion",
+            "description": "Fully Upgrade Cult.",
+            "hidden": false,
+            "steamId": "FULLY_UPGRADED_SHRINE",
+            "steamGroupID": 2,
+            "SteamNumberID": 1,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "30",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "505e8f1f-e175-4e9d-8737-ed2d8ba41bc7",
+            "ps4Id": "030",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Devotion",
+                    "description": "Fully Upgrade Cult."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Dévotion",
+                    "description": "Culte amélioré au maximum."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Hingabe",
+                    "description": "Kult vollständig verbessern."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Devoção",
+                    "description": "Aprimore o Culto até o Máximo."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Devoción",
+                    "description": "Mejora tu secta al máximo."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Преданность",
+                    "description": "Улучшить поселение до высшего уровня."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "虔诚",
+                    "description": "完全升级圣教。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "祈念",
+                    "description": "教団を最大強化する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "虔誠",
+                    "description": "完全升級聖教。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "헌신",
+                    "description": "교단 최대 업그레이드."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 31,
+            "label": "UNLOCK_TUNIC",
+            "title": "Transform",
+            "description": "Unlock a new fleece.",
+            "hidden": false,
+            "steamId": "UNLOCK_TUNIC",
+            "steamGroupID": 2,
+            "SteamNumberID": 3,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "31",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "ac6d0c8f-9435-44d4-8e73-57c123fd9a22",
+            "ps4Id": "031",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Transform",
+                    "description": "Unlock a new fleece."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Transformation",
+                    "description": "Débloquer une nouvelle pelisse."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Verwandlung",
+                    "description": "Schalte ein neues Vlies frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Transformação",
+                    "description": "Desbloqueie uma nova lã."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Transformación",
+                    "description": "Desbloquea un nuevo vellocino."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Преображение",
+                    "description": "Открыть новое руно."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "化形",
+                    "description": "解锁一件新毛纺。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "変身",
+                    "description": "新しい羊毛をアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "化形",
+                    "description": "解鎖一件新毛紡。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "변이",
+                    "description": "새로운 양털을 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 32,
+            "label": "UNLOCK_ALL_TUNICS",
+            "title": "Transmute",
+            "description": "Unlock all fleeces.",
+            "hidden": false,
+            "steamId": "UNLOCK_ALL_TUNICS",
+            "steamGroupID": 2,
+            "SteamNumberID": 4,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "32",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "cdffef83-121e-4dfb-a26a-0251a3566acb",
+            "ps4Id": "032",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Transmute",
+                    "description": "Unlock all fleeces."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Adaptation",
+                    "description": "Débloquer toutes les pelisses."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Umwandlung",
+                    "description": "Schalte alle Vliese frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Transmutação",
+                    "description": "Desbloqueie todas as lãs."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Transmutación",
+                    "description": "Desbloquea todos los vellocinos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Трансмутация",
+                    "description": "Открыть все руна."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "脱胎换骨",
+                    "description": "解锁所有毛纺。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "転身",
+                    "description": "すべての羊毛をアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "脫胎換骨",
+                    "description": "解鎖所有毛紡。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "변화",
+                    "description": "모든 양털을 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 33,
+            "label": "FEED_FOLLOWER_MEAT",
+            "title": "Cannibal",
+            "description": "Cook a Follower meat meal.",
+            "hidden": true,
+            "steamId": "FEED_FOLLOWER_MEAT",
+            "steamGroupID": 2,
+            "SteamNumberID": 5,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "33",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "736f6583-88aa-4464-b180-7e6dbb165f4b",
+            "ps4Id": "033",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Cannibal",
+                    "description": "Cook a Follower meat meal."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Cannibalisme",
+                    "description": "Cuisiner un plat de chair d'adepte."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Kannibale",
+                    "description": "Koche eine Anhänger-Fleischmahlzeit."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Canibal",
+                    "description": "Cozinhe uma refeição de carne de Seguidor"
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Caníbal",
+                    "description": "Cocina la carne de un adepto."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Каннибализм",
+                    "description": "Приготовить блюдо из мяса последователя."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "同类相食",
+                    "description": "烹煮教徒食用。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "共食い",
+                    "description": "信者肉の料理を調理する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "同類相食",
+                    "description": "烹煮教徒之肉餐。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "식인",
+                    "description": "추종자 고기로 음식을 요리합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 34,
+            "label": "UPGRADE_ALL_SERMONS",
+            "title": "Gospel",
+            "description": "Unlock all doctrines.",
+            "hidden": false,
+            "steamId": "UPGRADE_ALL_SERMONS",
+            "steamGroupID": 2,
+            "SteamNumberID": 6,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "34",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "cabb761d-495d-4717-aec9-825c454acfaa",
+            "ps4Id": "034",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Gospel",
+                    "description": "Unlock all doctrines."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Gospel",
+                    "description": "Débloquer toutes les améliorations des sermons."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Die Lehre",
+                    "description": "Schalte alle Predigtverbesserungen frei."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Evangelho",
+                    "description": "Desbloqueie todos os aprimoramentos de sermões."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Góspel",
+                    "description": "Desbloquea todas las mejoras de sermones."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Благая весть",
+                    "description": "Открыть все улучшения проповедей."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教义",
+                    "description": "解锁所有布道升级。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "福音",
+                    "description": "すべての教条をアンロックする"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "教義",
+                    "description": "解鎖所有講道的升級項目。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "복음",
+                    "description": "모든 설교 업그레이드를 해금합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 35,
+            "label": "WIN_KNUCKLEBONES",
+            "title": "Game of Chance",
+            "description": "Win a game of Knucklebones.",
+            "hidden": false,
+            "steamId": "WIN_KNUCKLEBONES",
+            "steamGroupID": 2,
+            "SteamNumberID": 7,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "35",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "68ff98d7-0e2f-43a6-a832-11b1dc865095",
+            "ps4Id": "035",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Game of Chance",
+                    "description": "Win a game of Knucklebones."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Jeu de hasard",
+                    "description": "Gagner une partie d'Osselets."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Glücksspiel",
+                    "description": "Gewinne ein Astragaloi-Spiel"
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Jogo de Azar",
+                    "description": "Vença um Jogo da Bugalha."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Juego de azar",
+                    "description": "Gana una partida de matatena."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Азартная игра",
+                    "description": "Выиграть в кости."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "机运游戏",
+                    "description": "赢一场距骨骰。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "運こそすべて",
+                    "description": "Knucklebonesで1回勝利する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "機運遊戲",
+                    "description": "贏一場距骨骰。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "확률 게임",
+                    "description": "너클본의 게임을 승리합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 36,
+            "label": "WIN_KNUCKLEBONES_ALL",
+            "title": "Master of Chance",
+            "description": "Defeat all opponents in Knucklebones.",
+            "hidden": false,
+            "steamId": "WIN_KNUCKLEBONES_ALL",
+            "steamGroupID": 2,
+            "SteamNumberID": 8,
+            "xboxOneBaseGame": true,
+            "xboxOneId": "36",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "83002805-6b77-423a-9091-adc7941b3f5f",
+            "ps4Id": "036",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Base Game Group",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Master of Chance",
+                    "description": "Defeat all opponents in Knucklebones."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Bonne fortune",
+                    "description": "Battre tous les adversaires aux Osselets."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Glücksmeister",
+                    "description": "Besiege alle Gegner bei Astragaloi."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Mestre do Acaso",
+                    "description": "Derrote todos os oponentes no Jogo da Bugalha."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Profesional del azar",
+                    "description": "Gana a todos los contrincantes a la matatena."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Улыбка фортуны",
+                    "description": "Выиграть в кости у всех соперников."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "机运主宰",
+                    "description": "击败距骨骰的所有对手。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "運をも支配せし者",
+                    "description": "Knucklebonesですべての相手に勝利する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "機運主宰",
+                    "description": "擊敗距骨骰的所有對手。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "확률의 지배자",
+                    "description": "너클본의 모든 상대를 쓰러뜨립니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 37,
+            "label": "ALL_RELICS_UNLOCKED",
+            "title": "Relics of the Old Faith",
+            "description": "Collect all Relics.",
+            "hidden": false,
+            "steamId": "ALL_RELICS_UNLOCKED",
+            "steamGroupID": 3,
+            "SteamNumberID": 29,
+            "xboxOneBaseGame": false,
+            "xboxOneId": "38",
+            "xboxOneScore": 30,
+            "xboxOneIconId": "eec17792-7072-4c4d-834c-995fe4433990",
+            "ps4Id": "037",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Relics of the Old Faith",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Relics of the Old Faith",
+                    "description": "Collect all Relics."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Reliques de la Vieille croyance",
+                    "description": "Collectez toutes les reliques."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Relikte des alten Glaubens",
+                    "description": "Sammle alle Relikte."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Relíquias da Antiga Fé",
+                    "description": "Colete todas as Relíquias."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Reliquias de la Antigua Fe",
+                    "description": "Consigue todas las reliquias."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Реликвии древней веры",
+                    "description": "Собрать все реликвии."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "古老信仰的圣物",
+                    "description": "收集所有圣物。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "旧き信仰の聖遺物",
+                    "description": "すべての聖遺物を集める"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "古老信仰的聖物",
+                    "description": "收集所有聖物。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "옛 신앙의 유물",
+                    "description": "모든 유물을 모읍니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 38,
+            "label": "BEAT_UP_MIDAS",
+            "title": "Shake Down",
+            "description": "Get your Gold back from Midas.",
+            "hidden": false,
+            "steamId": "BEAT_UP_MIDAS",
+            "steamGroupID": 3,
+            "SteamNumberID": 30,
+            "xboxOneBaseGame": false,
+            "xboxOneId": "39",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "6bd4d9a6-0560-4f91-aa09-094b3113b1bb",
+            "ps4Id": "038",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Relics of the Old Faith",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Shake Down",
+                    "description": "Get your Gold back from Midas."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Plumez-le",
+                    "description": "Récupérez votre or auprès de Midas."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Filzen",
+                    "description": "Hol dir deine Münzen von Midas zurück."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Extorquir",
+                    "description": "Recupere seu Ouro com o Midas."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Desplumar",
+                    "description": "Recupera tus monedas de Midas."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Грабёж",
+                    "description": "Вернуть монеты, украденные Мидасом."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "敲诈",
+                    "description": "从迈达斯手上取回你的金币。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "奪還",
+                    "description": "ミダスから金を取り戻す"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "敲詐",
+                    "description": "從邁達斯手上取回你的金幣。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "갈취",
+                    "description": "미다스로부터 금화를 얻습니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 39,
+            "label": "RETURN_BAAL_AYM",
+            "title": "True Love Found",
+            "description": "Reunite Aym and Baal with Forneus.",
+            "hidden": true,
+            "steamId": "RETURN_BAAL_AYM",
+            "steamGroupID": 3,
+            "SteamNumberID": 31,
+            "xboxOneBaseGame": false,
+            "xboxOneId": "40",
+            "xboxOneScore": 15,
+            "xboxOneIconId": "6cd7d5ca-7e15-4233-896a-3aa52685e473",
+            "ps4Id": "039",
+            "ps4Type": "B",
+            "Ps4Score": 15,
+            "ps4Group": "Relics of the Old Faith",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "True Love Found",
+                    "description": "Reunite Aym and Baal with Forneus."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "L'amour, le vrai",
+                    "description": "Réunissez Aym et Baal avec Forneus."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Der wahren Liebe Wiederkehr",
+                    "description": "Bringe Aym und Baal wieder mit Forneus zusammen."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Amor Verdadeiro Encontrado",
+                    "description": "Reúna Aym e Baal com Forneus."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Un amor verdadero",
+                    "description": "Reúne a Aim y Baal con Forneus."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Материнская любовь",
+                    "description": "Воссоединить Форнеус с Аимом и Баалом."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "寻回真挚的爱",
+                    "description": "让埃姆、巴尔、弗内乌斯重逢。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "真の愛情",
+                    "description": "アイムとバアルをフォルネウスに再会させる"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "尋回真摯的愛",
+                    "description": "讓埃姆、巴爾、弗內烏斯重逢。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "진정한 사랑을 찾다",
+                    "description": "아임과 바알을 포르네우스에게 데려다줍니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 40,
+            "label": "COMPLETE_CHALLENGE_ROW",
+            "title": "Slayer of Souls",
+            "description": "Complete a row in Purgatory.",
+            "hidden": false,
+            "steamId": "COMPLETE_CHALLENGE_ROW",
+            "steamGroupID": 3,
+            "SteamNumberID": 32,
+            "xboxOneBaseGame": false,
+            "xboxOneId": "41",
+            "xboxOneScore": 50,
+            "xboxOneIconId": "b9e4eb9e-6e4e-4ce8-a501-5292023b5416",
+            "ps4Id": "040",
+            "ps4Type": "G",
+            "Ps4Score": 90,
+            "ps4Group": "Relics of the Old Faith",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Slayer of Souls",
+                    "description": "Complete a row in Purgatory."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Pourfendeur d'âmes",
+                    "description": "Terminez une manche du Purgatoire."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Seelenschlitzer",
+                    "description": "Schließe eine Reihe im Fegefeuer ab."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Ceifador de Almas",
+                    "description": "Conclua uma rodada no Purgatório."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Verdugo de almas",
+                    "description": "Completa una ronda en el Purgatorio."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Убийца душ",
+                    "description": "Пройдите испытание в чистилище."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "灵魂屠杀者",
+                    "description": "完成一场炼狱之行。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "魂を狩る者",
+                    "description": "煉獄を1ラウンド踏破する"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "靈魂屠殺者",
+                    "description": "完成一場煉獄之行。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "영혼 학살자",
+                    "description": "연옥에서 한 게임을 완료합니다."
+                }
+            ]
+        },
+        {
+            "status": "ACTIVE",
+            "id": 41,
+            "label": "ALL_LEADER_FOLLOWERS",
+            "title": "Leader of Leaders",
+            "description": "Indoctrinate all five Bishops into your Cult.",
+            "hidden": true,
+            "steamId": "ALL_LEADER_FOLLOWERS",
+            "steamGroupID": 3,
+            "SteamNumberID": 33,
+            "xboxOneBaseGame": false,
+            "xboxOneId": 42,
+            "xboxOneScore": 30,
+            "xboxOneIconId": "b8d1cac5-1070-44eb-97cd-d17d6907c3bf",
+            "ps4Id": "041",
+            "ps4Type": "S",
+            "Ps4Score": 30,
+            "ps4Group": "Relics of the Old Faith",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "title": "Leader of Leaders",
+                    "description": "Indoctrinate all five Bishops into your Cult."
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "title": "Guide de tous les guides",
+                    "description": "Enrôlez les cinq Prélats dans votre culte."
+                },
+                {
+                    "languageCode": "de-DE",
+                    "title": "Anführer der Anführer",
+                    "description": "Indoktriniere alle fünf Bischöfe in deinen Kult."
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "title": "Líder dos Líderes",
+                    "description": "Doutrine os cinco Bispos para o seu Culto."
+                },
+                {
+                    "languageCode": "es-ES",
+                    "title": "Líder de líderes",
+                    "description": "Adoctrina a los cinco obispos."
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "title": "Владыка владык",
+                    "description": "Обратите всех пятерых епископов в свою веру."
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "title": "教主之首",
+                    "description": "替五大主教举行入教仪式。"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "title": "指導者を導く指導者",
+                    "description": "五柱の司教全員を教団に加える"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "title": "教主之首",
+                    "description": "替五大主教舉行入教儀式。"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "title": "지도자들의 지도자",
+                    "description": "교단에서 모든 주교들을 세뇌시킵니다."
+                }
+            ]
+        }
+    ],
+    "ps_AchievementGroups": [
+        {
+            "GroupName": "Relics of the Old Faith",
+            "GroupID": "001",
+            "name": "Relics of the Old Faith",
+            "details": "Relics of the Old Faith Trophy Pack",
+            "localizations": [
+                {
+                    "languageCode": "en-US",
+                    "name": "Relics of the Old Faith",
+                    "details": "Relics of the Old Faith Trophy Pack"
+                },
+                {
+                    "languageCode": "fr-FR",
+                    "name": "Reliques de la Vieille croyance",
+                    "details": "Trophée des Reliques de l'Ancienne Croyance"
+                },
+                {
+                    "languageCode": "de-DE",
+                    "name": "Relikte des alten Glaubens",
+                    "details": "Trophäenpaket Relikte des alten Glaubens"
+                },
+                {
+                    "languageCode": "pt-BR",
+                    "name": "Relíquias da Antiga Fé",
+                    "details": "Pacote de troféus Relíquias da Antiga Fé"
+                },
+                {
+                    "languageCode": "es-ES",
+                    "name": "Reliquias de la Antigua Fe",
+                    "details": "Paquete de trofeos Reliquias de la Antigua Fe"
+                },
+                {
+                    "languageCode": "ru-RU",
+                    "name": "Реликвии древней веры",
+                    "details": "Набор трофеев \"Реликвии древней веры\""
+                },
+                {
+                    "languageCode": "zh-CN",
+                    "name": "古老信仰的圣物",
+                    "details": "旧信仰奖杯包的遗迹"
+                },
+                {
+                    "languageCode": "ja-JP",
+                    "name": "旧き信仰の聖遺物",
+                    "details": "古い信仰の遺物トロフィーパック"
+                },
+                {
+                    "languageCode": "zh-TW",
+                    "name": "古老信仰的聖物",
+                    "details": "舊信仰獎杯包的遺跡"
+                },
+                {
+                    "languageCode": "ko-KR",
+                    "name": "옛 신앙의 유물",
+                    "details": "옛 신앙 트로피 팩의 유물"
+                }
+            ]
+        }
+    ],
+    "version": [
+        {
+            "VersionNumber": 1.03
+        }
+    ]
+}

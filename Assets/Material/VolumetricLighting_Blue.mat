@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VolumetricLighting_Blue
+  m_Shader: {fileID: 4800000, guid: 2a3cc9c1d9995c946973508184f10663, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture0:
+        m_Texture: {fileID: 2800000, guid: ea3ad67cddd8f344c9a6d654cc501896, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _Alpha: 0.8
+    - _AlphaOverride: 0
+    - _Bias: -0.03
+    - _BlotchMultiply: 4.61
+    - _BlotchMultiply2: 6.54
+    - _BlotchSubtract: 2
+    - _BlotchSubtract2: 2.8
+    - _CameraDepthFade_Length: 27.55
+    - _CameraDepthFade_Offset: -7.3
+    - _CloudDensity: 0.2
+    - _CloudDensity2: 1
+    - _Cutoff: -1.04
+    - _DistanceAlpha: -1.3
+    - _DistanceEnd1: 1
+    - _DistanceOffset: 0
+    - _DistanceStart1: 0
+    - _FallOff: 0
+    - _MovementSpeed: 3
+    - _MovementSpeed2: 1
+    - _NoiseIntensity: 0.01
+    - _Opacity: -1.35
+    - _Power: 0.49
+    - _Scale: 3.34
+    - _TransitionDistance: 0.08
+    - _UseDistanceTint2: 1
+    - _UseNoise: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0, g: 0.645576, b: 1, a: 1}
+    - _Color0: {r: 1.6204103, g: 0.262252, b: 0, a: 1}
+    - _ColorOfLight: {r: 0.007843138, g: 0.5411765, b: 1.4980392, a: 1}
+    - _MovementDirection: {r: 0.1, g: 0, b: 0, a: 0}
+    - _MovementDirection2: {r: 0.009, g: 0, b: 0, a: 0}
+    - _TilingUV: {r: 1, g: 1, b: 0, a: 0}
+    - _TilingUV2: {r: 1, g: 1, b: 0, a: 0}

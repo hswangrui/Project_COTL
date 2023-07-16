@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f2419ab969c29e1a84b049462019fa6, type: 3}
+  m_Name: Halloween_Event
+  m_EditorClassIdentifier:
+  EventType: 1
+  StartDay: 20
+  StartMonth: 10
+  EndDay: 10
+  EndMonth: 11
+  Skins:
+  - DeerSkull
+  - BatDemon
+  - Crow
+  Decorations: 2f0100002d0100002e0100002c010000
+  _eventOverlay:
+    m_AssetGUID: 7509dc711e92cf24cad53e4278e1ad07
+    m_SubObjectName:
+    m_SubObjectType:
+  _titleTerm: SeasonalEvents/Halloween/Title
+  _descriptionTerm: SeasonalEvents/Halloween/Description
+  _durationTerm: SeasonalEvents/Generic/Duration
+  _onboardingTitle: SeasonalEvents/Halloween/Onboarding/Title
+  _entry1:
+    _term: SeasonalEvents/Halloween/Onboarding/Entry1
+    _imageReferenceSprite:
+      m_AssetGUID: e246fe81906214d58a0af4f73cc6dfc9
+      m_SubObjectName: Halloween-1
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _entry2:
+    _term: SeasonalEvents/Halloween/Onboarding/Entry2
+    _imageReferenceSprite:
+      m_AssetGUID: fc755e1b2d38746caa2ef90941a40a93
+      m_SubObjectName: Halloween-2
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  _entry3:
+    _term: SeasonalEvents/Halloween/Onboarding/Entry3
+    _imageReferenceSprite:
+      m_AssetGUID: 6c17e6e1323f14efa81779a2f338802b
+      m_SubObjectName: Halloween-3
+      m_SubObjectType: UnityEngine.Sprite, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null

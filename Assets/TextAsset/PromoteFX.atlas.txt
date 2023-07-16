@@ -1,0 +1,202 @@
+
+PromoteFX.png
+size: 1877,984
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Crown/Crown_0
+  rotate: false
+  xy: 850, 496
+  size: 332, 486
+  orig: 332, 486
+  offset: 0, 0
+  index: -1
+images/Crown/Crown_1
+  rotate: false
+  xy: 1184, 496
+  size: 332, 486
+  orig: 332, 486
+  offset: 0, 0
+  index: -1
+images/CultEye/CultEye_0
+  rotate: false
+  xy: 688, 2
+  size: 238, 195
+  orig: 321, 288
+  offset: 50, 57
+  index: -1
+images/CultEye/CultEye_1
+  rotate: false
+  xy: 1544, 375
+  size: 236, 201
+  orig: 321, 288
+  offset: 51, 53
+  index: -1
+images/CultEye/CultEye_2
+  rotate: true
+  xy: 1801, 769
+  size: 213, 46
+  orig: 321, 288
+  offset: 65, 148
+  index: -1
+images/Eye/Crown-Eye_0
+  rotate: false
+  xy: 928, 81
+  size: 203, 116
+  orig: 203, 116
+  offset: 0, 0
+  index: -1
+images/Eye/Crown-Eye_1
+  rotate: false
+  xy: 1544, 257
+  size: 203, 116
+  orig: 203, 116
+  offset: 0, 0
+  index: -1
+images/Fire/Fire_0001
+  rotate: false
+  xy: 928, 20
+  size: 200, 59
+  orig: 418, 151
+  offset: 106, 15
+  index: -1
+images/Fire/Fire_0002
+  rotate: false
+  xy: 1698, 6
+  size: 165, 84
+  orig: 418, 151
+  offset: 115, 11
+  index: -1
+images/Fire/Fire_0003
+  rotate: true
+  xy: 1752, 92
+  size: 170, 93
+  orig: 418, 151
+  offset: 115, 10
+  index: -1
+images/Fire/Fire_0004
+  rotate: true
+  xy: 1133, 21
+  size: 176, 94
+  orig: 418, 151
+  offset: 118, 11
+  index: -1
+images/Fire/Fire_0005
+  rotate: true
+  xy: 1229, 8
+  size: 189, 87
+  orig: 418, 151
+  offset: 114, 7
+  index: -1
+images/Fire/Fire_0006
+  rotate: false
+  xy: 1318, 28
+  size: 185, 92
+  orig: 418, 151
+  offset: 115, 8
+  index: -1
+images/Fire/Fire_0007
+  rotate: false
+  xy: 1318, 122
+  size: 189, 93
+  orig: 418, 151
+  offset: 112, 7
+  index: -1
+images/Fire/Fire_0008
+  rotate: false
+  xy: 1509, 80
+  size: 187, 79
+  orig: 418, 151
+  offset: 114, 8
+  index: -1
+images/Fire/Fire_0009
+  rotate: true
+  xy: 1801, 583
+  size: 184, 74
+  orig: 418, 151
+  offset: 114, 7
+  index: -1
+images/Fire/Fire_0010
+  rotate: false
+  xy: 688, 228
+  size: 155, 82
+  orig: 418, 151
+  offset: 142, 5
+  index: -1
+images/Fire/Fire_0011
+  rotate: false
+  xy: 1544, 161
+  size: 206, 94
+  orig: 418, 151
+  offset: 105, 2
+  index: -1
+images/Fire/Fire_0012
+  rotate: true
+  xy: 1782, 369
+  size: 207, 89
+  orig: 418, 151
+  offset: 108, 8
+  index: -1
+images/Fire/Fire_0013
+  rotate: false
+  xy: 850, 199
+  size: 395, 151
+  orig: 418, 151
+  offset: 10, 0
+  index: -1
+images/Fire/Fire_0014
+  rotate: false
+  xy: 850, 352
+  size: 418, 142
+  orig: 418, 151
+  offset: 0, 6
+  index: -1
+images/FirePillar/FirePillar_0001
+  rotate: true
+  xy: 2, 2
+  size: 281, 684
+  orig: 281, 844
+  offset: 0, 0
+  index: -1
+images/FirePillar/FirePillar_0002
+  rotate: false
+  xy: 284, 306
+  size: 281, 676
+  orig: 281, 844
+  offset: 0, 0
+  index: -1
+images/FirePillar/FirePillar_0003
+  rotate: false
+  xy: 567, 312
+  size: 281, 670
+  orig: 281, 844
+  offset: 0, 0
+  index: -1
+images/FirePillar/FirePillar_0004
+  rotate: false
+  xy: 2, 285
+  size: 280, 697
+  orig: 281, 844
+  offset: 0, 113
+  index: -1
+images/FirePillar/FirePillar_0005
+  rotate: false
+  xy: 1518, 578
+  size: 281, 404
+  orig: 281, 844
+  offset: 0, 430
+  index: -1
+images/FirePillar/FirePillar_0006
+  rotate: false
+  xy: 1270, 217
+  size: 272, 277
+  orig: 281, 844
+  offset: 0, 567
+  index: -1
+images/Plus
+  rotate: false
+  xy: 1749, 264
+  size: 94, 103
+  orig: 128, 128
+  offset: 17, 12
+  index: -1

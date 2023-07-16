@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 97e035c2db9ce68e888ebabc7c99b8bb
+timeCreated: 1689201794
+licenseType: Free
+PluginImporter:
+  serializedVersion: 2
+  externalObjects: {}
+  iconMap: {}
+  executionOrder: {}
+  defineConstraints: []
+  isPreloaded: 0
+  isOverridable: 0
+  isExplicitlyReferenced: 0
+  validateReferences: 0
+  platformData: {}
+  output:
+    dllType: 0
+    scriptingRuntimeVersion: 0
+  userData:
+  assetBundleName:
+  assetBundleVariant:

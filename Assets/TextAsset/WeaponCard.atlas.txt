@@ -1,0 +1,342 @@
+
+WeaponCard.png
+size: 4096,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/AmmoEfficient
+  rotate: false
+  xy: 1561, 508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/BlackSoulAutoRecharge
+  rotate: false
+  xy: 1562, 1008
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/BlackSoulOnDamage
+  rotate: false
+  xy: 1563, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/BombOnDamaged
+  rotate: false
+  xy: 1874, 510
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/BombOnRoll
+  rotate: false
+  xy: 1875, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/CardBack_Trinket
+  rotate: false
+  xy: 1, 501
+  size: 311, 500
+  orig: 311, 500
+  offset: 0, 0
+  index: -1
+images/CardBack_Weapon
+  rotate: false
+  xy: 1, 501
+  size: 311, 500
+  orig: 311, 500
+  offset: 0, 0
+  index: -1
+images/CardBlast
+  rotate: false
+  xy: 1, 1504
+  size: 312, 501
+  orig: 312, 501
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_DeathsDoor
+  rotate: false
+  xy: 1876, 12
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_DiseasedHeart
+  rotate: false
+  xy: 1, 1
+  size: 312, 499
+  orig: 312, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_EyeOfWeakness
+  rotate: false
+  xy: 2187, 512
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_GiftFromBelow
+  rotate: false
+  xy: 2188, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_HandsOfRage
+  rotate: false
+  xy: 313, 504
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Heart
+  rotate: false
+  xy: 314, 4
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_HoldToHeal
+  rotate: false
+  xy: 625, 504
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Moon
+  rotate: false
+  xy: 626, 1006
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_NaturesGift
+  rotate: false
+  xy: 627, 1506
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Potion
+  rotate: false
+  xy: 626, 4
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Skull
+  rotate: false
+  xy: 1, 1002
+  size: 311, 501
+  orig: 311, 501
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Spider
+  rotate: false
+  xy: 313, 1004
+  size: 312, 499
+  orig: 312, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Sun
+  rotate: false
+  xy: 314, 1506
+  size: 312, 499
+  orig: 312, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_Telescope
+  rotate: false
+  xy: 937, 506
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheDeal
+  rotate: false
+  xy: 2189, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheHearts1
+  rotate: false
+  xy: 938, 1006
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheHearts2
+  rotate: false
+  xy: 939, 1506
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheHearts3
+  rotate: false
+  xy: 938, 6
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheLovers1
+  rotate: false
+  xy: 1249, 506
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/Card_Trinket_TheLovers2
+  rotate: false
+  xy: 1250, 1006
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/DamageOnRoll
+  rotate: false
+  xy: 2189, 14
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/DecreaseRelicCharge
+  rotate: false
+  xy: 1251, 1506
+  size: 311, 499
+  orig: 311, 499
+  offset: 0, 0
+  index: -1
+images/GoopOnDamaged
+  rotate: false
+  xy: 2500, 512
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/GoopOnRoll
+  rotate: false
+  xy: 2501, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/GoopOnRoomChange
+  rotate: false
+  xy: 1250, 7
+  size: 312, 498
+  orig: 312, 498
+  offset: 0, 0
+  index: -1
+images/HealChance
+  rotate: false
+  xy: 2502, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/HealTwiceAmount
+  rotate: false
+  xy: 2502, 14
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/ImmuneToTraps
+  rotate: false
+  xy: 2813, 512
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/IncreasedDamage
+  rotate: false
+  xy: 2814, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/IncreasedXP
+  rotate: false
+  xy: 2815, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/InvincibilityPerRoom
+  rotate: false
+  xy: 2815, 14
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/MoreRelics
+  rotate: false
+  xy: 3126, 512
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/MovementSpeed
+  rotate: false
+  xy: 3127, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/MovementSpeed copy
+  rotate: false
+  xy: 3128, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/NegateDamageChance
+  rotate: false
+  xy: 3128, 14
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/NeptunesCurse
+  rotate: false
+  xy: 1563, 10
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/PoisonImmune
+  rotate: false
+  xy: 3439, 512
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/RabbitsFoot
+  rotate: false
+  xy: 1876, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/TentacleOnDamaged
+  rotate: false
+  xy: 3440, 1010
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1
+images/WalkThroughBlocks
+  rotate: false
+  xy: 3441, 1508
+  size: 312, 497
+  orig: 312, 497
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+  m_Name: Lapture-Bold
+  m_EditorClassIdentifier:
+  hashCode: -1118894717
+  material: {fileID: 2100000, guid: b5a7db1b52c70ee47936d08a40b9fbd9, type: 2}
+  materialHashCode: 416210243
+  m_Version: 1.1.0
+  m_SourceFontFileGUID: fa19b087bc292f949a75669a2ac1011a
+  m_SourceFontFile: {fileID: 12800000, guid: e17fe2d502e3a6f44a507b15b0792223, type: 3}
+  m_AtlasPopulationMode: 1
+  m_FaceInfo:
+    m_FaceIndex: 0
+    m_FamilyName: Lapture Display
+    m_StyleName: Bold
+    m_PointSize: 218
+    m_Scale: 1
+    m_LineHeight: 261.6
+    m_AscentLine: 162.41
+    m_CapLine: 147
+    m_MeanLine: 105
+    m_Baseline: 0
+    m_DescentLine: -49.486
+    m_SuperscriptOffset: 162.41
+    m_SuperscriptSize: 0.5
+    m_SubscriptOffset: -49.486
+    m_SubscriptSize: 0.5
+    m_UnderlineOffset: -49.050003
+    m_UnderlineThickness: 32.7
+    m_StrikethroughOffset: 42
+    m_StrikethroughThickness: 32.7
+    m_TabWidth: 38
+  m_GlyphTable: []
+  m_CharacterTable: []
+  m_AtlasTextures:
+  - {fileID: 2800000, guid: fa4f7bd4cfbd7bd42864cdabaac83618, type: 3}
+  m_AtlasTextureIndex: 0
+  m_IsMultiAtlasTexturesEnabled: 1
+  m_ClearDynamicDataOnBuild: 1
+  m_UsedGlyphRects: []
+  m_FreeGlyphRects:
+  - m_X: 0
+    m_Y: 0
+    m_Width: 2047
+    m_Height: 2047
+  m_fontInfo:
+    Name:
+    PointSize: 0
+    Scale: 0
+    CharacterCount: 0
+    LineHeight: 0
+    Baseline: 0
+    Ascender: 0
+    CapHeight: 0
+    Descender: 0
+    CenterLine: 0
+    SuperscriptOffset: 0
+    SubscriptOffset: 0
+    SubSize: 0
+    Underline: 0
+    UnderlineThickness: 0
+    strikethrough: 0
+    strikethroughThickness: 0
+    TabWidth: 0
+    Padding: 0
+    AtlasWidth: 0
+    AtlasHeight: 0
+  atlas: {fileID: 0}
+  m_AtlasWidth: 2048
+  m_AtlasHeight: 2048
+  m_AtlasPadding: 22
+  m_AtlasRenderMode: 4165
+  m_glyphInfoList: []
+  m_KerningTable:
+    kerningPairs: []
+  m_FontFeatureTable:
+    m_GlyphPairAdjustmentRecords: []
+  fallbackFontAssets: []
+  m_FallbackFontAssetTable: []
+  m_CreationSettings:
+    sourceFontFileName:
+    sourceFontFileGUID: fa19b087bc292f949a75669a2ac1011a
+    pointSizeSamplingMode: 0
+    pointSize: 218
+    padding: 22
+    packingMode: 4
+    atlasWidth: 2048
+    atlasHeight: 2048
+    characterSetSelectionMode: 7
+    characterSequence: "\n !\"#%&'()+,-./0123456789:;<=>?ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz{}¡«»¿ÀÁÂÃÄÇÈÉÊÍÎÏÑÓÔÕÖÙÚÛÜßàáâãäçèéêíîïñóôõöùúûüŒœАБВГДЕЖЗИЙКЛМНОПРСТУХЦЧШЩЫЬЮЯабвгдежзийклмнопрстухцчшщыьюя–—‘’‚“”„…中体文日本简繁語體국어한"
+    referencedFontAssetGUID: a5e21c753929c8848af3ac0f3406d42c
+    referencedTextAssetGUID:
+    fontStyle: 0
+    fontStyleModifier: 0
+    renderMode: 4165
+    includeFontFeatures: 0
+  m_FontWeightTable:
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  - regularTypeface: {fileID: 0}
+    italicTypeface: {fileID: 0}
+  fontWeights: []
+  normalStyle: 0
+  normalSpacingOffset: 0
+  boldStyle: 0.75
+  boldSpacing: 7
+  italicStyle: 35
+  tabSize: 10

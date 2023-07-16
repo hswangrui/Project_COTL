@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StencilLighting_Volumetric_Additive
+  m_Shader: {fileID: 4800000, guid: d6b3bdcb66fb67f4f99a4bae3fb946a2, type: 3}
+  m_ShaderKeywords: ADDITIVE_ON ETC1_EXTERNAL_ALPHA _DEPTHFADE_ON _USEDISTANCETINT2_ON _USENOISE_ON _USESOFTPARTICLES_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: 3d891d27690e0df448e5ad0af5e6739b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AdditiveOn: 1
+    - _Alpha: 0.8
+    - _AlphaOverride: 1
+    - _Bias: 0.32
+    - _BlotchMultiply: 4.61
+    - _BlotchMultiply2: 6.54
+    - _BlotchSubtract: 2
+    - _BlotchSubtract2: 2.8
+    - _CameraDepthFade_Length: 21.13
+    - _CameraDepthFade_Offset: 2.84
+    - _CloudDensity: 5.3
+    - _CloudDensity2: 1
+    - _Cutoff: -1.04
+    - _DepthFade: 1
+    - _DistanceAlpha: 1.58
+    - _DistanceEnd1: 22.9
+    - _DistanceOffset: 0
+    - _DistanceStart1: 11.2
+    - _DoodleVertex: 0
+    - _FallOff: -4
+    - _FallOff1: -2.83
+    - _FlickerScaleAmount: 0.47
+    - _MovementSpeed: 3
+    - _MovementSpeed2: 1
+    - _NoiseIntensity: -0.13
+    - _NoiseScale: 3
+    - _Opacity: -1.35
+    - _Power: 1.2
+    - _RimMax: 0.363
+    - _RimMin: 0
+    - _RimPower: 1
+    - _Scale: 0.63
+    - _Shininess: 303.93
+    - _Size1: 2.55
+    - _SoftParticleFade: 1.051
+    - _Speed1: 5
+    - _StencilInfluence: 1
+    - _TransitionDistance: 1.7
+    - _TransitionDistance1: 0.43
+    - _USESOFTPARTICLES: 1
+    - _UseDistanceTint1: 0
+    - _UseDistanceTint2: 1
+    - _UseNoise: 1
+    - _WindDensity: 5.3
+    - __dirty: 0
+    - _isFlicker: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1.6204103, g: 0.262252, b: 0, a: 1}
+    - _ColorOfLight: {r: 1.4980392, g: 0.80784315, b: 0.7294118, a: 0.62352943}
+    - _MovementDirection: {r: 0, g: -0.01, b: 0, a: 0}
+    - _MovementDirection2: {r: 0.009, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0.14005446, b: 1, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _TilingUV: {r: 1, g: 1, b: 0, a: 0}
+    - _TilingUV2: {r: 1, g: 1, b: 0, a: 0}

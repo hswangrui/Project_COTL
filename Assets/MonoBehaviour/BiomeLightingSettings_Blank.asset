@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6bcff920707d2df18354dc9a437c3ad, type: 3}
+  m_Name: BiomeLightingSettings_Blank
+  m_EditorClassIdentifier:
+  m_unscaledTime: 1
+  m_ambientColour: {r: 1, g: 1, b: 1, a: 1}
+  m_directionalLightColor: {r: 1, g: 1, b: 1, a: 1}
+  m_directionalLightIntensity: 0
+  m_ShadowStrength: 0.5
+  m_lightRotation: {x: -10, y: -50, z: 0}
+  m_globalHighlightColor: {r: 1, g: 1, b: 1, a: 1}
+  m_globalShadowColor: {r: 0, g: 0, b: 0, a: 1}
+  m_LutTexture_Shadow: {fileID: 2800000, guid: 660f6c5956c79e74b80ca249d3fbac46, type: 3}
+  m_LutTexture_Lit: {fileID: 2800000, guid: 660f6c5956c79e74b80ca249d3fbac46, type: 3}
+  m_StencilInfluence: 1
+  m_exposure: 1
+  m_fogColor: {r: 0.0741, g: 0, b: 0.129, a: 1}
+  m_fogDist: {x: 10, y: 15}
+  m_fogHeight: 0.5
+  m_fogSpread: 1
+  m_godRayColor: {r: 1, g: 0.9254902, b: 0.8352941, a: 1}
+  m_ScreenSpaceOverlayMat: {fileID: 0}
+  overrideLightingProperties:
+    UnscaledTime: 0
+    Enabled: 1
+    AmbientColor: 1
+    DirectionalLightColor: 1
+    DirectionalLightIntensity: 1
+    ShadowStrength: 1
+    LightRotation: 0
+    GlobalHighlightColor: 1
+    GlobalShadowColor: 1
+    LUTTextureShadow: 1
+    LUTTextureLit: 1
+    StencilInfluence: 1
+    Exposure: 0
+    FogColor: 1
+    FogDist: 1
+    FogHeight: 1
+    FogSpread: 1
+    GodRayColor: 1
+    ScreenSpaceOverlayMat: 1

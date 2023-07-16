@@ -1,0 +1,19 @@
+public enum AttachmentEffect
+{
+	None,
+	Explode,
+	Dash,
+	Damage,
+	ExtraSlots,
+	Critical,
+	Range,
+	AttackRate,
+	MovementSpeed,
+	IncreasedXPDrop,
+	HealChance,
+	NegateDamageChance,
+	Necromancy,
+	Poison,
+	Godly,
+	Fervour
+}

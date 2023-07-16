@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26165418fe52dc205582a537a3d729b, type: 3}
+  m_Name: FiftyFiftyGamble_Dammed_Relic
+  m_EditorClassIdentifier:
+  RelicType: 20
+  InteractionType: 1
+  RelicSubType: 1
+  DamageRequiredToCharge: 110
+  UISprite: {fileID: 21300000, guid: 9127ecaaf2a0d8b45bd24cb632f0dc26, type: 2}
+  UISpriteOutline: {fileID: 21300000, guid: c5eb589e89409eb4c9a45dc8cb168285, type: 2}
+  WorldSprite: {fileID: 21300000, guid: 9127ecaaf2a0d8b45bd24cb632f0dc26, type: 2}
+  Weight: 1
+  RequiresCult: 0
+  ShowAnimationAbovePlayer: 0
+  UpgradeType: 235
+  VFXData: {fileID: 11400000, guid: c2fbd760c28553640963afd56b767533, type: 2}
+  Material: {fileID: 0}

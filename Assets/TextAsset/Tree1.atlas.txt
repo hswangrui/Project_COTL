@@ -1,0 +1,62 @@
+
+Tree1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Sapling1
+  rotate: true
+  xy: 923, 1175
+  size: 96, 307
+  orig: 96, 307
+  offset: 0, 0
+  index: -1
+images/Sapling2
+  rotate: true
+  xy: 923, 1273
+  size: 122, 472
+  orig: 122, 472
+  offset: 0, 0
+  index: -1
+images/Sapling3
+  rotate: true
+  xy: 395, 732
+  size: 161, 684
+  orig: 161, 684
+  offset: 0, 0
+  index: -1
+images/Tree_Medium_Stump
+  rotate: false
+  xy: 923, 1080
+  size: 249, 93
+  orig: 249, 93
+  offset: 0, 0
+  index: -1
+images/Tree_Medium_Top
+  rotate: false
+  xy: 2, 702
+  size: 391, 693
+  orig: 391, 693
+  offset: 0, 0
+  index: -1
+images/Tree_Medium_Trunk1
+  rotate: true
+  xy: 2, 451
+  size: 249, 526
+  orig: 249, 526
+  offset: 0, 0
+  index: -1
+images/Tree_Medium_Trunk2
+  rotate: true
+  xy: 395, 1146
+  size: 249, 526
+  orig: 249, 526
+  offset: 0, 0
+  index: -1
+images/Tree_Medium_Trunk3
+  rotate: true
+  xy: 395, 895
+  size: 249, 526
+  orig: 249, 526
+  offset: 0, 0
+  index: -1

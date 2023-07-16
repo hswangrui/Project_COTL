@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd8bb47a301bac36ab257d0b4f87223, type: 3}
+  m_Name: Dagger_Fervour
+  m_EditorClassIdentifier:
+  EquipmentType: 304
+  PrimaryEquipmentType: 300
+  CanBreakDodge: 1
+  UISprite: {fileID: 21300000, guid: 3e5fd2b258a776b4fa9cca09c2157cd8, type: 2}
+  WorldSprite: {fileID: 21300000, guid: add1bbe269e97ff43a027ef5033ad6d2, type: 2}
+  PickupAnimationKey: cards/cards-stop-dagger2
+  PerformActionSound:
+  Weight: 1
+  Skin: 2
+  Speed: 2
+  Combos:
+  - CameraShake: 0.2
+    Damage: 1
+    RangeRadius: 1
+    Animation: attack-combo1-dagger
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 1
+    ShowDirectionIndicator: 0
+    LungeSpeed: 35
+    LungeDuration: 0.1
+    HitKnockback: 0
+    AttackType: 0
+  - CameraShake: 0.3
+    Damage: 1
+    RangeRadius: 1
+    Animation: attack-combo2-dagger
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 1
+    ShowDirectionIndicator: 0
+    LungeSpeed: 35
+    LungeDuration: 0.1
+    HitKnockback: 0
+    AttackType: 0
+  - CameraShake: 0.2
+    Damage: 1
+    RangeRadius: 1
+    Animation: attack-combo1-dagger
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 1
+    ShowDirectionIndicator: 0
+    LungeSpeed: 35
+    LungeDuration: 0.1
+    HitKnockback: 0
+    AttackType: 0
+  - CameraShake: 0.3
+    Damage: 1
+    RangeRadius: 1
+    Animation: attack-combo2-dagger
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 1
+    ShowDirectionIndicator: 0
+    LungeSpeed: 35
+    LungeDuration: 0.1
+    HitKnockback: 0
+    AttackType: 0
+  - CameraShake: 0.4
+    Damage: 1.7
+    RangeRadius: 1.2
+    Animation: attack-combo3-dagger
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 0
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 0
+    ShowDirectionIndicator: 0
+    LungeSpeed: 35
+    LungeDuration: 0.1
+    HitKnockback: 0.1
+    AttackType: 0
+  Attachments:
+  - {fileID: 11400000, guid: ef38d88ecab640b4cb6dac2a201f25ef, type: 2}

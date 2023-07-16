@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd8bb47a301bac36ab257d0b4f87223, type: 3}
+  m_Name: Hammer_Critical
+  m_EditorClassIdentifier:
+  EquipmentType: 202
+  PrimaryEquipmentType: 200
+  CanBreakDodge: 1
+  UISprite: {fileID: 21300000, guid: 7caeb252cb0a3424e993062d18bc0d51, type: 2}
+  WorldSprite: {fileID: 21300000, guid: e9689b93b504cdf499ac916d820e7b72, type: 2}
+  PickupAnimationKey: cards/cards-stop-hammer2
+  PerformActionSound:
+  Weight: 1
+  Skin: 1
+  Speed: 0.25
+  Combos:
+  - CameraShake: 0.5
+    Damage: 4
+    RangeRadius: 1.5
+    Animation: attack-combo3-hammer
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 0
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 1
+    ShowDirectionIndicator: 1
+    LungeSpeed: 5
+    LungeDuration: 0.15
+    HitKnockback: 1.25
+    AttackType: 1
+  Attachments:
+  - {fileID: 11400000, guid: 5554b07a19743a04988628aa73abf839, type: 2}

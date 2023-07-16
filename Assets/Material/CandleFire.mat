@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CandleFire
+  m_Shader: {fileID: 4800000, guid: 98761b412b11a274d8602acc7677d2e7, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _ANIMATEVERTEX_ON _DOODLEUV_ON _EMISSION _USEEMISSION_ON _VERTEX_OFFSET_X_ON _VERTEX_OFFSET_Y_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 2800000, guid: 54a2bef2fbd7ee24db63b0f25ff4555e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindTexture:
+        m_Texture: {fileID: 2800000, guid: b7555aa9ffc35b44dbe4576d422007b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _AnimateVertex: 1
+    - _BumpScale: 1
+    - _ClipAlphaThreshold: 0.7
+    - _ClipBelowGround: 0
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DepthFade: 0
+    - _DetailNormalMapScale: 1
+    - _DoodleUV: 1
+    - _DstBlend: 0
+    - _EnableExternalAlpha: 0
+    - _FadeIntoFog: 0
+    - _FadeIntoWoods: 0
+    - _Falloff: 16
+    - _FillAlpha: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _IgnoreSpriteFacing: 0
+    - _MaxEmission: 3
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Size1: 60
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed1: 6.3
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _TransitionFade: 8
+    - _UVSec: 0
+    - _UseEmission: 1
+    - _UseUIAlphaClip: 0
+    - _Vertex_Flip_Mask: 0
+    - _Vertex_Offset_X: 1
+    - _Vertex_Offset_Y: 1
+    - _ZWrite: 1
+    - _dummy: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 5.992157, g: 0.92977977, b: 0, a: 1}
+    - _FillColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _HDRBoost: {r: 1.0246952, g: 2, b: 0, a: 1}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

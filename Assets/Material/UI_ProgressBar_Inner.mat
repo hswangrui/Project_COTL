@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UI_ProgressBar_Inner
+  m_Shader: {fileID: 4800000, guid: 5f0f3bfe2391c104dbbd7c0bdd8c37d2, type: 3}
+  m_ShaderKeywords: UNSCALED_TIME VERTEXSTREAM _DATA_VCOLOR _OPNOISEA_SUBTRACT _OPNOISEB_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 533ca806d3fd7b241bf62d53eead63d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 38eea1ad97ea88e458ca63edd3117e3c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: d87e8f092a5d16945a19d89a5c28dde5, type: 3}
+        m_Scale: {x: 1, y: 0.55}
+        m_Offset: {x: -0.57, y: 0.09}
+    - _NoiseB:
+        m_Texture: {fileID: 2800000, guid: 0f63fdedbbe638c47a6b7e3bb3e43f2b, type: 3}
+        m_Scale: {x: 5.46, y: 1}
+        m_Offset: {x: -0.14, y: 0.04}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 2
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cull: 0
+    - _Cutoff: 0.75
+    - _CutoffSmooth: 0.901
+    - _CutoffSoftness: 0.223
+    - _DATA: 2
+    - _DetailNormalMapScale: 1
+    - _Displace: 0
+    - _DisplaceAmount: 0
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradOffset: 0
+    - _GradSpread: 3.52
+    - _InvFade: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAInf: 0.282
+    - _NoiseBInf: 1
+    - _OPNOISEA: 2
+    - _OPNOISEB: 0
+    - _OcclusionStrength: 1
+    - _POLAR_A: 0
+    - _POLAR_B: 0
+    - _POLAR_DISP: 0
+    - _Parallax: 0.02
+    - _Power: 1.43
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 3
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: -1
+    - _StencilRefA: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _UVSec: 0
+    - _UnscaledTime: 1
+    - _UseUIAlphaClip: 0
+    - _WorldZClip: 0
+    - _ZWrite: 0
+    - _dummy: 0
+    - _isSoftParticle: 0
+    - _isVertexStream: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PolarTransfrom: {r: 0.5, g: 0.5, b: 1, a: 1}

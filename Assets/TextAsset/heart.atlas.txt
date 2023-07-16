@@ -1,0 +1,237 @@
+
+heart.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/BlackHeartBack
+  rotate: true
+  xy: 109, 413
+  size: 94, 103
+  orig: 115, 115
+  offset: 11, 0
+  index: -1
+images/HeartBack
+  rotate: false
+  xy: 109, 321
+  size: 94, 90
+  orig: 115, 115
+  offset: 11, 13
+  index: -1
+images/HeartBlackHalfLeft
+  rotate: true
+  xy: 98, 269
+  size: 50, 90
+  orig: 50, 90
+  offset: 0, 0
+  index: -1
+images/HeartBlackHalfRight
+  rotate: true
+  xy: 417, 364
+  size: 51, 90
+  orig: 51, 90
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter1
+  rotate: true
+  xy: 313, 271
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter2
+  rotate: true
+  xy: 415, 272
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter3
+  rotate: true
+  xy: 350, 239
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter4
+  rotate: false
+  xy: 2, 226
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter5
+  rotate: false
+  xy: 233, 265
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+images/HeartBlackShatter6
+  rotate: false
+  xy: 389, 317
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+images/HeartFull
+  rotate: false
+  xy: 2, 314
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1
+images/HeartFull_Black
+  rotate: false
+  xy: 314, 417
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1
+images/HeartFull_Blue
+  rotate: false
+  xy: 410, 417
+  size: 94, 90
+  orig: 94, 90
+  offset: 0, 0
+  index: -1
+images/HeartHalfBack
+  rotate: true
+  xy: 205, 304
+  size: 50, 90
+  orig: 115, 115
+  offset: 11, 13
+  index: -1
+images/HeartHalfLeft
+  rotate: true
+  xy: 417, 311
+  size: 51, 90
+  orig: 51, 90
+  offset: 0, 0
+  index: -1
+images/HeartHalfRight
+  rotate: true
+  xy: 205, 356
+  size: 51, 90
+  orig: 51, 90
+  offset: 0, 0
+  index: -1
+images/HeartHalfSpiritOutline
+  rotate: true
+  xy: 314, 354
+  size: 61, 101
+  orig: 105, 101
+  offset: 0, 0
+  index: -1
+images/HeartShatter1
+  rotate: true
+  xy: 350, 271
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+images/HeartShatter2
+  rotate: true
+  xy: 458, 272
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+images/HeartShatter3
+  rotate: true
+  xy: 273, 234
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+images/HeartShatter4
+  rotate: false
+  xy: 42, 226
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+images/HeartShatter5
+  rotate: false
+  xy: 94, 230
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+images/HeartShatter6
+  rotate: false
+  xy: 389, 280
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+images/HeartSoulHalfLeft
+  rotate: true
+  xy: 2, 263
+  size: 49, 90
+  orig: 49, 90
+  offset: 0, 0
+  index: -1
+images/HeartSoulHalfRight
+  rotate: true
+  xy: 297, 303
+  size: 49, 90
+  orig: 49, 90
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter1
+  rotate: true
+  xy: 313, 239
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter2
+  rotate: true
+  xy: 190, 265
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter3
+  rotate: true
+  xy: 174, 233
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter4
+  rotate: false
+  xy: 273, 266
+  size: 38, 35
+  orig: 38, 35
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter5
+  rotate: false
+  xy: 134, 230
+  size: 38, 37
+  orig: 38, 37
+  offset: 0, 0
+  index: -1
+images/HeartSoulShatter6
+  rotate: false
+  xy: 387, 243
+  size: 24, 35
+  orig: 24, 35
+  offset: 0, 0
+  index: -1
+images/HeartSpiritOutline
+  rotate: false
+  xy: 2, 406
+  size: 105, 101
+  orig: 105, 101
+  offset: 0, 0
+  index: -1
+images/whiteball
+  rotate: false
+  xy: 214, 409
+  size: 98, 98
+  orig: 98, 98
+  offset: 0, 0
+  index: -1

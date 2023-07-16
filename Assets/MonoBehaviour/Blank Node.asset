@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a46c46686a0c2490dbceff2ebe1d913, type: 3}
+  m_Name: Blank Node
+  m_EditorClassIdentifier:
+  sprite: {fileID: 0}
+  spriteNoDecoration: {fileID: 0}
+  flair: {fileID: 0}
+  nodeType: 1000
+  RoomPrefabs: []
+  Probability: 0
+  CanHaveModifier: 0
+  CanBeHidden: 0
+  OnlyOne: 0
+  RequireCondition: 0
+  ConditionalVariables: []
+  HasEnsuredConditions: 0
+  EnsuredConditionalVariables: []
+  ForceDisplayModifier: 0
+  ForceDisplayModifierIcon: {fileID: 0}
+  UseCustomLayerIcons: 0
+  LayerSprites: []
+  ForcedDungeon: -1
+  Testing: 0

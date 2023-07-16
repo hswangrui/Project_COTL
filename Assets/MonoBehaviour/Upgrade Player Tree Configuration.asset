@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6408d85e05195e2ec6a12538bf5a4fa3, type: 3}
+  m_Name: Upgrade Player Tree Configuration
+  m_EditorClassIdentifier:
+  _tierConfigurations:
+  - _tier: 0
+    _requiresCentralTier: 1
+    _centralNode: 157
+    _numRequiredToUnlock: 0
+  - _tier: 1
+    _requiresCentralTier: 1
+    _centralNode: 223
+    _numRequiredToUnlock: 2
+  - _tier: 2
+    _requiresCentralTier: 1
+    _centralNode: 158
+    _numRequiredToUnlock: 3
+  - _tier: 3
+    _requiresCentralTier: 1
+    _centralNode: 224
+    _numRequiredToUnlock: 3
+  - _tier: 4
+    _requiresCentralTier: 1
+    _centralNode: 225
+    _numRequiredToUnlock: 4
+  - _tier: 5
+    _requiresCentralTier: 1
+    _centralNode: 226
+    _numRequiredToUnlock: 4
+  _tierBridgeLength: 50
+  _branchOffset: 0
+  _lockedTexture: {fileID: 2800000, guid: 86484ea28f00de642b7856862a64a17a, type: 3}
+  _unavailableTexture: {fileID: 2800000, guid: 9477a9916de89b345bb91a81d7c8503e, type: 3}
+  _availableTexture: {fileID: 2800000, guid: 9477a9916de89b345bb91a81d7c8503e, type: 3}
+  _unlockedTexture: {fileID: 2800000, guid: 24934f3c4f64c0b4abf202afadab367e, type: 3}
+  _lockedConnectionColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  _unavailableConnectionColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  _availableConnectionColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+  _unlockedConnectionColor: {r: 0.81960785, g: 0.09019608, b: 0, a: 1}
+  _allUpgrades: 9d000000d6000000d7000000d8000000d9000000da000000db000000cf000000d0000000dd000000e7000000dc000000e6000000de000000df0000009e000000e0000000e1000000e2000000e3000000f0000000f1000000f2000000f3000000f4000000f5000000ea000000e9000000eb000000fb000000e4000000

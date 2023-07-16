@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TeleporterTransition
+  m_Shader: {fileID: 4800000, guid: 474e965e87fe711418af5bb98aff71b7, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA RECT_MASK UNSCALED_TIME _DATA_NONE _OPNOISEA_SUBTRACT _OPNOISEB_SUBTRACT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceTex:
+        m_Texture: {fileID: 2800000, guid: e56e035246f83a048af8a48880852da3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 7980d005903cb154082e0a54663841e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: 5864c238004e3fb49a0bc79c35f3c454, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseB:
+        m_Texture: {fileID: 2800000, guid: 79faa400b6ea55447a4ec19fbcd9672d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _BlendOp: 0
+    - _BlotchMultiply: 4.003983
+    - _BlotchSubtract: 3.19
+    - _BumpScale: 1
+    - _CloudDensity: 1
+    - _ColorMask: 15
+    - _CutOff: 0.5
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Disp_UScale: 1
+    - _DisplaceAmount: 0.151
+    - _DstBlend: 10
+    - _Falloff: 0
+    - _FalloffSmooth: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _MaskMainTex: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MovementSpeed: 1
+    - _NoiseAInf: 0.166
+    - _NoiseA_UScale: 1
+    - _NoiseBInf: 0.141
+    - _NoiseB_UScale: 2
+    - _NoiseSmoothness: 0.56
+    - _NoiseThreshold: 0
+    - _OPNOISEA: 2
+    - _OPNOISEB: 2
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PlayerDistanceClamp: 7.54
+    - _PlayerDistanceFade: 1
+    - _PosX: 0
+    - _PosY: 0
+    - _PowerExp: 1
+    - _RectARotate: 0
+    - _RectBRotate: 0
+    - _RectMask: 0
+    - _RectMaskCutoff: 1
+    - _RectSmoothness: 1
+    - _Rotation: 0
+    - _ScreenAspect: 1
+    - _ScreenUV: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TimeScale: 0.24
+    - _UVSec: 0
+    - _UseUIAlphaClip: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MovementDirection: {r: 0, g: 1, b: 0, a: 0}
+    - _NoiseScaleOffset: {r: 1, g: 0, b: 0, a: 0}
+    - _RectAParams: {r: -0.14, g: -0.23, b: 0.05, a: 0.02}
+    - _RectBParams: {r: 2.32, g: -0.08, b: 0.11, a: 1.02}
+    - _TilingUV: {r: 1, g: 1, b: 0, a: 0}
+    - _TintCOlor: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,231 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+using Rewired;
+namespace MMTools
+{
+    public class MMConversation : MonoBehaviour
+    {
+        bool IN_CONVERSATION = false;
+        Player player;
+
+        public GameObject OptionWheel;
+        public Image SpeechBubble;
+        RectTransform SpeechBubbleRT;
+        //public Text SpeechText;
+        public TextMeshProUGUI SpeechText;
+        Conversation_Speaker Speaker;
+
+        public List<Response> Responses;
+        public List<TextMeshProUGUI> ResponseText;
+        static GameObject Instance;
+        static MMConversation mmConversation;
+
+        public static void Play(string text, Conversation_Speaker.ID ID, List<Response> Responses)
+        {
+            //Create instance
+            if (Instance == null)
+            {
+                Instance = Instantiate(Resources.Load("MMConversation/Conversation")) as GameObject;
+                mmConversation = Instance.GetComponentInChildren<MMConversation>();
+            }
+            else
+            {
+                Instance.SetActive(true);
+            }
+
+            mmConversation.player = Unify.Input.RewiredInputManager.MainPlayer;
+            mmConversation.ShowAll();
+            mmConversation.SpeechText.text = text;
+            mmConversation.InitText();
+
+            mmConversation.Speaker = Conversation_Speaker.GetSpeakerByID(ID);
+            if (mmConversation.Speaker == null)
+            {
+                Debug.Log("NO SPEARKER!~");
+            //    return;
+            }
+
+            /*Game Specific Code
+            GameManager.GetInstance().CameraSetConversationMode(true);
+            GameManager.GetInstance().RemoveAllFromCamera();
+            GameManager.GetInstance().AddToCamera(Speaker.gameObject);
+            GameObject p = GameObject.FindWithTag("Player");
+            StateMachine state = p.GetComponent<StateMachine>();
+            state.CURRENT_STATE = StateMachine.State.InActive;
+            state = Speaker.GetComponent<StateMachine>();
+            if (state != null) state.CURRENT_STATE = StateMachine.State.InActive;
+            */
+
+            mmConversation.InitResponses(Responses);
+            
+            mmConversation.IN_CONVERSATION = true;
+        }
+
+       
+        private void Update()
+        {
+            if (!IN_CONVERSATION) return;
+
+            if (Speaker != null)
+            {
+                Vector3 pos = Speaker.transform.position + Speaker.Offset;
+                pos = Camera.main.WorldToScreenPoint(pos);
+                SpeechBubbleRT.position = pos;
+            }
+
+            //Transition in text
+            //Skip transitioning effect with enter
+
+            //Enter to give response or to close dialogue
+            if (Responses != null)  
+                MoveOptionWheel();
+
+        }
+        void EndConversation()
+        {
+            IN_CONVERSATION = false;
+
+            /*Game Specific Code
+           GameObject p = GameObject.FindWithTag("Player");
+           StateMachine state = p.GetComponent<StateMachine>();
+           state.CURRENT_STATE = StateMachine.State.Idle;
+           GameManager.GetInstance().CameraSetConversationMode(false);
+           GameManager.GetInstance().RemoveAllFromCamera();
+           GameManager.GetInstance().AddToCamera(p);
+           state = Speaker.GetComponent<StateMachine>();
+           if (state != null) state.CURRENT_STATE = StateMachine.State.Idle;
+           */
+
+            HideAll();
+
+            if (Responses[CURRENT_ANSWER] != null)
+                if (Responses[CURRENT_ANSWER].Callback != null)
+                    Responses[CURRENT_ANSWER].Callback();
+
+
+        }
+
+        void InitText()
+        {
+            float width = SpeechText.preferredWidth + 40;
+            if (width > SpeechText.rectTransform.sizeDelta.x) width = SpeechText.rectTransform.sizeDelta.x + 40;
+            float height = SpeechText.preferredHeight + 40;
+            SpeechBubble.rectTransform.sizeDelta = new Vector2(width, height);
+            SpeechBubbleRT = SpeechBubble.GetComponent<RectTransform>();
+        }
+
+        void InitResponses(List<Response> Responses)
+        {
+            this.Responses = Responses;
+            if (Responses == null)
+            {
+                HideOptionWheel();
+            }
+            else
+            {
+                for (int i = 0; i < Responses.Count; i++)
+                {
+                    ResponseText[i].text = Responses[i].text;
+                }
+            }
+            
+        }
+
+        void ShowAll()
+        {
+            CURRENT_ANSWER = 0;
+            Angle = PointerAngle = AngleApprox = 0;
+            Arrow.transform.eulerAngles = Vector3.zero;
+            Pointer.transform.eulerAngles = Vector3.zero;
+            SpeechBubble.gameObject.SetActive(true);
+            OptionWheel.SetActive(true);
+            for (int i = 0; i < ResponseText.Count; i++)
+                ResponseText[i].text = "";
+        }
+
+        void HideOptionWheel()
+        {
+            OptionWheel.SetActive(false);
+        }
+
+        void HideAll()
+        {
+            IN_CONVERSATION = false;
+            Instance.SetActive(false);
+        }
+
+        float Angle;
+        float PointerAngle;
+        float AngleApprox;
+        float ArrowAngle;
+        public GameObject Arrow;
+        public GameObject Pointer;
+        public GameObject PointerDistance;
+        GameObject CurrentGameObject;
+        public static int CURRENT_ANSWER;
+        void MoveOptionWheel()
+        {
+            if (Mathf.Abs(player.GetAxis("Horizontal")) > 0.2f || Mathf.Abs(player.GetAxis("Vertical")) > 0.2f)
+            {
+                Angle = GetAngle(new Vector3(player.GetAxis("Horizontal"), player.GetAxis("Vertical")), Vector3.zero) + 90;
+                CheckDistance();
+            }
+
+            PointerAngle += (Mathf.Atan2(Mathf.Sin((Angle - PointerAngle) * Mathf.Deg2Rad), Mathf.Cos((Angle - PointerAngle) * Mathf.Deg2Rad)) * Mathf.Rad2Deg) / 3;
+            Pointer.transform.eulerAngles = new Vector3(0, 0, PointerAngle);
+
+            if (CurrentGameObject != null)
+            {
+                AngleApprox = GetAngle(CurrentGameObject.transform.localPosition, Arrow.transform.localPosition) + 90;
+                ArrowAngle += (Mathf.Atan2(Mathf.Sin((AngleApprox - ArrowAngle) * Mathf.Deg2Rad), Mathf.Cos((AngleApprox - ArrowAngle) * Mathf.Deg2Rad)) * Mathf.Rad2Deg) / 3;
+                Arrow.transform.eulerAngles = new Vector3(0, 0, ArrowAngle);
+
+                CurrentGameObject.transform.localScale = new Vector3(1.1f, 1.1f);
+            }
+
+            if (player.GetButtonUp("Menu Accept"))
+            {
+                EndConversation();
+            }
+        }
+
+        void CheckDistance()
+        {
+            float Dist = float.MaxValue;
+            for (int i = 0; i < ResponseText.Count; i++)
+            {
+                TextMeshProUGUI n = ResponseText[i];
+                n.transform.localScale = new Vector3(1, 1);
+
+                float CheckDist = Vector2.Distance(PointerDistance.transform.position, n.transform.position);
+
+                if (CheckDist < Dist && n.text != "")
+                {
+                    CURRENT_ANSWER = i;
+                    CurrentGameObject = n.gameObject;
+                    Dist = CheckDist;
+                }
+            }
+        }
+
+        public float GetAngle(Vector3 fromPosition, Vector3 toPosition)
+        {
+            return Mathf.Atan2(toPosition.y - fromPosition.y, toPosition.x - fromPosition.x) * Mathf.Rad2Deg;
+        }
+    }
+
+    public class Response
+    {
+        public System.Action Callback;
+        public string text;
+        public Response(string text, System.Action Callback)
+        {
+            this.text = text;
+            this.Callback = Callback;
+        }
+    }
+
+}

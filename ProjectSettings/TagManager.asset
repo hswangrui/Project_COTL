@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Unit Layer
+  - Structures Layer
+  - Canvas
+  - onlyTrigger
+  - 2ddl
+  - deadTrigger
+  - vehicle
+  - ghost
+  - North Door
+  - East Door
+  - South Door
+  - West Door
+  - Collection Bucket
+  - Music
+  - Player Camera Bone
+  - MainDirLight
+  - Lighting_NoRender
+  - Boss
+  - RecruitGlyph
+  - BreakableDecoration
+  - Projectile
+  - BuildingEffectRadius
+  - IgnoreBuildRendering
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Obstacles
+  - Units
+  - Scenery
+  - Weapon
+  - Pick Ups
+  - Only Collide With Obstacles
+  - Player
+  - Lighting
+  - ObstaclesAndPlayer
+  - Ground
+  - Shadow
+  - 
+  - Lighting_NoRender
+  - Only Collider With Player
+  - Resource
+  - Island
+  - VFX
+  - ColorVolumes
+  - Dead Bodies
+  - ColorVolumes_Shadow
+  - Selected
+  - Obstacles Player Ignore
+  - Post-Processing
+  - Only Collider With Enemies
+  m_SortingLayers:
+  - name: DepthFX
+    uniqueID: 555495831
+    locked: 0
+  - name: Bottom Ground
+    uniqueID: 3295445383
+    locked: 0
+  - name: Island
+    uniqueID: 1919912035
+    locked: 0
+  - name: Ground
+    uniqueID: 1618015073
+    locked: 0
+  - name: Ground - Secondary Layer
+    uniqueID: 1977202609
+    locked: 0
+  - name: Terrain
+    uniqueID: 2772836009
+    locked: 0
+  - name: Ground Decorations
+    uniqueID: 2932283109
+    locked: 0
+  - name: Paths
+    uniqueID: 2873503467
+    locked: 0
+  - name: Tiles
+    uniqueID: 2867799557
+    locked: 0
+  - name: Shadow
+    uniqueID: 381424215
+    locked: 0
+  - name: Ground UI
+    uniqueID: 2169282705
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Lighting
+    uniqueID: 617868507
+    locked: 0
+  - name: VFX
+    uniqueID: 97190181
+    locked: 0
+  - name: Foreground
+    uniqueID: 799746907
+    locked: 0
+  - name: Game UI - BG
+    uniqueID: 1364634779
+    locked: 0
+  - name: Game UI
+    uniqueID: 252306997
+    locked: 0
+  - name: Lvl0 Ground
+    uniqueID: 4221603575
+    locked: 0
+  - name: Lvl0 Terrain
+    uniqueID: 2968445841
+    locked: 0
+  - name: Lvl0 Ground Decorations
+    uniqueID: 337059545
+    locked: 0
+  - name: Lvl0 Tiles
+    uniqueID: 4123156385
+    locked: 0
+  - name: Lvl0 Shadow
+    uniqueID: 2936381783
+    locked: 0
+  - name: Lvl0 Ground UI
+    uniqueID: 61858067
+    locked: 0
+  - name: Lvl0 Default
+    uniqueID: 1507316563
+    locked: 0
+  - name: Lvl0 Bullets
+    uniqueID: 3897725205
+    locked: 0
+  - name: Lvl0 Game UI - BG
+    uniqueID: 3745142633
+    locked: 0
+  - name: Lvl0 Game UI
+    uniqueID: 1246947349
+    locked: 0
+  - name: Lvl1 Bottom Ground
+    uniqueID: 3571251717
+    locked: 0
+  - name: Lvl1 Island
+    uniqueID: 4095781083
+    locked: 0
+  - name: Lvl1 Ground
+    uniqueID: 3346595379
+    locked: 0
+  - name: Lvl1 Terrain
+    uniqueID: 2231225505
+    locked: 0
+  - name: Lvl1 Ground Decorations
+    uniqueID: 450644389
+    locked: 0
+  - name: Lvl1 Tiles
+    uniqueID: 4008993711
+    locked: 0
+  - name: Lvl1 Shadow
+    uniqueID: 3339973135
+    locked: 0
+  - name: Lvl1 Ground UI
+    uniqueID: 2171437837
+    locked: 0
+  - name: Lvl1 Default
+    uniqueID: 2192280533
+    locked: 0
+  - name: Lvl1 Bullets
+    uniqueID: 316973009
+    locked: 0
+  - name: Lvl1 Game UI - BG
+    uniqueID: 3150863733
+    locked: 0
+  - name: Lvl1 Game UI
+    uniqueID: 3494970895
+    locked: 0

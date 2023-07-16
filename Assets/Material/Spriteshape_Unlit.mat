@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Spriteshape_Unlit
+  m_Shader: {fileID: 4800000, guid: 46957b5241a55e24d96a87e95971c92c, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _GLOSSYREFLECTIONS_OFF _SHADOWOVERLAYON_ON _SPECULARHIGHLIGHTS_OFF
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Floats:
+    - PixelSnap: 0
+    - _AnisoOffset: -0.246
+    - _BumpScale: 1
+    - _ClipThreshold: 0
+    - _CloudOverlayIntensity: 0
+    - _ColorMask: 15
+    - _Culling: 0
+    - _Cutoff: 0.6
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _EmissionMapOn: 0
+    - _EnableExternalAlpha: 0
+    - _FillAlpha: 0
+    - _FlowSpeed: 1
+    - _Fresnel: 6.64
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 0
+    - _HighlightMultiplier: 1
+    - _IsWarm: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _NOEFFECTS: 0
+    - _OcclusionStrength: 1
+    - _Offset: 0
+    - _Parallax: 0.02
+    - _RampSmooth: 0.1
+    - _RampThreshold: 0.5
+    - _ReadMask: 255
+    - _RimMax: 1
+    - _RimMin: 0.5
+    - _RimPower: 10
+    - _SSDistortion: 0.2
+    - _SSPower: 3
+    - _SSScale: 1
+    - _ShadowInt: 1
+    - _ShadowIntensity: 0.673
+    - _ShadowMultiplier: 1
+    - _ShadowOverlayOn: 1
+    - _ShadowStrength: 1
+    - _Shininess: 1
+    - _Smoothness: 0.5
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilZFail: 0
+    - _SubsurfaceScatteringUse: 0
+    - _TexScale: 1
+    - _UVSec: 0
+    - _WaveAlt: 1
+    - _WrapFactor: 1
+    - _WriteMask: 255
+    - _ZTest: 4
+    - _ZWrite: 1
+    - __dirty: 0
+    - __dummy__: 0
+    - _normalAmount: 1
+    - _projectionFog: 0
+    m_Colors:
+    - _01FogDepthVerticals: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FillColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Flip: {r: 1, g: 1, b: 1, a: 1}
+    - _GlowColour: {r: 1, g: 0, b: 0, a: 0}
+    - _HColor: {r: 0.785, g: 0.785, b: 0.785, a: 1}
+    - _PlayerInFrontOfObjects_Color: {r: 1, g: 0, b: 0, a: 0.5333334}
+    - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.8, g: 0.8, b: 0.8, a: 0.6}
+    - _SColor: {r: 0.195, g: 0.195, b: 0.195, a: 1}
+    - _ShadowOffset: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecColor: {r: 0, g: 0, b: 0, a: 1}

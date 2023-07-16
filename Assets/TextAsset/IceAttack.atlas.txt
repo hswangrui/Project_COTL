@@ -1,0 +1,48 @@
+
+IceAttack.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/IcePillar1
+  rotate: true
+  xy: 10, 58
+  size: 270, 815
+  orig: 270, 815
+  offset: 0, 0
+  index: -1
+images/IcePillar2
+  rotate: true
+  xy: 835, 105
+  size: 223, 754
+  orig: 223, 754
+  offset: 0, 0
+  index: -1
+images/IcePillar3
+  rotate: false
+  xy: 1599, 127
+  size: 141, 201
+  orig: 141, 201
+  offset: 0, 0
+  index: -1
+images/IcePillar4
+  rotate: true
+  xy: 1599, 10
+  size: 107, 161
+  orig: 107, 161
+  offset: 0, 0
+  index: -1
+images/IcePillar5
+  rotate: true
+  xy: 1750, 248
+  size: 80, 112
+  orig: 80, 112
+  offset: 0, 0
+  index: -1
+images/IcePillar6
+  rotate: true
+  xy: 1750, 183
+  size: 55, 89
+  orig: 55, 89
+  offset: 0, 0
+  index: -1

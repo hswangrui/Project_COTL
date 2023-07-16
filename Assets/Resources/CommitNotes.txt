@@ -1,0 +1,23 @@
+
+<color=#FFFF00>PATCH NOTES</color> for build 1.2.5.38
+
+• Send all followers only once
+
+<color=#FFFF00>PATCH NOTES</color> for build 1.2.5.36
+
+• More twitch optimisations
+
+<color=#FFFF00>PATCH NOTES</color> for build 1.2.5.35
+
+• Twitch optimisations
+
+<color=#FFFF00>PATCH NOTES</color> for build 1.2.5.34
+
+• Small fix
+
+<color=#FFFF00>PATCH NOTES</color> for build 1.2.5.33
+
+• Bump version number.
+• Revert 'Temp disabled new twitch features'
+• Replace the timeout command with ping.  timeout cannot be used in a background session, or it throws "ERROR: Input redirection is not supported, exiting the process immediately.".  This was causing the XB1 and XSX install/boot tests to fail
+•  IARC Generic 12+

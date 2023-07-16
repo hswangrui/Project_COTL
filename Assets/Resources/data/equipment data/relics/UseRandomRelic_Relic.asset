@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26165418fe52dc205582a537a3d729b, type: 3}
+  m_Name: UseRandomRelic_Relic
+  m_EditorClassIdentifier:
+  RelicType: 43
+  InteractionType: 1
+  RelicSubType: 0
+  DamageRequiredToCharge: 50
+  UISprite: {fileID: 21300000, guid: d7ef93608146c8a48b993dd8ec22e29f, type: 2}
+  UISpriteOutline: {fileID: 21300000, guid: a95d451b267bd9f42b8459eb8a7f3b27, type: 2}
+  WorldSprite: {fileID: 21300000, guid: d7ef93608146c8a48b993dd8ec22e29f, type: 2}
+  Weight: 1
+  RequiresCult: 0
+  ShowAnimationAbovePlayer: 1
+  UpgradeType: 250
+  VFXData: {fileID: 0}
+  Material: {fileID: 0}

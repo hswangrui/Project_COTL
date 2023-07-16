@@ -1,0 +1,55 @@
+
+EnemySpawnFloor.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Floor/Drop-00
+  rotate: false
+  xy: 393, 2
+  size: 35, 60
+  orig: 35, 60
+  offset: 0, 0
+  index: -1
+images/Floor/Drop-01
+  rotate: true
+  xy: 603, 54
+  size: 55, 101
+  orig: 55, 101
+  offset: 0, 0
+  index: -1
+images/Floor/Drop-02
+  rotate: true
+  xy: 430, 18
+  size: 44, 39
+  orig: 44, 39
+  offset: 0, 0
+  index: -1
+images/Floor/Drop-03
+  rotate: true
+  xy: 322, 19
+  size: 43, 69
+  orig: 43, 69
+  offset: 0, 0
+  index: -1
+images/Floor/Splat-00
+  rotate: true
+  xy: 322, 64
+  size: 277, 279
+  orig: 277, 279
+  offset: 0, 0
+  index: -1
+images/Floor/Splat-01
+  rotate: false
+  xy: 2, 24
+  size: 318, 317
+  orig: 318, 317
+  offset: 0, 0
+  index: -1
+images/Floor/Triangle
+  rotate: true
+  xy: 603, 111
+  size: 230, 175
+  orig: 230, 175
+  offset: 0, 0
+  index: -1

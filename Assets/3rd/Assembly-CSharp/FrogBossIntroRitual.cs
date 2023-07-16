@@ -1,0 +1,375 @@
+using System.Collections;
+using System.Collections.Generic;
+using DG.Tweening;
+using Lamb.UI;
+using MMTools;
+using Spine;
+using Spine.Unity;
+using UnityEngine;
+
+public class FrogBossIntroRitual : BaseMonoBehaviour
+{
+	[SerializeField]
+	private GameObject cultLeader;
+
+	[SerializeField]
+	private GameObject cameraTarget;
+
+	[SerializeField]
+	private SkeletonAnimation cultLeaderSpine;
+
+	[SerializeField]
+	private Renderer[] blood;
+
+	[SerializeField]
+	private GameObject bloodParticle;
+
+	[SerializeField]
+	private Renderer symbols;
+
+	[SerializeField]
+	private AnimationCurve absorbSoulCurve;
+
+	[SerializeField]
+	private Texture2D lutTexture;
+
+	[SerializeField]
+	private Transform distortionObject;
+
+	[Space]
+	[SerializeField]
+	private DeadBodySliding enemyBody;
+
+	[SerializeField]
+	private GameObject deathParticlePrefab;
+
+	[SerializeField]
+	private GameObject[] bloodSprays;
+
+	[SerializeField]
+	private SkeletonAnimation[] enemySpines;
+
+	[SerializeField]
+	private SkeletonAnimation[] surroundingSpines;
+
+	[Space]
+	[SerializeField]
+	private MiniBossController frogBoss;
+
+	[SerializeField]
+	private GameObject[] environmentTraps;
+
+	private LongGrass[] surroundingGrass;
+
+	public GameObject BloodPortalEffect;
+
+	private Texture originalLut;
+
+	private Texture originalHighlightLut;
+
+	private AmplifyColorEffect amplifyColorEffect;
+
+	private int camZoom = 10;
+
+	private bool triggered;
+
+	public Color bloodColor = new Color(0.47f, 0.11f, 0.11f, 1f);
+
+	private bool skippable;
+
+	private bool skipped;
+
+	private List<Tween> tweens = new List<Tween>();
+
+	public GameObject offsetObject;
+
+	private string term1
+	{
+		get
+		{
+			if (GameManager.Layer2)
+			{
+				return "Conversation_NPC/Story/Dungeon2/Leader1/Boss1_Layer2";
+			}
+			return "Conversation_NPC/Story/Dungeon1/Leader2/Boss1";
+		}
+	}
+
+	private void Awake()
+	{
+		Renderer[] array = blood;
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i].material.SetFloat("_BlotchMultiply", 0f);
+		}
+		symbols.material.SetFloat("_BlotchMultiply", 0f);
+		GameObject[] array2 = bloodSprays;
+		for (int i = 0; i < array2.Length; i++)
+		{
+			array2[i].SetActive(false);
+		}
+		cultLeaderSpine.AnimationState.Event += LeaderEvent;
+		surroundingGrass = base.transform.parent.GetComponentsInChildren<LongGrass>();
+		amplifyColorEffect = Camera.main.GetComponent<AmplifyColorEffect>();
+		string skin = (GameManager.Layer2 ? "Beaten" : "Normal");
+		frogBoss.BossIntro.GetComponentInChildren<SkeletonAnimation>().Skeleton.SetSkin(skin);
+		cultLeaderSpine.Skeleton.SetSkin(skin);
+		array2 = environmentTraps;
+		for (int i = 0; i < array2.Length; i++)
+		{
+			array2[i].SetActive(GameManager.Layer2);
+		}
+		if (DungeonSandboxManager.Active)
+		{
+			cultLeader.gameObject.SetActive(false);
+			frogBoss.gameObject.SetActive(true);
+			frogBoss.BossIntro.GetComponentInChildren<SkeletonAnimation>().AnimationState.AddAnimation(0, "idle", true, 0f);
+			SkeletonAnimation[] array3 = enemySpines;
+			for (int i = 0; i < array3.Length; i++)
+			{
+				array3[i].gameObject.SetActive(false);
+			}
+			array3 = surroundingSpines;
+			for (int i = 0; i < array3.Length; i++)
+			{
+				array3[i].gameObject.SetActive(false);
+			}
+			frogBoss.EnemiesToTrack[0].enabled = false;
+		}
+	}
+
+	private void Update()
+	{
+		if (!(PlayerFarming.Instance != null) || skipped || !skippable || MonoSingleton<UIManager>.Instance.MenusBlocked || (!InputManager.Gameplay.GetAttackButtonDown() && !DungeonSandboxManager.Active))
+		{
+			return;
+		}
+		StopAllCoroutines();
+		base.gameObject.SetActive(false);
+		CameraManager.instance.Stopshake();
+		foreach (Tween tween in tweens)
+		{
+			tween.Kill();
+		}
+		frogBoss.gameObject.SetActive(true);
+		frogBoss.Play();
+		LetterBox.Instance.HideSkipPrompt();
+		MMConversation mmConversation = MMConversation.mmConversation;
+		if ((object)mmConversation != null)
+		{
+			mmConversation.Close();
+		}
+		AmplifyColorEffect component = Camera.main.GetComponent<AmplifyColorEffect>();
+		component.LutHighlightTexture = originalHighlightLut;
+		component.LutTexture = originalLut;
+		GameManager.GetInstance().CameraSetOffset(Vector3.zero);
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/roar", frogBoss.gameObject);
+		skipped = true;
+		frogBoss.EnemiesToTrack[0].enabled = true;
+	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (!triggered && !skipped && collision.tag == "Player")
+		{
+			StartCoroutine(RitualRoutine());
+		}
+	}
+
+	private IEnumerator RitualRoutine()
+	{
+		PlayerFarming.Instance.state.CURRENT_STATE = StateMachine.State.InActive;
+		SimulationManager.Pause();
+		HUD_Manager.Instance.HideTopRight();
+		originalHighlightLut = amplifyColorEffect.LutHighlightTexture;
+		originalLut = amplifyColorEffect.LutTexture;
+		amplifyColorEffect.LutHighlightBlendTexture = lutTexture;
+		triggered = true;
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/transition_intro_zoom");
+		if (DungeonSandboxManager.Active)
+		{
+			skippable = true;
+			yield break;
+		}
+		List<ConversationEntry> list = new List<ConversationEntry>
+		{
+			new ConversationEntry(offsetObject, term1),
+			new ConversationEntry(offsetObject, "Conversation_NPC/Story/Dungeon1/Leader2/Boss2")
+		};
+		list[0].CharacterName = "NAMES/CultLeaders/Dungeon2";
+		list[0].Offset = new Vector3(0f, 3f, 0f);
+		list[0].Animation = "talk";
+		list[0].SkeletonData = cultLeaderSpine;
+		list[1].CharacterName = "NAMES/CultLeaders/Dungeon2";
+		list[1].Offset = new Vector3(0f, 3f, 0f);
+		list[1].Animation = "talk";
+		list[1].SkeletonData = cultLeaderSpine;
+		foreach (ConversationEntry item in list)
+		{
+			item.soundPath = "event:/dialogue/dun2_cult_leader_heket/standard_heket";
+		}
+		if (GameManager.Layer2)
+		{
+			list.RemoveAt(1);
+		}
+		MMConversation.Play(new ConversationObject(list, null, null), false, true, false, true, true, false, false);
+		MMConversation.mmConversation.SpeechBubble.ScreenOffset = 350f;
+		yield return new WaitForSeconds(1f);
+		skippable = DataManager.Instance.BossesEncountered.Contains(PlayerFarming.Location);
+		if (skippable && !skipped)
+		{
+			LetterBox.Instance.ShowSkipPrompt();
+		}
+		while (MMConversation.CURRENT_CONVERSATION != null)
+		{
+			yield return null;
+		}
+		Object.Destroy(offsetObject);
+		yield return new WaitForEndOfFrame();
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/transition_zoom_back");
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/after_intro_grunt");
+		GameManager.GetInstance().OnConversationNew();
+		GameManager.GetInstance().OnConversationNext(cameraTarget, 12f);
+		yield return new WaitForSeconds(1f);
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/cultist_sequence");
+		SkeletonAnimation[] array = enemySpines;
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i].GetComponentInChildren<WorshipperBubble>(true).Play(WorshipperBubble.SPEECH_TYPE.BOSSCROWN2, 4.5f, Random.Range(0f, 0.3f));
+		}
+		array = enemySpines;
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i].AnimationState.SetAnimation(0, "dance", true).TrackTime = Random.Range(0f, 0.3f);
+		}
+		yield return new WaitForSeconds(3f);
+		array = enemySpines;
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i].AnimationState.SetAnimation(0, "ritual/sacrifice", false).TrackTime = Random.Range(0f, 0.3f);
+		}
+		yield return new WaitForSeconds(1f);
+		cultLeaderSpine.AnimationState.SetAnimation(0, "transform", false);
+		AudioManager.Instance.PlayOneShot("event:/boss/frog/transform_sequence");
+		yield return new WaitForSeconds(0.3f);
+		array = surroundingSpines;
+		for (int i = 0; i < array.Length; i++)
+		{
+			array[i].AnimationState.SetAnimation(0, "worship", true).TrackTime = Random.Range(0f, 0.4f);
+		}
+		GameObject[] array2 = bloodSprays;
+		foreach (GameObject gameObject in array2)
+		{
+			gameObject.SetActive(true);
+			AudioManager.Instance.PlayOneShot("event:/enemy/impact_squishy", gameObject.gameObject);
+			float z = Vector3.Angle(gameObject.transform.position, cultLeader.transform.position);
+			BiomeConstants.Instance.EmitBloodSplatter(gameObject.transform.position, new Vector3(0f, 0f, z), Color.black);
+		}
+		Renderer[] array3 = blood;
+		for (int i = 0; i < array3.Length; i++)
+		{
+			array3[i].material.DOFloat(4f, "_BlotchMultiply", 4f).SetEase(Ease.InSine);
+		}
+		GameManager.GetInstance().OnConversationNext(cameraTarget, 10f);
+		tweens.Add(DOTween.To(() => GameManager.GetInstance().CamFollowTarget.targetDistance, delegate(float x)
+		{
+			GameManager.GetInstance().CamFollowTarget.targetDistance = x;
+		}, 6f, 6f).SetEase(Ease.InSine));
+		Camera.main.GetComponent<AmplifyColorEffect>().BlendTo(lutTexture, 6f, null);
+		for (int j = 0; j < enemySpines.Length; j++)
+		{
+			StartCoroutine(SpawnSouls(enemySpines[j].transform.position));
+		}
+		yield return new WaitForSeconds(1f);
+		bloodParticle.SetActive(true);
+		yield return new WaitForSeconds(2f);
+		symbols.material.DOFloat(5f, "_BlotchMultiply", 5f);
+		BloodPortalEffect.transform.DOScale(new Vector3(5.3f, 2f, 5.3f), 2f);
+		CameraManager.instance.ShakeCameraForDuration(1f, 1.5f, 10f);
+		BiomeConstants.Instance.ImpactFrameForDuration();
+		MMVibrate.Haptic(MMVibrate.HapticTypes.HeavyImpact);
+		yield return new WaitForSeconds(4f);
+		BloodPortalEffect.transform.DOScale(Vector3.zero, 2f);
+	}
+
+	private IEnumerator SpawnSouls(Vector3 position)
+	{
+		float delay = 0.3f;
+		int ParticleCount = 50;
+		for (int i = 0; i < ParticleCount; i++)
+		{
+			float time = (float)i / (float)ParticleCount;
+			delay *= 1f - absorbSoulCurve.Evaluate(time);
+			SoulCustomTarget.Create(cameraTarget, new Vector3(position.x, position.y, position.z + 1f), Color.red, null, 0.2f, 100f * (1f + absorbSoulCurve.Evaluate(time))).transform.parent = base.transform;
+			yield return new WaitForSeconds(delay);
+		}
+	}
+
+	private IEnumerator BossTransformed()
+	{
+		skippable = false;
+		cultLeader.SetActive(false);
+		frogBoss.gameObject.SetActive(true);
+		frogBoss.Play();
+		distortionObject.DOScale(50f, 5f).SetEase(Ease.Linear).OnComplete(delegate
+		{
+			Object.Destroy(distortionObject.gameObject);
+		});
+		AmplifyColorEffect component = Camera.main.GetComponent<AmplifyColorEffect>();
+		component.LutHighlightTexture = originalHighlightLut;
+		component.LutTexture = originalLut;
+		CameraManager.instance.StopAllCoroutines();
+		yield return new WaitForEndOfFrame();
+		CameraManager.instance.ShakeCameraForDuration(1.5f, 2f, 0.3f);
+		yield return new WaitForSeconds(0.1f);
+		SkeletonAnimation[] array = enemySpines;
+		foreach (SkeletonAnimation skeletonAnimation in array)
+		{
+			string[] array2 = new string[3] { "BloodImpact_0", "BloodImpact_1", "BloodImpact_2" };
+			int num = Random.Range(0, array2.Length - 1);
+			if (array2[num] != null)
+			{
+				BiomeConstants.Instance.EmitBloodImpact(skeletonAnimation.transform.position + Vector3.back * 0.5f, Random.Range(0, 360), "black", array2[num]);
+			}
+			BiomeConstants.Instance.EmitBloodSplatterGroundParticles(skeletonAnimation.transform.position, Vector3.zero, bloodColor);
+			skeletonAnimation.gameObject.SetActive(false);
+			SpawnDeadBody(skeletonAnimation.transform.position, skeletonAnimation.transform.localScale);
+		}
+		yield return new WaitForSeconds(0.15f);
+		array = surroundingSpines;
+		foreach (SkeletonAnimation skeletonAnimation2 in array)
+		{
+			string[] array3 = new string[3] { "BloodImpact_0", "BloodImpact_1", "BloodImpact_2" };
+			int num2 = Random.Range(0, array3.Length - 1);
+			if (array3[num2] != null)
+			{
+				BiomeConstants.Instance.EmitBloodImpact(skeletonAnimation2.transform.position + Vector3.back * 0.5f, Random.Range(0, 360), "black", array3[num2]);
+			}
+			BiomeConstants.Instance.EmitBloodSplatterGroundParticles(skeletonAnimation2.transform.position, Vector3.zero, bloodColor);
+			skeletonAnimation2.gameObject.SetActive(false);
+			SpawnDeadBody(skeletonAnimation2.transform.position, skeletonAnimation2.transform.localScale);
+		}
+		yield return new WaitForSeconds(0.15f);
+		LongGrass[] array4 = surroundingGrass;
+		foreach (LongGrass obj in array4)
+		{
+			obj.StartCoroutine(obj.ShakeGrassRoutine(base.gameObject, 2f));
+		}
+	}
+
+	private void LeaderEvent(TrackEntry trackEntry, Spine.Event e)
+	{
+		if (e.Data.Name == "transform")
+		{
+			StartCoroutine(BossTransformed());
+		}
+	}
+
+	private void SpawnDeadBody(Vector3 pos, Vector3 scale)
+	{
+		Object.Instantiate(deathParticlePrefab, pos, Quaternion.identity, base.transform.parent);
+		DeadBodySliding deadBodySliding = Object.Instantiate(enemyBody, pos, Quaternion.identity, base.transform.parent);
+		deadBodySliding.Init(base.gameObject, Random.Range(0f, 360f), Random.Range(500, 1000));
+		deadBodySliding.transform.localScale = scale;
+	}
+}

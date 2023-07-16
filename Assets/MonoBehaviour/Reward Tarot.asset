@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a46c46686a0c2490dbceff2ebe1d913, type: 3}
+  m_Name: Reward Tarot
+  m_EditorClassIdentifier:
+  sprite: {fileID: 21300000, guid: 43a726ef21546be4c981906dd1e0303f, type: 2}
+  spriteNoDecoration: {fileID: 21300000, guid: 77b6f1790d826ea469a7e3d854ed2526, type: 2}
+  flair: {fileID: 0}
+  nodeType: 12
+  RoomPrefabs:
+  - Assets/_Rooms/Reward Room Tarot.prefab
+  Probability: 0.25
+  CanHaveModifier: 0
+  CanBeHidden: 0
+  OnlyOne: 0
+  RequireCondition: 1
+  ConditionalVariables:
+  - Variable: 90
+    Condition: 1
+  HasEnsuredConditions: 0
+  EnsuredConditionalVariables: []
+  ForceDisplayModifier: 0
+  ForceDisplayModifierIcon: {fileID: 0}
+  UseCustomLayerIcons: 1
+  LayerSprites:
+  - DungeonLocation: 0
+    Sprite: {fileID: 21300000, guid: fb3d9e6b3cf1db1458466738d045e55f, type: 2}
+    SpriteNoDecoration: {fileID: 21300000, guid: 35568a02377d12f4b873661363540e15, type: 2}
+    flair: {fileID: 0}
+  ForcedDungeon: -1
+  Testing: 0

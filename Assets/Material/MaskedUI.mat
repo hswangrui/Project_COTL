@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MaskedUI
+  m_Shader: {fileID: 4800000, guid: e45759c20e570194a963b655f0c3b7c9, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: 2ea95747d64524341a3722830b4285c3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Float0: 3.89
+    - _NoiseSpeed: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _TimeScale: 1
+    - _UseUIAlphaClip: 0
+    - _WaveAmplitudeA: 0.2
+    - _WaveAmplitudeB: 0.2
+    - _WaveWidth: 5.3
+    - _WaveWidthA: 8
+    - _WaveWidthB: 8
+    - _YDisplacement: 1
+    - _YDisplacementA: 0
+    - _YDisplacementB: 5
+    - _YDisplacemeny: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 0, b: 0, a: 1}
+    - _ColorWaveA: {r: 0.4485294, g: 0.313166, b: 0.1517085, a: 1}
+    - _ColorWaveB: {r: 1, g: 0.376056, b: 0.05882353, a: 1}
+    - _NoiseOffset: {r: 9.24, g: 0, b: 0, a: 0}
+    - _NoiseTiling: {r: -0.51, g: 0.95, b: 0, a: 0}

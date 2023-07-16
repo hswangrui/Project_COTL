@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48914a566a8e06ae0e4d1524d24195fc, type: 3}
+  m_Name: VFXAbilitySequence_FiftyFiftyGamble.blessed
+  m_EditorClassIdentifier:
+  _activationAnimationName: cast-spell2
+  _animationDuration: 0.666
+  _activationVFXObjects:
+  - {fileID: 114691070233375617, guid: d60a0f394ae68e84188065f79f391bf7, type: 2}
+  _impactVFXObject: {fileID: 114851933489808149, guid: 6ba14d8e895eaf04fa28573266d478dd, type: 2}
+  _multipleImpactDelay: 0.2

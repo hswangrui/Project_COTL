@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 329116c4f28ed464c8bbf5caf27d5116
+timeCreated: 1689201796
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  externalObjects: {}
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Xbox-Filled
+  fontNames:
+  - Xbox-Filled
+  - XBox-Filled
+  fallbackFontReferences:
+  - {fileID: 0}
+  customCharacters:
+  fontRenderingMode: 0
+  output:
+    hasEmptyFontData: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData:
+  assetBundleName:
+  assetBundleVariant:

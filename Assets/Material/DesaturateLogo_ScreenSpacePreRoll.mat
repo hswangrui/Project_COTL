@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DesaturateLogo_ScreenSpacePreRoll
+  m_Shader: {fileID: 4800000, guid: 56d8e8080424cfd468388b77c5cc71c0, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA UNITY_UI_ALPHACLIP _USEGRAYSCALE_ON _USERAINBOW_ON
+    _USEUNSCALEDTIME_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Cutoff: 0.5
+    - _DesaturateAmount: 0
+    - _DesaturateFraction: 1
+    - _DetailNormalMapScale: 1
+    - _DoodleAdd: 0
+    - _DoodleIntensity: 0
+    - _DoodleUVSpeed: 1
+    - _DoodleUV_UseUnscaledTime: 0
+    - _DstBlend: 0
+    - _Float0: 1.46
+    - _Float1: 0.32
+    - _Fraction: 1.22
+    - _Fraction1: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _MoveUV: 0.5
+    - _MoveUV1: -0.45
+    - _NoiseScale: 20
+    - _NoiseSpeed: 0.01
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PowerExp: -14.32
+    - _PowerExp1: 3.37
+    - _RainbowLerp: 0
+    - _RedBoost: 1
+    - _Scale: 1
+    - _Size1: 0.5
+    - _SmoothStepMax: 3.85
+    - _SmoothStepMin: -1.86
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _Speed1: 2.59
+    - _SrcBlend: 1
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _StepAmount: 0.28
+    - _Strength: 10
+    - _Strength1: 0
+    - _UVSec: 0
+    - _UseGrayscale: 1
+    - _UseRainbow: 1
+    - _UseUIAlphaClip: 1
+    - _UseUnscaledTime: 1
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1.403122, g: 0.08873497, b: 0.01663781, a: 1}
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Size: {r: 1, g: 1, b: 0, a: 0}
+    - _Size1: {r: 6.13, g: 4.93, b: 0, a: 0}
+    - _UnderColor: {r: 0.5566038, g: 0.15405998, b: 0.13915095, a: 0}
+    - _uVoFFSET: {r: 0, g: 0, b: 0, a: 0}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e26165418fe52dc205582a537a3d729b, type: 3}
+  m_Name: HeartConversion_Dammed_Relic
+  m_EditorClassIdentifier:
+  RelicType: 30
+  InteractionType: 1
+  RelicSubType: 1
+  DamageRequiredToCharge: 30
+  UISprite: {fileID: 21300000, guid: ba0bb74cd9c8b5244a064ed8c0e4cc2b, type: 2}
+  UISpriteOutline: {fileID: 21300000, guid: a45a15ecf8c832c45be5dc14ec75936d, type: 2}
+  WorldSprite: {fileID: 21300000, guid: ba0bb74cd9c8b5244a064ed8c0e4cc2b, type: 2}
+  Weight: 1
+  RequiresCult: 0
+  ShowAnimationAbovePlayer: 1
+  UpgradeType: 253
+  VFXData: {fileID: 11400000, guid: b0d8c5be17ba84749805503a5e126742, type: 2}
+  Material: {fileID: 0}

@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aecae2a74e033ea0f3031a0758bd00be, type: 3}
+  m_Name: Follower
+  m_EditorClassIdentifier:
+  atlasAssets:
+  - {fileID: 11400000, guid: 12beb51252287644f8049c4569043817, type: 2}
+  scale: 0.005
+  skeletonJSON: {fileID: 4900000, guid: 60279f522c5c3314b9d02dc0b712e815, type: 3}
+  skeletonDataModifiers:
+  - {fileID: 0}
+  fromAnimation:
+  - picked-up
+  - idle
+  - walk
+  - run
+  - sleep
+  - pick-up
+  - pick-up
+  - pick-up
+  - put-down
+  - put-down
+  - put-down
+  - picked-up
+  - thrown
+  - walk
+  - idle
+  - run
+  - bowed-down
+  - bowed-down
+  - bowed-down
+  - Conversations/react-hate1
+  - Conversations/react-hate2
+  - Conversations/react-hate3
+  - Conversations/react-love1
+  - Conversations/react-love1
+  - Conversations/react-love2
+  - Conversations/react-love3
+  - Conversations/react-love3
+  - Conversations/react-mean1
+  - Conversations/react-mean2
+  - Conversations/react-mean3
+  - Conversations/react-nice1
+  - Conversations/react-nice2
+  - Conversations/react-nice3
+  - Buildings/exit-portal
+  - Buildings/exit-portal
+  - tied-to-altar
+  - tied-to-altar
+  - idle
+  - run
+  - transform
+  - unconverted
+  - attack-charge
+  - spider
+  - spider
+  - spider-out
+  - spider-out
+  - idle
+  - FinalBoss/idle
+  - devotion/devotion-start
+  - devotion/devotion-waiting
+  - die
+  - tied-to-mushroom
+  - tied-to-mushroom
+  - tied-to-staleg
+  toAnimation:
+  - put-down
+  - pick-up
+  - pick-up
+  - pick-up
+  - pick-up
+  - picked-up
+  - picked-up
+  - put-down
+  - idle
+  - walk
+  - run
+  - thrown
+  - thrown-bounce
+  - bowed-down
+  - bowed-down
+  - bowed-down
+  - idle
+  - walk
+  - run
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - idle
+  - Buildings/add-resource
+  - Buildings/add-resource
+  - spider-pop2
+  - tied-to-altar-rescue
+  - murder
+  - murder
+  - unconverted
+  - unconverted
+  - attack-impact
+  - spider-pop
+  - spider-pop2
+  - spider-pop
+  - spider-pop2
+  - FinalBoss/appear
+  - FinalBoss/freed
+  - devotion/devotion-waiting
+  - devotion/devotion-collect-loopstart
+  - corpse
+  - tied-to-altar-rescue
+  - tied-to-mushroom-rescue
+  - tied-to-staleg-rescue
+  duration:
+  - 0.001
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0.001
+  - 0.1
+  - 0.1
+  - 0.1
+  - 0
+  - 0
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0.001
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  defaultMix: 0.2
+  controller: {fileID: 0}

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44b5055393f5a9ae4ab0789d2394248, type: 3}
+  m_Name: Modifier_6
+  m_EditorClassIdentifier:
+  modifierIcon: {fileID: 21300000, guid: 9f6be74d8c7b79f4f8a6f24f482473cb, type: 2}
+  PositiveModifier: 2
+  NegativeModifier: 0
+  NeutralModifier: 0
+  Probability: 0.25

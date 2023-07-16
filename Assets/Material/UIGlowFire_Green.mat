@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UIGlowFire_Green
+  m_Shader: {fileID: 4800000, guid: 5f0f3bfe2391c104dbbd7c0bdd8c37d2, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA POLAR_A POLAR_B UNSCALED_TIME _DATA_NONE _OPNOISEA_SUBTRACT _OPNOISEB_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceMap:
+        m_Texture: {fileID: 2800000, guid: a57da1025b44579469682ab9b4917a1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.34}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: a1e73da94af085b44a621fcb5aef2dec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: b852823ff811b8448a982d5139ed0d7f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: d87e8f092a5d16945a19d89a5c28dde5, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: -0.67}
+    - _NoiseB:
+        m_Texture: {fileID: 2800000, guid: d87e8f092a5d16945a19d89a5c28dde5, type: 3}
+        m_Scale: {x: 1, y: 0.8}
+        m_Offset: {x: -0.28, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 2.46
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _ColorMask: 15
+    - _Contrast: 1
+    - _Cull: 0
+    - _Cutoff: 0.895
+    - _CutoffSmooth: 0.001
+    - _CutoffSoftness: 0.48
+    - _DATA: 0
+    - _DetailNormalMapScale: 1
+    - _Displace: 0
+    - _DisplaceAmount: 0.041
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradOffset: 0.738
+    - _GradSpread: 4.77
+    - _InvFade: 0.01
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAInf: 0.206
+    - _NoiseBInf: 0.542
+    - _OPNOISEA: 2
+    - _OPNOISEB: 0
+    - _OcclusionStrength: 1
+    - _POLAR_A: 1
+    - _POLAR_B: 1
+    - _POLAR_DISP: 0
+    - _Parallax: 0.02
+    - _PolarCoords: 0
+    - _Power: 0.001
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 1
+    - _StencilRefA: 1
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _UVSec: 0
+    - _UnscaledTime: 1
+    - _UseUIAlphaClip: 0
+    - _WorldZClip: 0
+    - _ZWrite: 0
+    - _dummy: 0
+    - _isSoftParticle: 0
+    - _isVertexStream: 0
+    m_Colors:
+    - _Color: {r: 0.003921569, g: 0.8352941, b: 0.63529414, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PolarTransfrom: {r: 0.5, g: 0.5, b: 1, a: 3.21}

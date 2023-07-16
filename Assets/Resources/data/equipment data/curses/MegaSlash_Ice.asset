@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224d00a618b476451dc0c3ca72e942da, type: 3}
+  m_Name: MegaSlash_Ice
+  m_EditorClassIdentifier:
+  EquipmentType: 903
+  PrimaryEquipmentType: 900
+  CanBreakDodge: 0
+  UISprite: {fileID: 21300000, guid: b6082e86cb3247a4e9e8d7cd237937da, type: 2}
+  WorldSprite: {fileID: 21300000, guid: 52aa6c4c41915d04496f9d58a23d1c40, type: 2}
+  PickupAnimationKey:
+  PerformActionSound:
+  Weight: 1
+  Prefab: {fileID: 1527445420135599, guid: cd341afd535d5834d91a62679d5f1020, type: 2}
+  SecondaryPrefab: {fileID: 0}
+  PerformActionAnimation: Curses/attack-slash-curse-ice
+  PerformActionAnimationLoop: Curses/attack-charge-wait-ice
+  CanAim: 1
+  Damage: 1
+  Delay: 0.5
+  CastingDuration: 0.5
+  Chance: 1

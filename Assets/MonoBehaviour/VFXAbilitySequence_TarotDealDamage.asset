@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48914a566a8e06ae0e4d1524d24195fc, type: 3}
+  m_Name: VFXAbilitySequence_TarotDealDamage
+  m_EditorClassIdentifier:
+  _activationAnimationName: cast-spell2
+  _animationDuration: 0.666
+  _activationVFXObjects:
+  - {fileID: 114607205900396344, guid: 64cd92b07fd49214a8e7764fb8010fd9, type: 2}
+  - {fileID: 114624990346852238, guid: 89c81cd5cb5fbc446b689d5b79fc4b83, type: 2}
+  _impactVFXObject: {fileID: 114665699347995155, guid: 06c40eff9d4f69f4b895fcd603ce52ba, type: 2}
+  _multipleImpactDelay: 0.1

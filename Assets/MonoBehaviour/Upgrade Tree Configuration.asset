@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6408d85e05195e2ec6a12538bf5a4fa3, type: 3}
+  m_Name: Upgrade Tree Configuration
+  m_EditorClassIdentifier:
+  _tierConfigurations:
+  - _tier: 0
+    _requiresCentralTier: 1
+    _centralNode: 42
+    _numRequiredToUnlock: 0
+  - _tier: 1
+    _requiresCentralTier: 1
+    _centralNode: 64
+    _numRequiredToUnlock: 4
+  - _tier: 2
+    _requiresCentralTier: 1
+    _centralNode: 34
+    _numRequiredToUnlock: 6
+  - _tier: 3
+    _requiresCentralTier: 1
+    _centralNode: 83
+    _numRequiredToUnlock: 10
+  - _tier: 4
+    _requiresCentralTier: 1
+    _centralNode: 84
+    _numRequiredToUnlock: 5
+  _tierBridgeLength: 25
+  _branchOffset: 100
+  _lockedTexture: {fileID: 2800000, guid: 86484ea28f00de642b7856862a64a17a, type: 3}
+  _unavailableTexture: {fileID: 2800000, guid: 9477a9916de89b345bb91a81d7c8503e, type: 3}
+  _availableTexture: {fileID: 2800000, guid: 9477a9916de89b345bb91a81d7c8503e, type: 3}
+  _unlockedTexture: {fileID: 2800000, guid: 24934f3c4f64c0b4abf202afadab367e, type: 3}
+  _lockedConnectionColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+  _unavailableConnectionColor: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+  _availableConnectionColor: {r: 0.99215686, g: 0.11372549, b: 0.011764706, a: 1}
+  _unlockedConnectionColor: {r: 0.003921569, g: 0.8352941, b: 0.63529414, a: 1}
+  _allUpgrades: 2a0000002200000040000000340000005300000054000000910000009b0000008c0000002b000000d2000000d30000002100000020000000230000001f000000240000002c000000870000007e0000007d00000075000000790000000e000000d500000033000000860000008b000000370000008800000076000000890000002e000000900000007c0000002d00000032000000740000004a0000004c0000004d0000005000000049000000520000004e000000590000005b0000009c000000f6000000f7000000f800000047000000f9000000ed000000ee000000

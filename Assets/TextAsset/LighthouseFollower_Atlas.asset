@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6a9381bd1153e90fb3841230adf0c3, type: 3}
+  m_Name: LighthouseFollower_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: aaf64bae5758eab4bab16d281275e283, type: 3}
+  materials:
+  - {fileID: 2100000, guid: bca5c8b3c7152364ab6e9b5f66aab864, type: 2}

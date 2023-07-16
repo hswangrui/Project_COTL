@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShrineGlow_A
+  m_Shader: {fileID: 4800000, guid: 515de244885d8f540a6ccd5a1a2b4b4e, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA POLAR_B _OPNOISEA_SUBTRACT _OPNOISEB_MULTIPLY _USEOCCLUSION
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceMap:
+        m_Texture: {fileID: 2800000, guid: a57da1025b44579469682ab9b4917a1e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GradientMap:
+        m_Texture: {fileID: 2800000, guid: a1e73da94af085b44a621fcb5aef2dec, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: d87e8f092a5d16945a19d89a5c28dde5, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: -0.67}
+    - _NoiseB:
+        m_Texture: {fileID: 2800000, guid: 9b5bc1faf35d1674e84f5514be79c63c, type: 3}
+        m_Scale: {x: 0.66, y: 0.8}
+        m_Offset: {x: -0.28, y: 0}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 2.46
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadeDistance: 6.5
+    - _Contrast: 1
+    - _Cull: 0
+    - _Cutoff: 0.722
+    - _CutoffSmooth: 0.1
+    - _CutoffSoftness: 0.48
+    - _DATA: 0
+    - _DepthSmoothness: 0.189
+    - _DepthThreshold: 0.084
+    - _DetailNormalMapScale: 1
+    - _Displace: 0
+    - _DisplaceAmount: 0.001
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradOffset: 0.161
+    - _GradSpread: 2.2
+    - _InvFade: 0.01
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAInf: 0.415
+    - _NoiseBInf: 0.077
+    - _OPNOISEA: 2
+    - _OPNOISEB: 1
+    - _OcclusionStrength: 1
+    - _POLAR_A: 0
+    - _POLAR_B: 1
+    - _POLAR_DISP: 0
+    - _Parallax: 0.02
+    - _PolarCoords: 0
+    - _Power: 0.001
+    - _RadialDistanceOffset: 0
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilRef: 1
+    - _StencilRefA: 1
+    - _StencilZFail: 0
+    - _USEOCCLUSION: 1
+    - _UVSec: 0
+    - _UnscaledTime: 0
+    - _WorldZClip: 0
+    - _ZWrite: 0
+    - _dummy: 0
+    - _isSoftParticle: 0
+    - _isVertexStream: 0
+    m_Colors:
+    - _Color: {r: 1.7176471, g: 1.3411765, b: 1.2941177, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _PolarTransfrom: {r: 0.33, g: 0.06, b: 0.45, a: 3.21}

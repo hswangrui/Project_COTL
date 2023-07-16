@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FX_MegaSlash_CharmWall
+  m_Shader: {fileID: 4800000, guid: d57e11f635735c84ab068a41b8314ff3, type: 3}
+  m_ShaderKeywords: _DATA_NONE _OPNOISEA_MULTIPLY _OPNOISEB_NONE
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DisplaceMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseA:
+        m_Texture: {fileID: 2800000, guid: bfae1dc1becf860489d47c534f9620a3, type: 3}
+        m_Scale: {x: 5, y: 1}
+        m_Offset: {x: 0, y: -1}
+    - _NoiseB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Banding: 0
+    - _Bands: 3
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _Cull: 0
+    - _Cutoff: 1
+    - _CutoffSmooth: 0.106
+    - _DATA: 0
+    - _DeformHeight: 1
+    - _DetailNormalMapScale: 1
+    - _Displace: 0
+    - _DisplaceAmount: 0.5
+    - _DstBlend: 10
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _GradOffset: 0
+    - _GradSpread: 1
+    - _InvFade: 0.01
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseAInf: 0.7
+    - _NoiseAUniformScale: 1
+    - _NoiseBInf: 0
+    - _NoiseUniformScale: 1.53
+    - _OPNOISEA: 1
+    - _OPNOISEB: 0
+    - _OcclusionStrength: 1
+    - _POLAR_A: 0
+    - _POLAR_B: 0
+    - _POLAR_DISP: 0
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpreadCutoff: 0
+    - _SpreadInCutoff: 1
+    - _SpreadSmooth: 0.365
+    - _SpreadThreshold: 0.507
+    - _SrcBlend: 5
+    - _StencilComp: 0
+    - _StencilFail: 0
+    - _StencilOp: 0
+    - _StencilRef: 1
+    - _StencilZFail: 0
+    - _UVSec: 0
+    - _UnscaledTime: 0
+    - _WorldZClip: 0
+    - _ZWrite: 1
+    - _dummy: 0
+    - _isSoftParticle: 0
+    m_Colors:
+    - _Color: {r: 0.9716981, g: 0.8595086, b: 0.5775187, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _NoiseInvScale: {r: 0.75, g: 1, b: 0, a: 0}
+    - _NoiseUniformScale: {r: 1, g: 1, b: 0, a: 0}
+    - _PolarTransfrom: {r: 0.5, g: 0.5, b: 1, a: 1}

@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ee549b6b3fb4d4fabd1d72051996ae, type: 3}
+  m_Name: Hard_Difficulty_Hard
+  m_EditorClassIdentifier:
+  PrimaryDifficulty: 100
+  SecondaryDifficulty: 100
+  HealthDropsMultiplier: 1
+  ChanceOfNegatingDeath: 0
+  PlayerDamageMultiplier: 1
+  InvincibleTimeMultiplier: 0.65
+  EnemyHealthMultiplier: 1.25
+  EnemyRoundsScoreOffset: 1
+  LuckMultiplier: 0.8
+  DungeonRoomMultiplier: 1.2
+  DeathPeneltyPercentage: 30
+  EscapedPeneltyPercentage: 20
+  DripMultiplier: 1.2
+  HungerDepletionMultiplier: 1.2
+  IllnessDepletionMultiplier: 1.5
+  DissenterDepletionMultiplier: 1.5
+  TimeBetweenDissentingMultiplier: 1.5
+  TimeBetweenDeathMultiplier: 1.5
+  TimeBetweenIllnessMultiplier: 1.5
+  TimeBetweenOldAgeMultiplier: 1.5

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 224d00a618b476451dc0c3ca72e942da, type: 3}
+  m_Name: Fireball_Charm
+  m_EditorClassIdentifier:
+  EquipmentType: 804
+  PrimaryEquipmentType: 800
+  CanBreakDodge: 0
+  UISprite: {fileID: 21300000, guid: e476dd04da0af8544a60b4fbcb6099a8, type: 2}
+  WorldSprite: {fileID: 21300000, guid: 8a37320d856c7b840aa98cdcc1866bd9, type: 2}
+  PickupAnimationKey:
+  PerformActionSound:
+  Weight: 1
+  Prefab: {fileID: 1896937784362833, guid: b8f6d0842fadbe04983226c9950d2420, type: 2}
+  SecondaryPrefab: {fileID: 0}
+  PerformActionAnimation: cast-spell
+  PerformActionAnimationLoop: cast-spell3
+  CanAim: 1
+  Damage: 2
+  Delay: 0.5
+  CastingDuration: 0.5
+  Chance: 0.75

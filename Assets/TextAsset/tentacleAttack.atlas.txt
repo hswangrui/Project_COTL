@@ -1,0 +1,62 @@
+
+tentacleAttack.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tentacle_Attack_Goop
+  rotate: false
+  xy: 2, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_00
+  rotate: false
+  xy: 304, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_01
+  rotate: false
+  xy: 606, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_02
+  rotate: true
+  xy: 2, 2
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_03
+  rotate: false
+  xy: 908, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_04
+  rotate: false
+  xy: 1210, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_05
+  rotate: true
+  xy: 668, 2
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1
+Tentacle_Attack_Goop_Eye_06
+  rotate: false
+  xy: 1512, 304
+  size: 300, 664
+  orig: 300, 700
+  offset: 0, 36
+  index: -1

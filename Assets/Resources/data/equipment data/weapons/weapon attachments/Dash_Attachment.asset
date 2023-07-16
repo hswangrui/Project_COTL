@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5214776ab1c0079d37d975899e9376b, type: 3}
+  m_Name: Dash_Attachment
+  m_EditorClassIdentifier:
+  Effect: 2
+  State: 0
+  DescriptionKey: WeaponAttachments/Sword/Level_2a
+  ExplosionRadius: 0
+  ExplosionDamage: 0
+  ExplosionOffset: 0
+  DashSpeed: 10
+  DamageMultiplierIncrement: 0
+  ExtraSlotsAmount: 0
+  CriticalMultiplierIncrement: 0
+  RangeIncrement: 0
+  AttackRateIncrement: 0
+  MovementSpeedIncrement: 0
+  xpDropIncrement: 0
+  healChanceIncrement: 0
+  healAmount: 0
+  negateDamageChanceIncrement: 0
+  poisonChance: 0.3
+  necromancyChance: 0.3

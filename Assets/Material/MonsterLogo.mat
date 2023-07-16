@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MonsterLogo
+  m_Shader: {fileID: 4800000, guid: ee327151bbcfd804d8c2c8b63d70d682, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - PixelSnap: 0
+    - _BlotchMultiply: 4.08
+    - _BlotchSubtract: 2.42
+    - _CloudDensity: 1
+    - _ColorMask: 15
+    - _DesaturateFraction: 1
+    - _DistanceToChangeColor: 0.5
+    - _DoodleUV_UseUnscaledTime: 0
+    - _Enum: 1
+    - _FadeOffset: 0
+    - _FadeOffset1: -0.44
+    - _Falloff1: -3
+    - _Float0: 22.52
+    - _Float3: 0
+    - _Fraction: 1.22
+    - _MaskMainTex: 1
+    - _MoveUV: 0.45
+    - _MovementSpeed: 1.08
+    - _NoiseScale: 3.6
+    - _NoiseSpeed: 0.04
+    - _PaperStrength: 1
+    - _PlayerDistanceClamp: -0.95
+    - _PlayerDistanceFade: 100
+    - _PosX: 0.32
+    - _PosY: 0.02
+    - _PowerExp: 1.67
+    - _Rotation: -90
+    - _Size1: 2.14
+    - _SmoothStepMax: 1.93
+    - _SmoothStepMin: 0.6
+    - _Speed: 0
+    - _Speed1: 5
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _StepAmount: 0.28
+    - _Strength: 10
+    - _TintScale: 4
+    - _TransitionFade1: 10.9
+    - _UseUIAlphaClip: 0
+    - _UseUnscaledTime: 0
+    - _UseX: 1
+    - _UseY: 1
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color0: {r: 1, g: 0, b: 0, a: 0}
+    - _Color1: {r: 1, g: 0, b: 0, a: 1}
+    - _InkColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+    - _MovementDirection: {r: 0, g: 0.2, b: 0, a: 0}
+    - _RotationAnchor: {r: 0, g: 0, b: 0, a: 0}
+    - _Size: {r: -1.24, g: -0.5, b: 0, a: 0}
+    - _TilingUV: {r: 2, g: 1, b: 0, a: 0}
+    - _TintCOlor: {r: 2, g: 0.11764706, b: 0, a: 1}
+    - _UnderColor: {r: 0.2924528, g: 0.2441705, b: 0.2441705, a: 0}

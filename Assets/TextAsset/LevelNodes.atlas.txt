@@ -1,0 +1,209 @@
+
+LevelNodes.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+images/Blast
+  rotate: false
+  xy: 2, 79
+  size: 350, 431
+  orig: 385, 449
+  offset: 18, 9
+  index: -1
+images/BlastRing
+  rotate: false
+  xy: 643, 15
+  size: 256, 254
+  orig: 256, 254
+  offset: 0, 0
+  index: -1
+images/Boss_Skull
+  rotate: false
+  xy: 1764, 214
+  size: 114, 121
+  orig: 114, 121
+  offset: 0, 0
+  index: -1
+images/DiedCross_1
+  rotate: true
+  xy: 1880, 219
+  size: 116, 101
+  orig: 116, 101
+  offset: 0, 0
+  index: -1
+images/DiedCross_2
+  rotate: false
+  xy: 1764, 2
+  size: 111, 99
+  orig: 111, 99
+  offset: 0, 0
+  index: -1
+images/Fill
+  rotate: true
+  xy: 829, 276
+  size: 49, 28
+  orig: 49, 28
+  offset: 0, 0
+  index: -1
+images/Flag_Boss
+  rotate: false
+  xy: 1137, 10
+  size: 153, 318
+  orig: 153, 318
+  offset: 0, 0
+  index: -1
+images/Flag_Level
+  rotate: true
+  xy: 1682, 337
+  size: 127, 273
+  orig: 127, 273
+  offset: 0, 0
+  index: -1
+images/Flag_Other
+  rotate: true
+  xy: 1406, 337
+  size: 127, 274
+  orig: 127, 274
+  offset: 0, 0
+  index: -1
+images/NewFollower_Icon
+  rotate: false
+  xy: 1459, 36
+  size: 122, 58
+  orig: 122, 58
+  offset: 0, 0
+  index: -1
+images/Node_Border
+  rotate: false
+  xy: 354, 30
+  size: 287, 239
+  orig: 287, 239
+  offset: 0, 0
+  index: -1
+images/Node_Border_Boss
+  rotate: false
+  xy: 901, 89
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+images/Node_Border_Boss_Complete
+  rotate: false
+  xy: 1292, 96
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+images/Node_Border_End
+  rotate: false
+  xy: 1528, 96
+  size: 234, 239
+  orig: 234, 239
+  offset: 0, 0
+  index: -1
+images/Node_Middle
+  rotate: false
+  xy: 1764, 103
+  size: 109, 109
+  orig: 109, 109
+  offset: 0, 0
+  index: -1
+images/Node_Middle_Died
+  rotate: true
+  xy: 1875, 103
+  size: 109, 106
+  orig: 109, 106
+  offset: 0, 0
+  index: -1
+images/Node_Normal_Middle
+  rotate: false
+  xy: 1907, 468
+  size: 42, 42
+  orig: 42, 42
+  offset: 0, 0
+  index: -1
+images/SlashPlayer_0001
+  rotate: false
+  xy: 901, 44
+  size: 146, 43
+  orig: 646, 85
+  offset: 19, 12
+  index: -1
+images/SlashPlayer_0002
+  rotate: false
+  xy: 1292, 12
+  size: 165, 82
+  orig: 646, 85
+  offset: 2, 3
+  index: -1
+images/SlashPlayer_0003
+  rotate: false
+  xy: 883, 457
+  size: 521, 53
+  orig: 646, 85
+  offset: 12, 7
+  index: -1
+images/SlashPlayer_0004
+  rotate: false
+  xy: 354, 443
+  size: 527, 67
+  orig: 646, 85
+  offset: 0, 0
+  index: -1
+images/SlashPlayer_0005
+  rotate: false
+  xy: 354, 327
+  size: 506, 54
+  orig: 646, 85
+  offset: 43, 10
+  index: -1
+images/SlashPlayer_0006
+  rotate: false
+  xy: 354, 271
+  size: 473, 54
+  orig: 646, 85
+  offset: 104, 5
+  index: -1
+images/SlashPlayer_0007
+  rotate: false
+  xy: 1406, 466
+  size: 499, 44
+  orig: 646, 85
+  offset: 106, 14
+  index: -1
+images/SlashPlayer_0008
+  rotate: false
+  xy: 883, 414
+  size: 431, 41
+  orig: 646, 85
+  offset: 203, 15
+  index: -1
+images/SlashPlayer_0009
+  rotate: false
+  xy: 877, 371
+  size: 380, 41
+  orig: 646, 85
+  offset: 258, 15
+  index: -1
+images/SlashPlayer_0010
+  rotate: false
+  xy: 862, 330
+  size: 367, 39
+  orig: 646, 85
+  offset: 278, 17
+  index: -1
+images/SlashPlayer_0011
+  rotate: false
+  xy: 2, 38
+  size: 319, 39
+  orig: 646, 85
+  offset: 326, 17
+  index: -1
+images/SlashPlayer_0012
+  rotate: false
+  xy: 354, 383
+  size: 521, 58
+  orig: 646, 85
+  offset: 12, 11
+  index: -1

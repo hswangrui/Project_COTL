@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34ee549b6b3fb4d4fabd1d72051996ae, type: 3}
+  m_Name: Easy_Difficulty
+  m_EditorClassIdentifier:
+  PrimaryDifficulty: 0
+  SecondaryDifficulty: 50
+  HealthDropsMultiplier: 1.5
+  ChanceOfNegatingDeath: 0.4
+  PlayerDamageMultiplier: 1.25
+  InvincibleTimeMultiplier: 2
+  EnemyHealthMultiplier: 0.5
+  EnemyRoundsScoreOffset: -2
+  LuckMultiplier: 3
+  DungeonRoomMultiplier: 1
+  DeathPeneltyPercentage: 15
+  EscapedPeneltyPercentage: 10
+  DripMultiplier: 0.7
+  HungerDepletionMultiplier: 0.6
+  IllnessDepletionMultiplier: 0.6
+  DissenterDepletionMultiplier: 0.6
+  TimeBetweenDissentingMultiplier: 0.6
+  TimeBetweenDeathMultiplier: 0.6
+  TimeBetweenIllnessMultiplier: 0.6
+  TimeBetweenOldAgeMultiplier: 0.6

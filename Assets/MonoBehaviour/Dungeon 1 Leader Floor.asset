@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a46c46686a0c2490dbceff2ebe1d913, type: 3}
+  m_Name: Dungeon 1 Leader Floor
+  m_EditorClassIdentifier:
+  sprite: {fileID: 21300000, guid: fd91caeb1f8aa814288c176248a32d94, type: 2}
+  spriteNoDecoration: {fileID: 21300000, guid: b418874135ea4fc4a9dec8199e2733d2, type: 2}
+  flair: {fileID: 21300000, guid: 0592dcceaddc0b14ab363c295ae7f813, type: 2}
+  nodeType: 15
+  RoomPrefabs: []
+  Probability: 1
+  CanHaveModifier: 0
+  CanBeHidden: 0
+  OnlyOne: 0
+  RequireCondition: 0
+  ConditionalVariables: []
+  HasEnsuredConditions: 0
+  EnsuredConditionalVariables: []
+  ForceDisplayModifier: 0
+  ForceDisplayModifierIcon: {fileID: 0}
+  UseCustomLayerIcons: 1
+  LayerSprites:
+  - DungeonLocation: 0
+    Sprite: {fileID: 21300000, guid: fb3d9e6b3cf1db1458466738d045e55f, type: 2}
+    SpriteNoDecoration: {fileID: 21300000, guid: fb3d9e6b3cf1db1458466738d045e55f, type: 2}
+    flair: {fileID: 0}
+  ForcedDungeon: 7
+  Testing: 0

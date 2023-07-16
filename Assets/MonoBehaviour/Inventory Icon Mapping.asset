@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7589de3bc3bce0ce3fac6b79da36b49, type: 3}
+  m_Name: Inventory Icon Mapping
+  m_EditorClassIdentifier:
+  _itemImages:
+  - ItemType: 1
+    Sprite: {fileID: 21300000, guid: e98ae4d607eed1447a868f1d67f09673, type: 2}
+  - ItemType: 2
+    Sprite: {fileID: 21300000, guid: c219f966749348641adf91711a4df2e1, type: 2}
+  - ItemType: 6
+    Sprite: {fileID: 21300000, guid: 3d1114479bbac8b498e35d55fda92f1a, type: 2}
+  - ItemType: 7
+    Sprite: {fileID: 21300000, guid: 5b2f73aa0831b794faa7a3987136e463, type: 2}
+  - ItemType: 8
+    Sprite: {fileID: 21300000, guid: 6eb7cc76123ad5440b863e1ea1e6a9f4, type: 2}
+  - ItemType: 9
+    Sprite: {fileID: 21300000, guid: e2bfd49174b27884fa582c6884dfea59, type: 2}
+  - ItemType: 11
+    Sprite: {fileID: 21300000, guid: 5cb78588774057c4d8bd832d800e54aa, type: 2}
+  - ItemType: 18
+    Sprite: {fileID: 21300000, guid: d886b95a94e0a7d4dab00e8d42b2b56b, type: 2}
+  - ItemType: 19
+    Sprite: {fileID: 21300000, guid: d91e0d5570a78fb408268b7a671f8f44, type: 2}
+  - ItemType: 20
+    Sprite: {fileID: 21300000, guid: 59ca47f607314af4390d8982810746be, type: 2}
+  - ItemType: 21
+    Sprite: {fileID: 21300000, guid: 30145c99d379445498271eb4d64ec084, type: 2}
+  - ItemType: 12
+    Sprite: {fileID: 21300000, guid: 5f37cbe204ef5d74e94bfad7b6b066e0, type: 2}
+  - ItemType: 13
+    Sprite: {fileID: 21300000, guid: 1126e0d345f19244ca480e024953a846, type: 2}
+  - ItemType: 14
+    Sprite: {fileID: 21300000, guid: 244f530a19f1d114ebfded399762b0bc, type: 2}
+  - ItemType: 15
+    Sprite: {fileID: 21300000, guid: 36744b40b6b91ed4eaedfb389a5574fa, type: 2}
+  - ItemType: 22
+    Sprite: {fileID: 21300000, guid: fde6a0d56e244574c928aa1fac2ebd82, type: 2}
+  - ItemType: 23
+    Sprite: {fileID: 21300000, guid: 5b2f73aa0831b794faa7a3987136e463, type: 2}
+  - ItemType: 24
+    Sprite: {fileID: 21300000, guid: 78b7b9286eb5e1f429cbf2cdf0085d30, type: 2}
+  - ItemType: 25
+    Sprite: {fileID: 21300000, guid: 78b7b9286eb5e1f429cbf2cdf0085d30, type: 2}
+  - ItemType: 27
+    Sprite: {fileID: 21300000, guid: d95e6803e49974d48bf6bab2d9ff0ba3, type: 2}
+  - ItemType: 29
+    Sprite: {fileID: 21300000, guid: bcf5e683b2242844186eeb662ec54e1d, type: 2}
+  - ItemType: 28
+    Sprite: {fileID: 21300000, guid: 6ec8a1efc27449e4092f752d5441ebb4, type: 2}
+  - ItemType: 31
+    Sprite: {fileID: 21300000, guid: 131d1acdd590bb34bb48dc9f24707710, type: 2}
+  - ItemType: 34
+    Sprite: {fileID: 21300000, guid: b62e751b2420ff349a40837a7ee05881, type: 2}
+  - ItemType: 33
+    Sprite: {fileID: 21300000, guid: ce7ebf2f390a58844804ce5dadc23a01, type: 2}
+  - ItemType: 35
+    Sprite: {fileID: 21300000, guid: 4d4399c036e8ddb42a97a47c08b8f9a9, type: 2}
+  - ItemType: 38
+    Sprite: {fileID: 21300000, guid: 7224a3be39d7e09419c061389e5242a7, type: 2}
+  - ItemType: 32
+    Sprite: {fileID: 21300000, guid: 87e2b8ec5fc1095498d7ea8e193e51db, type: 2}
+  - ItemType: 39
+    Sprite: {fileID: 21300000, guid: 91ab7b74c5dc8824dbead48ed5f91c92, type: 2}
+  - ItemType: 43
+    Sprite: {fileID: 21300000, guid: f67fc8b80f302aa4190a34df63531595, type: 2}
+  - ItemType: 44
+    Sprite: {fileID: 21300000, guid: 997fc1d79c5c63440a897ad562bb17b9, type: 2}
+  - ItemType: 45
+    Sprite: {fileID: 21300000, guid: 71e1ad2f66c1ba8429af52c21d926b3d, type: 2}
+  - ItemType: 46
+    Sprite: {fileID: 21300000, guid: 4d64dda392b2a8a45bbf09dabb50470d, type: 2}
+  - ItemType: 47
+    Sprite: {fileID: 21300000, guid: 543fabe37878f5e498617868c4e23887, type: 2}
+  - ItemType: 48
+    Sprite: {fileID: 21300000, guid: b5d8f2719c3f3bb43ab16f495765b7ce, type: 2}
+  - ItemType: 49
+    Sprite: {fileID: 21300000, guid: 0c286f6f912386243a6eccb0ce428356, type: 2}
+  - ItemType: 50
+    Sprite: {fileID: 21300000, guid: aff7f5c72af06a54bb350ce45446e4b5, type: 2}
+  - ItemType: 51
+    Sprite: {fileID: 21300000, guid: 3c37cbaf7af838943b3188541cbad7a4, type: 2}
+  - ItemType: 53
+    Sprite: {fileID: 21300000, guid: 37cfd659fd760cf4588a0aa8439a9f60, type: 2}
+  - ItemType: 26
+    Sprite: {fileID: 21300000, guid: 791ff86d2932a5d48a3ae5988ee245d2, type: 2}
+  - ItemType: 55
+    Sprite: {fileID: 21300000, guid: f4ba4382de59c9a4c9a0ace24143883c, type: 2}
+  - ItemType: 63
+    Sprite: {fileID: 21300000, guid: a3bab4e121d7e8c4f963fa0f53175de4, type: 2}
+  - ItemType: 62
+    Sprite: {fileID: 21300000, guid: 5e185f6039b82df4a8eca1d16a48d64a, type: 2}
+  - ItemType: 58
+    Sprite: {fileID: 21300000, guid: 20e876bd7e43fbb4db4aa18398cb65a2, type: 2}
+  - ItemType: 57
+    Sprite: {fileID: 21300000, guid: 00b937da41738874c993cdac9e898bfa, type: 2}
+  - ItemType: 60
+    Sprite: {fileID: 21300000, guid: 302e9a2fe6a79e84e99add9fe4abe86e, type: 2}
+  - ItemType: 65
+    Sprite: {fileID: 21300000, guid: 0c21509c51d1c3b4590134c7b9b5c376, type: 2}
+  - ItemType: 64
+    Sprite: {fileID: 21300000, guid: 64d563af13a157741bfe86c51e85cdf2, type: 2}
+  - ItemType: 66
+    Sprite: {fileID: 21300000, guid: c3a94fb360b32104c9eb935328288202, type: 2}
+  - ItemType: 68
+    Sprite: {fileID: 21300000, guid: f218793c4c040834b82d017ff0402c19, type: 2}
+  - ItemType: 69
+    Sprite: {fileID: 21300000, guid: 0010bf32314af28479b479580db99114, type: 2}
+  - ItemType: 56
+    Sprite: {fileID: 21300000, guid: 2e2747d8dd6d6ee47b7cd1caf5a82caf, type: 2}
+  - ItemType: 73
+    Sprite: {fileID: 21300000, guid: c560e3616b82cfd4eb2c050536260a4a, type: 2}
+  - ItemType: 74
+    Sprite: {fileID: 21300000, guid: b643d79667765fa489ef918c8b7ca7eb, type: 2}
+  - ItemType: 75
+    Sprite: {fileID: 21300000, guid: fd5d1450d08a5ba45b327a7c0f23c963, type: 2}
+  - ItemType: 76
+    Sprite: {fileID: 21300000, guid: da39abe4166535e4fb18ec2d7efce3b1, type: 2}
+  - ItemType: 71
+    Sprite: {fileID: 21300000, guid: e6ec7df80abba3146a1dfa2eceea9ce3, type: 2}
+  - ItemType: 72
+    Sprite: {fileID: 21300000, guid: 015bb49f351e1b445ba037fb6f7e3a2c, type: 2}
+  - ItemType: 70
+    Sprite: {fileID: 21300000, guid: bef11146498b57243b1e632323c4187f, type: 2}
+  - ItemType: 77
+    Sprite: {fileID: 21300000, guid: 43d32deeacc1f2a4b94005778698735e, type: 2}
+  - ItemType: 78
+    Sprite: {fileID: 21300000, guid: ea7d7bbac4e6e854c9657ea733487ea3, type: 2}
+  - ItemType: 10
+    Sprite: {fileID: 21300000, guid: d95e6803e49974d48bf6bab2d9ff0ba3, type: 2}
+  - ItemType: 81
+    Sprite: {fileID: 21300000, guid: c045b9d9368cdf94e8cae226ed143df0, type: 2}
+  - ItemType: 82
+    Sprite: {fileID: 21300000, guid: bfe1f763c78539c499ef21f555de05a0, type: 2}
+  - ItemType: 83
+    Sprite: {fileID: 21300000, guid: a1923d4444c4a2f4eabbe002fe5dce29, type: 2}
+  - ItemType: 84
+    Sprite: {fileID: 21300000, guid: 79dc817369a86514e83fdb79c5f23234, type: 2}
+  - ItemType: 86
+    Sprite: {fileID: 21300000, guid: c787405a856846044a31b3563d692585, type: 2}
+  - ItemType: 87
+    Sprite: {fileID: 21300000, guid: 60e7489b02bb2864b8f28201c95756a5, type: 2}
+  - ItemType: 80
+    Sprite: {fileID: 21300000, guid: 2ef5280f33c0204498e5c7613f7fd95e, type: 2}
+  - ItemType: 59
+    Sprite: {fileID: 21300000, guid: 2ef5280f33c0204498e5c7613f7fd95e, type: 2}
+  - ItemType: 89
+    Sprite: {fileID: 21300000, guid: 89db0d10c0327ac42a52dd97ef7db192, type: 2}
+  - ItemType: 90
+    Sprite: {fileID: 21300000, guid: 3d744901adf91e2418937cfb84fab2b0, type: 2}
+  - ItemType: 91
+    Sprite: {fileID: 21300000, guid: 3ec7aff417afd2d4da7be02486dc5b1e, type: 2}
+  - ItemType: 92
+    Sprite: {fileID: 21300000, guid: f533504ca2711254da3c2a293ddd4438, type: 2}
+  - ItemType: 93
+    Sprite: {fileID: 21300000, guid: 179ccfd825cbaf74cb5fc71d50d5e664, type: 2}
+  - ItemType: 94
+    Sprite: {fileID: 21300000, guid: 531b498e0ff952548b2651fea93c7940, type: 2}
+  - ItemType: 95
+    Sprite: {fileID: 21300000, guid: ef1e0caaeecb8e149990bcc7f75ab8c9, type: 2}
+  - ItemType: 96
+    Sprite: {fileID: 21300000, guid: 5b4ab508be680ec42bfa70e8009e5a6b, type: 2}
+  - ItemType: 97
+    Sprite: {fileID: 21300000, guid: 0cccc982e770ffc4d8184ef669300baf, type: 2}
+  - ItemType: 98
+    Sprite: {fileID: 21300000, guid: 9ba76bc882d352640a354d0e45018770, type: 2}
+  - ItemType: 99
+    Sprite: {fileID: 21300000, guid: 8761a34ffdd5e3342b8d47aab0fbd0ed, type: 2}
+  - ItemType: 100
+    Sprite: {fileID: 21300000, guid: e0f7c85393a44d141a8cc97c0f4ac1f8, type: 2}
+  - ItemType: 101
+    Sprite: {fileID: 21300000, guid: 4081601cccc38ab439fb4907b678d564, type: 2}
+  - ItemType: 102
+    Sprite: {fileID: 21300000, guid: acd06288a39990d4c83c1ac91af1a9cc, type: 2}
+  - ItemType: 103
+    Sprite: {fileID: 21300000, guid: b2ee71c4911dda640a82295a118b0ac8, type: 2}
+  - ItemType: 108
+    Sprite: {fileID: 21300000, guid: 0b8b3ea338db59a4a933438d08dbc877, type: 2}
+  - ItemType: 112
+    Sprite: {fileID: 21300000, guid: 208684efe5fbe37458a401e33d47f064, type: 2}
+  - ItemType: 107
+    Sprite: {fileID: 21300000, guid: 22b9be43a2e43d04ba1507217eebecf6, type: 2}
+  - ItemType: 113
+    Sprite: {fileID: 21300000, guid: 5d67b8f4159472e44b14192a4dc8ee47, type: 2}
+  - ItemType: 110
+    Sprite: {fileID: 21300000, guid: ef652f795e6ab184f9fbff11faaf7cc1, type: 2}
+  - ItemType: 106
+    Sprite: {fileID: 21300000, guid: d32b9598b98158040bc63dd482cc0788, type: 2}
+  - ItemType: 111
+    Sprite: {fileID: 21300000, guid: 970eca62004e85249819ef3c73149787, type: 2}
+  - ItemType: 109
+    Sprite: {fileID: 21300000, guid: 4da501efa9cc9f145bf0701887634577, type: 2}
+  - ItemType: 105
+    Sprite: {fileID: 21300000, guid: 38bc011ee0939c44f9c5d05e5dff32a4, type: 2}
+  - ItemType: 61
+    Sprite: {fileID: 21300000, guid: 241345d93410f304ca7467c6b887df2a, type: 2}
+  - ItemType: 114
+    Sprite: {fileID: 21300000, guid: d7d0d1c90309ab9499a50ac662910d01, type: 2}
+  - ItemType: 116
+    Sprite: {fileID: 21300000, guid: 724346a2ef2a42540bc6f6ae00c8fb50, type: 2}
+  - ItemType: 117
+    Sprite: {fileID: 21300000, guid: 9e2e7cbf44eaf124a812ff19c3291437, type: 2}
+  - ItemType: 85
+    Sprite: {fileID: 21300000, guid: da67a74de8478a845a6d62b4fe23700d, type: 2}
+  - ItemType: 40
+    Sprite: {fileID: 21300000, guid: cdf3a2e3b76440b4a9c464870d86fd07, type: 2}
+  - ItemType: 124
+    Sprite: {fileID: 21300000, guid: db2956a23983e114998911dc5ffd6d8f, type: 2}
+  - ItemType: 125
+    Sprite: {fileID: 21300000, guid: 13166850f74f50640937090face62fb3, type: 2}
+  - ItemType: 122
+    Sprite: {fileID: 21300000, guid: 2994a6d2789be5842bff8f68127c23a5, type: 2}
+  - ItemType: 123
+    Sprite: {fileID: 21300000, guid: 869e6c32a599b044bb32c87d3c0fbfe7, type: 2}
+  - ItemType: 126
+    Sprite: {fileID: 21300000, guid: 5ede5a65b42c7104b931a437840dc34c, type: 2}
+  - ItemType: 127
+    Sprite: {fileID: 21300000, guid: 7a87fb1068cf31b4a863aaf5523b687b, type: 2}
+  - ItemType: 121
+    Sprite: {fileID: 21300000, guid: 32c5c9697da0f0145b51c53f67eb0bc9, type: 2}
+  - ItemType: 128
+    Sprite: {fileID: 21300000, guid: 0d04f7cac9eeff545bc11ce7c41f123c, type: 2}
+  - ItemType: 119
+    Sprite: {fileID: 21300000, guid: da457d0f9f2edc84086e2b7c896e6524, type: 2}
+  - ItemType: 52
+    Sprite: {fileID: 21300000, guid: 78b7b9286eb5e1f429cbf2cdf0085d30, type: 2}

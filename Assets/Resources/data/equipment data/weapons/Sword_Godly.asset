@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cd8bb47a301bac36ab257d0b4f87223, type: 3}
+  m_Name: Sword_Godly
+  m_EditorClassIdentifier:
+  EquipmentType: 5
+  PrimaryEquipmentType: 0
+  CanBreakDodge: 1
+  UISprite: {fileID: 21300000, guid: 8cc6ea47a72c310458614829b23058ab, type: 2}
+  WorldSprite: {fileID: 21300000, guid: 6aef2e0c40193bc46aff48cf56248a91, type: 2}
+  PickupAnimationKey: cards/cards-stop-sword2
+  PerformActionSound:
+  Weight: 0.5
+  Skin: 3
+  Speed: 1
+  Combos:
+  - CameraShake: 0.3
+    Damage: 2
+    RangeRadius: 1.25
+    Animation: attack-combo1
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 0
+    ShowDirectionIndicator: 0
+    LungeSpeed: 20
+    LungeDuration: 0.15
+    HitKnockback: 0.3
+    AttackType: 0
+  - CameraShake: 0.3
+    Damage: 2
+    RangeRadius: 1.25
+    Animation: attack-combo2
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 1
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 0
+    ShowDirectionIndicator: 0
+    LungeSpeed: 20
+    LungeDuration: 0.15
+    HitKnockback: 0.3
+    AttackType: 0
+  - CameraShake: 0.5
+    Damage: 2
+    RangeRadius: 1.25
+    Animation: attack-combo3
+    SwipeObject: {fileID: 1192843659155180, guid: dd6caed3393b42c498233aed0503317e, type: 2}
+    CanQueueNextAttack: 0
+    CanChangeDirectionDuringAttack: 1
+    CanFreelyChangeDirection: 0
+    ShowDirectionIndicator: 0
+    LungeSpeed: 20
+    LungeDuration: 0.15
+    HitKnockback: 0.3
+    AttackType: 0
+  Attachments:
+  - {fileID: 11400000, guid: ee240793b7cd5be4ea55ef1227458361, type: 2}

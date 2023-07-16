@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e8e0eb5f1601c19da9cb04f8eb3f6f1, type: 3}
+  m_Name: Config - DM_4
+  m_EditorClassIdentifier:
+  RegenerateOnGenerateMap: 0
+  EnsureMinimumRewards: 0
+  RanomExtraRewardLayers: 0
+  nodeBlueprints:
+  - {fileID: 11400000, guid: 10d91277707db5942b7fb7651896e455, type: 2}
+  - {fileID: 11400000, guid: a508d44e5e0eed14eb070b550d39dcb4, type: 2}
+  - {fileID: 11400000, guid: 38ed03bcdacafd8418cb2f5d50690494, type: 2}
+  - {fileID: 11400000, guid: 022121f6bf6057646ba15d18543597c7, type: 2}
+  - {fileID: 11400000, guid: 0e9f2ec201f794b4a84a1e2c4f645e5d, type: 2}
+  - {fileID: 11400000, guid: 61cc68d77486b1e458b40eb577968365, type: 2}
+  - {fileID: 11400000, guid: 3d0f091991ca0a74bb8bf69a5e23c458, type: 2}
+  - {fileID: 11400000, guid: b642d4cd6fc59434eaf1ff2043270791, type: 2}
+  MinimumRewards:
+  FirstFloorBluePrint: {fileID: 11400000, guid: 59b31cef5c444da4992367c33a7c5478, type: 2}
+  SecondFloorBluePrint: {fileID: 11400000, guid: 59b31cef5c444da4992367c33a7c5478, type: 2}
+  MiniBossFloorBluePrint: {fileID: 11400000, guid: 76dcf2bd094bb4a479ed581739cc9003, type: 2}
+  TreasureBluePrint: {fileID: 11400000, guid: 59b31cef5c444da4992367c33a7c5478, type: 2}
+  LeaderFloorBluePrint: {fileID: 11400000, guid: fab045b3811db8d45b5d04f5d17dd7f4, type: 2}
+  numOfPreBossNodes:
+    min: 3
+    max: 4
+  numOfStartingNodes:
+    min: 3
+    max: 4
+  NumOfCombatNodes: 16
+  NumOfBlankNodes: 14
+  NumOfMiniBossNodes: 0
+  ChanceForBlank: 0.3
+  MinStone: 0
+  MinWood: 0
+  MinFood: 0
+  FirstLayerBlacklist: 0b000000
+  LastLayerBlacklist: 64000000
+  DungeonLength: 0
+  MaxDungeonLength: 0
+  layers:
+  - BluePrint: {fileID: 11400000, guid: 01855c26f08559d4f84630bc1c24a229, type: 2}
+    OtherBluePrints: []
+    nodeType: 13
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0
+    randomizeNodes: 0
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 01855c26f08559d4f84630bc1c24a229, type: 2}
+    OtherBluePrints: []
+    nodeType: 13
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0
+    randomizeNodes: 0
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 01855c26f08559d4f84630bc1c24a229, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 0
+  - BluePrint: {fileID: 11400000, guid: 01855c26f08559d4f84630bc1c24a229, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 22dfe718b853baa47b3d9ab8516c8cbc, type: 2}
+    OtherBluePrints: []
+    nodeType: 15
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 2be381ceaebb8d24ea58b356e3a7a85e, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 2be381ceaebb8d24ea58b356e3a7a85e, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 2be381ceaebb8d24ea58b356e3a7a85e, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: fab045b3811db8d45b5d04f5d17dd7f4, type: 2}
+    OtherBluePrints: []
+    nodeType: 5
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 0b911917620aa494ca89de96a3cdc2ef, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 0b911917620aa494ca89de96a3cdc2ef, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: a5d435da54aa82345aa13a56e050159c, type: 2}
+    OtherBluePrints: []
+    nodeType: 15
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 1
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 944ce811fa02f3341b33be4c47ef3e64, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 944ce811fa02f3341b33be4c47ef3e64, type: 2}
+    OtherBluePrints: []
+    nodeType: 14
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0.5
+    CanBeReplacedWithCombatNode: 1
+  - BluePrint: {fileID: 11400000, guid: 1d42eedf40b6be9469f21e3e0e6e2def, type: 2}
+    OtherBluePrints: []
+    nodeType: 752
+    distanceFromPreviousLayer:
+      min: 1
+      max: 2
+    nodesApartDistance: 2
+    randomizePosition: 0.542
+    randomizeNodes: 0
+    CanBeReplacedWithCombatNode: 1
