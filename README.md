@@ -9,7 +9,9 @@
 
 #### 安装教程
 
-1.  AssetBundle 链接：https://pan.baidu.com/s/17wAMeqa0IB8ZFL3BQRDpaQ?pwd=tl6o 
+1.  AssetBundle 链接：https://pan.baidu.com/s/17wAMeqa0IB8ZFL3BQRDpaQ?pwd=tl6o
+2.  FOD  链接：https://pan.baidu.com/s/1eCjqvAXiIIYkWjjIg7QtMw?pwd=aswl 
+
 	提取码：tl6o 
 	下载直接解压 放到 Library，目录解构为 Library/com.unity.addressables/aa/Windows/StandaloneWindows64
 
